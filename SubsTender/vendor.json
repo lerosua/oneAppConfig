@@ -1,0 +1,123 @@
+{
+     "data":[
+      { "name":"HBO GO",
+       "icon":"hbo",
+       "url":"",
+       "category":"video",
+       "base_money":"100"
+       },
+      { "name":"Apple TV",
+       "icon":"apple_tv",
+       "url":"",
+       "category":"video",
+       "base_money":"100"
+       },
+      { "name":"Youtube Premium",
+        "icon":"youtube",
+       "url":"",
+       "category":"video",
+       "base_money":"13.99"
+       },
+      { "name":"X Premium",
+       "icon":"x",
+       "url":"",
+       "category":"video",
+       "base_money":"100"
+       },
+      { "name":"Twitter Premium",
+       "icon":"twitter",
+       "url":"",
+       "category":"video",
+       "base_money":"100"
+       },
+      { "name":"VPN",
+       "icon":"vpn",
+       "url":"",
+       "category":"tool",
+       "base_money":"100"
+       },
+      { "name":"Apple developer program",
+       "icon":"apple_dev",
+       "url":"",
+       "category":"developer",
+       "base_money":"100"
+       },
+      
+      { "name":"ChatGPT Plus",
+       "icon":"chatgpt",
+       "url":"https://www.openai.com",
+       "category":"developer",
+       "base_money":"20"
+       },
+      { "name":"AiFun",
+       "icon":"aifun",
+       "url":"https://getai.fun",
+       "category":"developer",
+       "base_money":"10"
+       },
+      { "name":"Raycast Pro",
+       "icon":"raycast",
+       "url":"https://www.raycast.com",
+       "category":"developer",
+       "base_money":"20"
+       },
+      { "name":"Poe Pro",
+       "icon":"poe",
+       "url":"https://www.poe.com",
+       "category":"developer",
+       "base_money":"20"
+       },
+
+      
+      { "name":"Google One",
+       "icon":"google",
+       "url":"",
+       "category":"developer",
+       "base_money":"100"
+       },
+      { "name":"Spotify",
+       "icon":"spotify",
+       "url":"",
+       "category":"video",
+       "base_money":"100"
+       },
+      { "name":"Disney+",
+       "icon":"disney",
+       "url":"",
+       "category":"video",
+       "base_money":"100"
+       },
+      { "name":"Amazon Prime",
+       "icon":"amazon",
+       "url":"",
+       "category":"video",
+       "base_money":"100"
+       },
+      { "name":"Playstation plus",
+       "icon":"playstation",
+       "url":"",
+       "category":"joy",
+       "base_money":"100"
+       },
+      
+      { "name":"Xbox game pass",
+       "icon":"xbox",
+       "url":"",
+       "category":"joy",
+       "base_money":"100"
+       },
+      { "name":"Nintendo",
+       "icon":"nintendo",
+       "url":"",
+       "category":"joy",
+       "base_money":"100"
+       },
+      
+       { "name":"Netflix",
+       "icon":"netflix",
+       "url":"https://www.netflix.com",
+       "category":"video",
+       "base_money":"100"
+       }
+    ]
+}
