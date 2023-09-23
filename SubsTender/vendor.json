@@ -43,6 +43,19 @@
        "category":"Social Networking",
        "base_money":"8"
        },
+      { "name":"Telegram Premium",
+       "icon":"telegram",
+       "url":"https://twitter.com",
+       "category":"Social Networking",
+       "base_money":"4.99"
+       },
+      { "name":"Linkedin Premium",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/linkedin.png",
+       "url":"https://premium.linkedin.com",
+       "free_trial": 30,
+       "category":"Social Networking",
+       "base_money":"59.99"
+       },
       { "name":"VPN",
        "icon":"vpn",
        "url":"",
@@ -51,7 +64,7 @@
        },
       { "name":"Apple developer program",
        "icon":"apple_dev",
-       "url":"",
+       "url":"https://developer.apple.com",
        "category":"DevTools",
        "base_money":"99"
        },
@@ -60,6 +73,7 @@
        "icon":"chatgpt",
        "url":"https://www.openai.com",
        "category":"DevTools",
+       "free_trial": 0,
        "base_money":"20"
        },
 
@@ -71,9 +85,17 @@
        },
       
       { "name":"GitHub Copilot",
-       "icon":"github",
-       "url":"https://github.com/github-copilot",
+       "icon":"copilot",
+       "url":"https://github.com/github-copilot/signup",
        "category":"DevTools",
+       "free_trial": 30,
+       "base_money":"10"
+       },
+      { "name":"GitHub Pro",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/github.png",
+       "url":"https://github.com/settings/billing/plans",
+       "category":"DevTools",
+       "free_trial": 0,
        "base_money":"10"
        },
       { "name":"Slack",
@@ -142,7 +164,8 @@
        },
       { "name":"Spotify Premium",
        "icon":"spotify",
-       "url":"",
+       "url":"https://www.spotify.com",
+       "free_trial": 30,
        "category":"Entertainment",
        "base_money":"10.99"
        },
@@ -150,67 +173,77 @@
        "icon":"disney",
        "url":"https://help.disneyplus.com",
        "category":"Entertainment",
-       "base_money":"9.99"
+       "base_money":"7.99"
        },
       { "name":"Amazon Prime Video",
        "icon":"amazon",
        "url":"",
+       "free_trial": 30,
        "category":"Entertainment",
        "base_money":"14.99"
        },
       { "name":"Amazon Music",
        "icon":"amazon_music",
-       "url":"",
+       "url":"https://www.amazon.com/music",
        "category":"Entertainment",
+       "free_trial": 30,
        "base_money":"9.99"
        },
       { "name":"Apple Music",
        "icon":"apple_music",
-       "url":"",
+       "url":"https://www.apple.com/apple-music/",
        "category":"Entertainment",
+       "free_trial": 30,
        "base_money":"4.99"
        },
       { "name":"Playstation Plus",
        "icon":"playstation",
-       "url":"",
+       "url":"https://www.playstation.com/en-us/ps-plus/#subscriptions",
        "category":"Entertainment",
+       "free_trial": 0,
        "base_money":"17.99"
        },
       { "name":"Xbox Game Pass",
        "icon":"xbox",
-       "url":"",
+       "url":"https://www.xbox.com",
        "category":"Entertainment",
+       "free_trial": 0,
        "base_money":"10.99"
        },
       { "name":"Nintendo Switch Online",
        "icon":"nintendo",
-       "url":"",
+       "url":"https://www.nintendo.com/switch/online",
        "category":"Entertainment",
+       "free_trial": 7,
        "base_money":"3.99"
        },
       { "name":"EA Play",
        "icon":"ea_play",
-       "url":"",
+       "url":"https://www.ea.com/subscribe",
        "category":"Entertainment",
+       "free_trial": 0,
        "base_money":"4.99"
        },
       { "name":"Apple Arcade",
        "icon":"arcade",
        "url":"",
        "category":"Entertainment",
+       "free_trial": 30,
        "base_money":"4.99"
        },
       { "name":"UBISOFT+",
        "icon":"ubisoft",
        "url":"https://plus.ubisoft.com",
        "category":"Entertainment",
+       "free_trial": 0,
        "base_money":"14.99"
        },
        { "name":"Netflix",
        "icon":"netflix",
        "url":"https://www.netflix.com",
        "category":"Entertainment",
-       "base_money":"9.99"
+       "free_trial": 0,
+       "base_money":"6.99"
        }
     ]
 }
