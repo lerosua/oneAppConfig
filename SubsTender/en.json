@@ -1,6 +1,48 @@
 {
      "data":[
-   
+         { "name":"AT&T Unlimited",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/att.png",
+          "url":"https://www.att.com/plans/wireless/",
+          "category":"Misc",
+          "free_trial": 0,
+          "base_money":"35"
+          },
+         { "name":"Verizon Unlimited",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/verizon.png",
+          "url":"https://www.verizon.com/plans/unlimited/",
+          "category":"Misc",
+          "free_trial": 0,
+          "base_money":"25"
+          },
+         { "name":"T-mobile Essentials",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/t-mobile.png",
+          "url":"https://www.t-mobile.com",
+          "category":"Misc",
+          "free_trial": 0,
+          "base_money":"90"
+          },
+         },
+        { "name":"Cricket Wireless Unlimited",
+         "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cricket.png",
+         "url":"https://www.cricketwireless.com",
+         "category":"Misc",
+         "free_trial": 0,
+         "base_money":"60"
+         },
+        { "name":"US Cellular",
+         "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/uscellular.png",
+         "url":"https://www.uscellular.com/plans/unlimited",
+         "category":"Misc",
+         "free_trial": 0,
+         "base_money":"29.99"
+         },
+        { "name":"Boost Mobile",
+         "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/boost.png",
+         "url":"https://www.boostmobile.com",
+         "category":"Misc",
+         "free_trial": 0,
+         "base_money":"15"
+         },
    { "name":"Tinder Plus",
     "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/tinder.png",
     "url":"https://tinder.com",
