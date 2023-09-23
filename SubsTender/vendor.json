@@ -79,14 +79,26 @@
       { "name":"Mortage",
        "icon":"mortage",
        "url":"",
-       "category":"Misc",
+       "category":"Lifestyle",
        "base_money":"1200"
        },
       { "name":"Rent",
        "icon":"rent",
        "url":"",
-       "category":"Misc",
+       "category":"Lifestyle",
        "base_money":"1200"
+       },
+      { "name":"Car Insurance",
+       "icon":"car-insurance",
+       "url":"",
+       "category":"Lifestyle",
+       "base_money":"200"
+       },
+      { "name":"Parking",
+       "icon":"parking",
+       "url":"",
+       "category":"Lifestyle",
+       "base_money":"200"
        },
       { "name":"Apple developer program",
        "icon":"apple_dev",
