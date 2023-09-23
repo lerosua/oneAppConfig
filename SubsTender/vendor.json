@@ -1,123 +1,216 @@
 {
      "data":[
-      { "name":"HBO GO",
+      { "name":"HBO Max",
        "icon":"hbo",
-       "url":"",
-       "category":"video",
-       "base_money":"100"
+       "url":"https://www.max.com",
+       "category":"Entertainment",
+       "base_money":"9.99"
        },
-      { "name":"Apple TV",
+      { "name":"Hulu",
+        "icon":"hulu",
+        "url":"https://hulu.com/",
+        "category":"Entertainment",
+        "free_trial": 30,
+        "base_money":"7.99"
+        },
+      { "name":"Apple TV+",
        "icon":"apple_tv",
        "url":"",
-       "category":"video",
+       "category":"Entertainment",
        "base_money":"100"
        },
-      { "name":"Youtube Premium",
+      { "name":"YouTube Premium",
         "icon":"youtube",
-       "url":"",
-       "category":"video",
+       "url":"https://www.youtube.com/premium",
+       "category":"Entertainment",
        "base_money":"13.99"
+       },
+      { "name":"YouTube Music",
+        "icon":"youtube_music",
+       "url":"https://music.youtube.com",
+       "category":"Entertainment",
+       "base_money":"10.99"
        },
       { "name":"X Premium",
        "icon":"x",
-       "url":"",
-       "category":"video",
-       "base_money":"100"
+       "url":"https://twitter.com",
+       "category":"Social Networking",
+       "base_money":"8"
        },
       { "name":"Twitter Premium",
        "icon":"twitter",
-       "url":"",
-       "category":"video",
-       "base_money":"100"
+       "url":"https://twitter.com",
+       "category":"Social Networking",
+       "base_money":"8"
        },
       { "name":"VPN",
        "icon":"vpn",
        "url":"",
-       "category":"tool",
+       "category":"Misc",
        "base_money":"100"
        },
       { "name":"Apple developer program",
        "icon":"apple_dev",
        "url":"",
-       "category":"developer",
-       "base_money":"100"
+       "category":"DevTools",
+       "base_money":"99"
        },
       
       { "name":"ChatGPT Plus",
        "icon":"chatgpt",
        "url":"https://www.openai.com",
-       "category":"developer",
+       "category":"DevTools",
        "base_money":"20"
        },
-      { "name":"AiFun",
-       "icon":"aifun",
-       "url":"https://getai.fun",
-       "category":"developer",
-       "base_money":"10"
-       },
+
       { "name":"Raycast Pro",
        "icon":"raycast",
        "url":"https://www.raycast.com",
-       "category":"developer",
+       "category":"DevTools",
        "base_money":"20"
+       },
+      
+      { "name":"GitHub Copilot",
+       "icon":"github",
+       "url":"https://github.com/github-copilot",
+       "category":"DevTools",
+       "base_money":"10"
+       },
+      { "name":"Slack",
+        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/slack.png",
+        "url":"https://www.wsj.com",
+        "category":"Productivity",
+        "base_money":"8.75",
+        "free_trial": 0
+        },
+      { "name":"Zoom",
+        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/zoom.png",
+        "url":"https://www.wsj.com",
+        "category":"Productivity",
+        "base_money":"15",
+        "free_trial": 0
+        },
+      { "name":"Unity Pro",
+       "icon":"unity",
+       "url":"https://unity.com/pricing",
+       "category":"DevTools",
+       "free_trial": 30,
+       "base_money":"185"
        },
       { "name":"Poe Pro",
        "icon":"poe",
        "url":"https://www.poe.com",
-       "category":"developer",
+       "category":"DevTools",
        "base_money":"20"
        },
-
-      
+      { "name":"Adobe Creative Cloud",
+       "icon":"adobe",
+       "url":"https://www.adobe.com",
+       "category":"Productivity",
+       "base_money":"54.99"
+       },
+      { "name":"Adobe Photoshop",
+       "icon":"photoshop",
+       "url":"https://www.adobe.com",
+       "category":"Productivity",
+       "base_money":"20.99"
+       },
+      { "name":"Microsoft 365",
+       "icon":"microsoft",
+       "url":"https://www.microsoft.com",
+       "category":"Productivity",
+       "free_trial": 30,
+       "base_money":"69.99"
+       },
+      { "name":"Apple One",
+       "icon":"apple",
+       "url":"https://www.apple.com/apple-one",
+       "category":"Entertainment",
+       "base_money":"16.95"
+       },
+      { "name":"Docker",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/docker.png",
+       "url":"https://www.docker.com/pricing/",
+       "category":"DevTools",
+       "base_money":"7"
+       },
       { "name":"Google One",
        "icon":"google",
-       "url":"",
-       "category":"developer",
-       "base_money":"100"
+       "url":"https://one.google.com/about/plans",
+       "category":"Entertainment",
+       "base_money":"1.99"
        },
-      { "name":"Spotify",
+      { "name":"Spotify Premium",
        "icon":"spotify",
        "url":"",
-       "category":"video",
-       "base_money":"100"
+       "category":"Entertainment",
+       "base_money":"10.99"
        },
       { "name":"Disney+",
        "icon":"disney",
-       "url":"",
-       "category":"video",
-       "base_money":"100"
+       "url":"https://help.disneyplus.com",
+       "category":"Entertainment",
+       "base_money":"9.99"
        },
-      { "name":"Amazon Prime",
+      { "name":"Amazon Prime Video",
        "icon":"amazon",
        "url":"",
-       "category":"video",
-       "base_money":"100"
+       "category":"Entertainment",
+       "base_money":"14.99"
        },
-      { "name":"Playstation plus",
+      { "name":"Amazon Music",
+       "icon":"amazon_music",
+       "url":"",
+       "category":"Entertainment",
+       "base_money":"9.99"
+       },
+      { "name":"Apple Music",
+       "icon":"apple_music",
+       "url":"",
+       "category":"Entertainment",
+       "base_money":"4.99"
+       },
+      { "name":"Playstation Plus",
        "icon":"playstation",
        "url":"",
-       "category":"joy",
-       "base_money":"100"
+       "category":"Entertainment",
+       "base_money":"17.99"
        },
-      
-      { "name":"Xbox game pass",
+      { "name":"Xbox Game Pass",
        "icon":"xbox",
        "url":"",
-       "category":"joy",
-       "base_money":"100"
+       "category":"Entertainment",
+       "base_money":"10.99"
        },
-      { "name":"Nintendo",
+      { "name":"Nintendo Switch Online",
        "icon":"nintendo",
        "url":"",
-       "category":"joy",
-       "base_money":"100"
+       "category":"Entertainment",
+       "base_money":"3.99"
        },
-      
+      { "name":"EA Play",
+       "icon":"ea_play",
+       "url":"",
+       "category":"Entertainment",
+       "base_money":"4.99"
+       },
+      { "name":"Apple Arcade",
+       "icon":"arcade",
+       "url":"",
+       "category":"Entertainment",
+       "base_money":"4.99"
+       },
+      { "name":"UBISOFT+",
+       "icon":"ubisoft",
+       "url":"https://plus.ubisoft.com",
+       "category":"Entertainment",
+       "base_money":"14.99"
+       },
        { "name":"Netflix",
        "icon":"netflix",
        "url":"https://www.netflix.com",
-       "category":"video",
-       "base_money":"100"
+       "category":"Entertainment",
+       "base_money":"9.99"
        }
     ]
 }
