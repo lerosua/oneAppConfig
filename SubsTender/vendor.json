@@ -43,11 +43,25 @@
        "category":"Social Networking",
        "base_money":"8"
        },
+
       { "name":"Telegram Premium",
        "icon":"telegram",
        "url":"https://twitter.com",
        "category":"Social Networking",
        "base_money":"4.99"
+       },
+      { "name":"Instagram Meta Verified ",
+       "icon":"instagram",
+       "url":"https://instagram.com",
+       "category":"Social Networking",
+       "base_money":"14.99"
+       },
+      { "name":"Reddit Premium",
+       "icon":"reddit",
+       "url":"https://www.reddit.com",
+       "free_trial": 30,
+       "category":"Social Networking",
+       "base_money":"6.99"
        },
       { "name":"Linkedin Premium",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/linkedin.png",
@@ -110,6 +124,13 @@
         "url":"https://www.wsj.com",
         "category":"Productivity",
         "base_money":"15",
+        "free_trial": 0
+        },
+      { "name":"Dropbox Plus",
+        "icon":"dropbox",
+        "url":"https://www.dropbox.com",
+        "category":"Productivity",
+        "base_money":"11.99",
         "free_trial": 0
         },
       { "name":"Unity Pro",
