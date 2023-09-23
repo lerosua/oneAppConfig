@@ -1,0 +1,102 @@
+{
+     "data":[
+   
+
+     { "name":"Pandora Plus",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/pandora.png",
+       "url":"https://www.pandora.com",
+       "category":"Entertainment",
+       "free_trial": 30,
+       "base_money":"4.99"
+       },
+
+     { "name":"Peacock TV",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/peacock.png",
+       "url":"https://www.peacocktv.com",
+       "category":"Entertainment",
+       "free_trial": 0,
+       "base_money":"5.99"
+       },
+
+     { "name":"Apple Fitness+",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/fitness.png",
+       "url":"https://www.onepeloton.com",
+       "category":"Health",
+       "free_trial": 90,
+       "base_money":"9.99"
+       },
+
+     { "name":"Peloton App One",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/exercise.png",
+       "url":"https://www.onepeloton.com",
+       "category":"Health",
+       "base_money":"12.99",
+       "free_trial": 30
+       },
+     { "name":"Classpass",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/yoga-pose.png",
+       "url":"https://classpass.com",
+       "category":"Health",
+       "base_money":"49",
+       "free_trial": 30
+       },
+     { "name":"Amazon Kindle Unlimited",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/kindle.png",
+       "url":"https://www.amazon.com",
+       "category":"Education",
+       "base_money":"11.99",
+       "free_trial": 0
+       },
+     { "name":"Amazon Audible",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/audible.png",
+       "url":"https://www.audible.com",
+       "category":"Education",
+       "base_money":"14.95",
+       "free_trial": 30
+       },
+     { "name":"Scribd",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/scribd.png",
+       "url":"https://www.scribd.com",
+       "category":"Education",
+       "base_money":"11.99",
+       "free_trial": 30
+       },
+     { "name":"Apple News+",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/apple-news.png",
+       "url":"https://www.apple.com/apple-news",
+       "category":"Education",
+       "base_money":"9.99",
+       "free_trial": 30
+       },
+     { "name":"The New York Times",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/news.png",
+       "url":"https://www.nytimes.com/subscription",
+       "category":"Education",
+       "base_money":"4",
+       "free_trial": 0
+       },
+
+     { "name":"The Washington Post",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/post.png",
+       "url":"https://subscribe.washingtonpost.com",
+       "category":"Education",
+       "base_money":"4",
+       "free_trial": 0
+       },
+     { "name":"The Wall Street Journal",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/news.png",
+       "url":"https://www.wsj.com",
+       "category":"Education",
+       "base_money":"6",
+       "free_trial": 0
+       },
+     { "name":"Atlassian Suite",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/news.png",
+       "url":"https://www.atlassian.com/software/access/pricing",
+       "category":"DevTools",
+       "base_money":"30",
+       "free_trial": 0
+       }
+
+}
+

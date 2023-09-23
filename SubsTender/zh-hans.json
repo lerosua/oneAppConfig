@@ -3,8 +3,8 @@
       { "name":"微信读书",
        "icon":"books",
        "url":"",
-       "category":"video",
-       "base_money":"100"
+       "category":"Education",
+       "base_money":"9"
        }
 
    ]
