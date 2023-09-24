@@ -1,5 +1,29 @@
 {
      "data":[
+         { "name":"房屋还款",
+          "icon":"mortage",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"1200"
+          },
+         { "name":"房屋租金",
+          "icon":"rent",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"1200"
+          },
+         { "name":"汽车保险",
+          "icon":"car-insurance",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"200"
+          },
+         { "name":"停车费",
+          "icon":"parking",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"200"
+          },
       { "name":"微信读书",
        "icon":"books",
        "url":"",

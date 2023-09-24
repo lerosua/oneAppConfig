@@ -76,30 +76,6 @@
        "category":"Misc",
        "base_money":"100"
        },
-      { "name":"Mortage",
-       "icon":"mortage",
-       "url":"",
-       "category":"Lifestyle",
-       "base_money":"1200"
-       },
-      { "name":"Rent",
-       "icon":"rent",
-       "url":"",
-       "category":"Lifestyle",
-       "base_money":"1200"
-       },
-      { "name":"Car Insurance",
-       "icon":"car-insurance",
-       "url":"",
-       "category":"Lifestyle",
-       "base_money":"200"
-       },
-      { "name":"Parking",
-       "icon":"parking",
-       "url":"",
-       "category":"Lifestyle",
-       "base_money":"200"
-       },
       { "name":"Apple developer program",
        "icon":"apple_dev",
        "url":"https://developer.apple.com",

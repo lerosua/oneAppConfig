@@ -1,5 +1,29 @@
 {
      "data":[
+         { "name":"Mortage",
+          "icon":"mortage",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"1200"
+          },
+         { "name":"Rent",
+          "icon":"rent",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"1200"
+          },
+         { "name":"Car Insurance",
+          "icon":"car-insurance",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"200"
+          },
+         { "name":"Parking",
+          "icon":"parking",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"200"
+          },
          { "name":"AT&T Unlimited",
           "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/att.png",
           "url":"https://www.att.com/plans/wireless/",
