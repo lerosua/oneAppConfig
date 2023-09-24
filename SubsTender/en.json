@@ -223,6 +223,13 @@
        "base_money":"6",
        "free_trial": 0
        },
+     { "name":"Microsoft 365 Copilot",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/copilot.png",
+       "url":"https://adoption.microsoft.com/en-us/copilot/",
+       "category":"Productivity",
+       "base_money":"30",
+       "free_trial": 0
+       },
      { "name":"Atlassian Suite",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/news.png",
        "url":"https://www.atlassian.com/software/access/pricing",

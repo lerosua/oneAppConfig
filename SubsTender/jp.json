@@ -1,5 +1,29 @@
 {
      "data":[
+         { "name":"住宅ローンの返済",
+          "icon":"mortage",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"1200"
+          },
+         { "name":"家賃",
+          "icon":"rent",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"1200"
+          },
+         { "name":"自動車保険",
+          "icon":"car-insurance",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"200"
+          },
+         { "name":"駐車料金",
+          "icon":"parking",
+          "url":"",
+          "category":"Lifestyle",
+          "base_money":"200"
+          },
       { "name":"U-NEXT",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/u-next.png",
        "url":"https://video.unext.jp",
