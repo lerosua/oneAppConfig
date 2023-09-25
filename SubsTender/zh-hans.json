@@ -1,35 +1,88 @@
 {
-     "data":[
-         { "name":"房屋还款",
-          "icon":"mortage",
-          "url":"",
-          "category":"Lifestyle",
-          "base_money":"1200"
+ "data":[
+     { "name":"房屋还款",
+      "icon":"mortage",
+      "url":"",
+      "category":"Lifestyle",
+      "keyword":"家庭",
+      "base_money":"1200"
+      },
+     { "name":"房屋租金",
+      "icon":"rent",
+      "url":"",
+      "category":"Lifestyle",
+      "keyword":"家庭,home",
+      "base_money":"1200"
+      },
+     { "name":"汽车保险",
+      "icon":"car-insurance",
+      "url":"",
+      "category":"Lifestyle",
+      "keyword":"家庭,home",
+      "base_money":"200"
+      },
+     { "name":"停车费",
+      "icon":"parking",
+      "url":"",
+      "category":"Lifestyle",
+      "keyword":"家庭,home",
+      "base_money":"200"
+      },
+     { "name":"优酷",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/youku.png",
+      "url":"https://youku.com",
+      "category":"Entertainment",
+      "keyword":"视频,youku",
+      "plan":[
+          {"name":"VIP会员","price":"10","desc":"券后可享首3月每月10元   到期前自动扣费，会员延长1个月，可随时取消  首3月每月10元，第4个月起25元/月"},
+          {"name":"SVIP会员","price":"10","desc":"券后可享首3月每月10元   到期前自动扣费，会员延长1个月，可随时取消  前3个月10元/月，第4个月起35元/月"}
+          ],
+      "base_money":"10"
+      },
+     { "name":"爱奇艺",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/iqiyi.png",
+      "url":"https://iqiyi.com",
+      "category":"Entertainment",
+      "keyword":"视频,iqiyi",
+      "plan":[
+          {"name":"黄金VIP",
+            "suit":[
+                  {"cycle":2,"free_trial": 0,  "price":"15","desc":"到期按每月25元自动续费，可随时取消"},
+                  {"cycle":3, "free_trial": 0, "price":"50","desc":"到期按每季68元自动续费，可随时取消"},
+                  {"cycle":4,"free_trial": 0,  "price":"148","desc":"到期将按每年238元自动续费，可随时取消。已签约连包的用户购买则将以新签约价格续费"}
+              ]
           },
-         { "name":"房屋租金",
-          "icon":"rent",
-          "url":"",
-          "category":"Lifestyle",
-          "base_money":"1200"
-          },
-         { "name":"汽车保险",
-          "icon":"car-insurance",
-          "url":"",
-          "category":"Lifestyle",
-          "base_money":"200"
-          },
-         { "name":"停车费",
-          "icon":"parking",
-          "url":"",
-          "category":"Lifestyle",
-          "base_money":"200"
-          },
+          {"name":"白金VIP",
+              "suit":[
+                    {"cycle":2,"free_trial": 0, "price":"19","desc":"到期按每月35元自动续费，可随时取消"},
+                    {"cycle":3,"free_trial": 0,  "price":"73","desc":"到期按每季98元自动续费，可随时取消"},
+                    {"cycle":4, "free_trial": 0, "price":"249","desc":"到期按每年348元自动续费，随时可取消"}
+                ]
+              },
+          {"name":"星钻VIP",
+              "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"25","desc":"到期按每月45元自动续费，可随时取消"},
+                    {"cycle":4,"free_trial": 0,  "price":"318","desc":"到期按每年428元自动续费，可随时取消"}
+                ]
+              }
+          ],
+      "base_money":"15"
+      },
+     { "name":"微博",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/weibo.png",
+      "url":"https://weibo.com",
+      "category":"Social Media",
+      "keyword":"sina,新浪,weibo",
+      "free_trial": 10,
+      "base_money":"12"
+      },
       { "name":"微信读书",
        "icon":"books",
        "url":"",
        "category":"Education",
-       "base_money":"9"
+       "base_money":"9",
+       "keyword":"腾讯,tencent"
        }
 
-   ]
+]
 }
