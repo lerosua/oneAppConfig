@@ -5,6 +5,7 @@
       "url":"",
       "category":"Lifestyle",
       "keyword":"家庭",
+      "currency":"CNY",
       "base_money":"1200"
       },
      { "name":"房屋租金",
@@ -12,6 +13,7 @@
       "url":"",
       "category":"Lifestyle",
       "keyword":"家庭,home",
+      "currency":"CNY",
       "base_money":"1200"
       },
      { "name":"汽车保险",
@@ -19,6 +21,7 @@
       "url":"",
       "category":"Lifestyle",
       "keyword":"家庭,home",
+      "currency":"CNY",
       "base_money":"200"
       },
      { "name":"停车费",
@@ -27,6 +30,94 @@
       "category":"Lifestyle",
       "keyword":"家庭,home",
       "base_money":"200"
+      },
+     {
+         "name":"中国移动",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-mobile.png",
+          "url":"https://youku.com",
+          "category":"Lifestyle",
+          "keyword":"phone,mobile",
+          "plan":[
+              {"name":"59元优享套餐",
+                  "level":1,
+                "suit":[
+                      {"cycle":2,"free_trial": 0,"price":"59","desc":""}
+                  ]
+                  },
+              {"name":"79元全家享套餐",
+                  "level":2,
+                "suit":[
+                      {"cycle":2,"free_trial": 0,"price":"79","desc":""}
+                  ]
+                  },
+              {"name":"99元全家享套餐",
+                  "level":3,
+                  "suit":[
+                        {"cycle":2,"free_trial": 0,"price":"99","desc":""}
+                    ]},
+              {"name":"119元全家享套餐",
+                  "level":4,
+                  "suit":[
+                        {"cycle":2,"free_trial": 0,"price":"119","desc":""}
+                    ]}
+              ],
+          "currency":"CNY",
+          "base_money":"10"
+     },
+     { "name":"迅游",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/xunyou.png",
+      "url":"https://www.xunyou.com",
+      "category":"Misc",
+      "keyword":"xunyou",
+      "plan":[
+          {"name":"VIP会员",
+              "level":1,
+              "suit":[
+                    {"cycle":2,"free_trial": 0,"price":"18","desc":"限中国大陆用户加速国服游戏"},
+                    {"cycle":3, "free_trial": 0, "price":"50","desc":"限中国大陆用户加速国服游戏"},
+                    {"cycle":4,"free_trial": 0,  "price":"180","desc":"限中国大陆用户加速国服游戏"}
+                ]},
+          {"name":"SVIP会员",
+              "level":2,
+              "suit":[
+                    {"cycle":2,"free_trial": 0,"price":"23","desc":"VIP全部权益+海外游戏+附赠手游SVIP"},
+                    {"cycle":3, "free_trial": 0, "price":"65","desc":"VIP全部权益+海外游戏+附赠手游SVIP"},
+                    {"cycle":4,"free_trial": 0,  "price":"239","desc":"VIP全部权益+海外游戏+附赠手游SVIP"}
+                ]}
+          ],
+      "currency":"CNY",
+      "base_money":"20"
+      },
+     { "name":"百度网盘",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/baidu_pan.png",
+      "url":"https://pan.baidu.com",
+      "category":"Misc",
+      "keyword":"baidu",
+      "plan":[
+          {"name":"VIP会员",
+              "level":1,
+            "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"20","desc":"到期以￥20自动续费1个月，可随时取消"},
+                  {"cycle":4,"free_trial": 0, "price":"158","desc":"约6.2折"}
+              ]
+              },
+          {"name":"VIP会员",
+              "level":3,
+              "suit":[
+                    {"cycle":2,"free_trial": 0,"price":"17","desc":"到期以￥19自动续费1个月，可随时取消；VIP目前支持安卓/iPhone/iPad的v11.56、PC端v7.31及以上版本使用"},
+                    {"cycle":3, "free_trial": 0, "price":"48","desc":"立省￥27"},
+                    {"cycle":4,"free_trial": 0,  "price":"165","desc":"到期以￥188自动续费12个月，可随时取消；VIP目前支持安卓/iPhone/iPad的v11.56、PC端v7.31及以上版本使用"}
+                ]},
+          {"name":"SVIP会员",
+              "level":2,
+              "suit":[
+                    {"cycle":2,"free_trial": 0,"price":"25","desc":"到期以￥25自动续费1个月，可随时取消"},
+                    {"cycle":3, "free_trial": 0, "price":"54","desc":"到期以￥68自动续费3个月，可随时取消"},
+                    {"cycle":4,"free_trial": 0,  "price":"200","desc":"到期以￥263自动续费12个月，可随时取消"}
+                ]}
+          ],
+      "currency":"CNY",
+      "base_money":"20"
       },
      { "name":"优酷",
       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/youku.png",
@@ -37,18 +128,19 @@
           {"name":"VIP会员",
               "level":1,
             "suit":[
-                  {"cycle":2,"free_trial": 0,"currency":"CNY","price":"10","desc":"券后可享首3月每月10元   到期前自动扣费，会员延长1个月，可随时取消  首3月每月10元，第4个月起25元/月"},
-                  {"cycle":4,"free_trial": 0, "currency":"CNY","price":"158","desc":"约6.2"}
+                  {"cycle":2,"free_trial": 0,"price":"10","desc":"券后可享首3月每月10元   到期前自动扣费，会员延长1个月，可随时取消  首3月每月10元，第4个月起25元/月"},
+                  {"cycle":4,"free_trial": 0, "price":"158","desc":"约6.2折"}
               ]
               },
           {"name":"SVIP会员",     
               "level":2,
               "suit":[
-                    {"cycle":2,"free_trial": 0,"currency":"CNY","price":"10","desc":"券后可享首3月每月10元   到期前自动扣费，会员延长1个月，可随时取消  首3月每月10元，第4个月起35元/月"},
-                    {"cycle":3, "free_trial": 0, "currency":"CNY","price":"148","desc":"49.33元/月"},
-                    {"cycle":4,"free_trial": 0, "currency":"CNY", "price":"288","desc":"5.9折"}
+                    {"cycle":2,"free_trial": 0,"price":"10","desc":"券后可享首3月每月10元   到期前自动扣费，会员延长1个月，可随时取消  首3月每月10元，第4个月起35元/月"},
+                    {"cycle":3, "free_trial": 0, "price":"148","desc":"49.33元/月"},
+                    {"cycle":4,"free_trial": 0,  "price":"288","desc":"5.9折"}
                 ]}
           ],
+      "currency":"CNY",
       "base_money":"10"
       },
      { "name":"爱奇艺",
@@ -60,24 +152,24 @@
           { "name":"黄金VIP",
               "level":1,
             "suit":[
-                  {"cycle":2,"free_trial": 0,"currency":"CNY",  "price":"15","desc":"到期按每月25元自动续费，可随时取消"},
-                  {"cycle":3, "free_trial": 0, "currency":"CNY","price":"50","desc":"到期按每季68元自动续费，可随时取消"},
-                  {"cycle":4,"free_trial": 0, "currency":"CNY", "price":"148","desc":"到期将按每年238元自动续费，可随时取消。已签约连包的用户购买则将以新签约价格续费"}
+                  {"cycle":2,"free_trial": 0,  "price":"15","desc":"到期按每月25元自动续费，可随时取消"},
+                  {"cycle":3, "free_trial": 0, "price":"50","desc":"到期按每季68元自动续费，可随时取消"},
+                  {"cycle":4,"free_trial": 0, "price":"148","desc":"到期将按每年238元自动续费，可随时取消。已签约连包的用户购买则将以新签约价格续费"}
               ]
           },
           {"name":"白金VIP",
               "level":2,
               "suit":[
-                    {"cycle":2,"free_trial": 0,"currency":"CNY", "price":"19","desc":"到期按每月35元自动续费，可随时取消"},
-                    {"cycle":3,"free_trial": 0, "currency":"CNY", "price":"73","desc":"到期按每季98元自动续费，可随时取消"},
-                    {"cycle":4, "free_trial": 0, "currency":"CNY","price":"249","desc":"到期按每年348元自动续费，随时可取消"}
+                    {"cycle":2,"free_trial": 0,"price":"19","desc":"到期按每月35元自动续费，可随时取消"},
+                    {"cycle":3,"free_trial": 0,  "price":"73","desc":"到期按每季98元自动续费，可随时取消"},
+                    {"cycle":4, "free_trial": 0, "price":"249","desc":"到期按每年348元自动续费，随时可取消"}
                 ]
               },
           {"name":"星钻VIP",
               "level":3,
               "suit":[
-                    {"cycle":2,"free_trial": 0, "currency":"CNY", "price":"25","desc":"到期按每月45元自动续费，可随时取消"},
-                    {"cycle":4,"free_trial": 0, "currency":"CNY", "price":"318","desc":"到期按每年428元自动续费，可随时取消"}
+                    {"cycle":2,"free_trial": 0, "price":"25","desc":"到期按每月45元自动续费，可随时取消"},
+                    {"cycle":4,"free_trial": 0, "price":"318","desc":"到期按每年428元自动续费，可随时取消"}
                 ]
               }
           ],
@@ -89,6 +181,7 @@
       "category":"Social Media",
       "keyword":"sina,新浪,weibo",
       "free_trial": 10,
+      "currency":"CNY",
       "base_money":"12"
       },
       { "name":"微信读书",
@@ -96,6 +189,7 @@
        "url":"",
        "category":"Education",
        "base_money":"9",
+       "currency":"CNY",
        "keyword":"腾讯,tencent"
        }
 
