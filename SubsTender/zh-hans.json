@@ -88,6 +88,30 @@
       "currency":"CNY",
       "base_money":"20"
       },
+     { "name":"迅雷",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/thunder.png",
+      "url":"https://vip.xunlei.com",
+      "category":"Misc",
+      "keyword":"xunlei,thunder",
+      "plan":[
+          {"name":"白金会员",
+              "level":1,
+              "suit":[
+                    {"cycle":2,"free_trial": 0,"price":"12.6","desc":"每月自动续费，到期按12.6元/月自动续费，可随时取消"},
+                    {"cycle":3, "free_trial": 0, "price":"36","desc":"每季自动续费，到期按36元/季自动续费，可随时取消"},
+                    {"cycle":4,"free_trial": 0,  "price":"139","desc":"每年自动续费，到期按139元/年自动续费，可随时取消"}
+                ]},
+          {"name":"超级会员",
+              "level":2,
+              "suit":[
+                    {"cycle":2,"free_trial": 0,"price":"25","desc":"每月自动续费，到期将按25元/月自动续费，可随时取消"},
+                    {"cycle":3, "free_trial": 0, "price":"69","desc":"每季自动续费，到期将按69元/季自动续费，可随时取消"},
+                    {"cycle":4,"free_trial": 0,  "price":"264","desc":"每年自动续费，到期将按264元/年自动续费，可随时取消"}
+                ]}
+          ],
+      "currency":"CNY",
+      "base_money":"20"
+      },
      { "name":"百度网盘",
       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/baidu_pan.png",
       "url":"https://pan.baidu.com",
