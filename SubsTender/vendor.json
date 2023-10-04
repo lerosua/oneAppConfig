@@ -4,6 +4,34 @@
        "icon":"hbo",
        "url":"https://www.max.com",
        "category":"Entertainment",
+       "plan":[
+           {"name":"With Ads",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":"Watch with limited ads."},
+                   {"cycle":4,"free_trial": 0,  "price":"99.99","desc":"Watch with limited ads."}
+
+                 ],
+               "benefits":["Stream on 2 devices at once","Full HD resolution"]
+               },
+           {"name":"Ad-Free",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"15.99","desc":"Watch on the go."},
+                   {"cycle":4,"free_trial": 0,  "price":"149.99","desc":"Watch with limited ads."}
+
+                 ],
+               "benefits":["Stream on 2 devices at once","Full HD resolution","30 downloads to watch on the go"]
+               },
+           {"name":"Ultimate Ad-Free",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"19.99","desc":"Watch on the go and in 4K."},
+                   {"cycle":4,"free_trial": 0,  "price":"199.99","desc":"Watch with limited ads."}
+                 ],
+               "benefits":["Stream on 4 devices at once","Best video quality with 4K Ultra HD","Immersive audio with Dolby Atmos","100 downloads to watch on the go"]
+               }
+           ],
        "base_money":"9.99"
        },
       { "name":"Hulu",
@@ -15,20 +43,66 @@
         },
       { "name":"Apple TV+",
        "icon":"apple_tv",
-       "url":"",
+       "url":"https://www.apple.com/apple-tv-plus/",
        "category":"Entertainment",
-       "base_money":"100"
+       "base_money":"6.99"
        },
       { "name":"YouTube Premium",
         "icon":"youtube",
        "url":"https://www.youtube.com/premium",
        "category":"Entertainment",
+       "plan":[
+           {"name":"Student",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"7.49","desc":"Eligible students only. Annual verification required."}
+                 ],
+               "benefits":["Eligible students only. Annual verification required."]
+               },
+           {"name":"Individual",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"13.99","desc":"Get 1 month free"}
+                 ],
+               "benefits":["Get 1 month free"]
+               },
+           {"name":"Family",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"22.99","desc":"Add up to 5 family members (ages 13+) in your household. "}
+                 ],
+               "benefits":["Add up to 5 family members (ages 13+) in your household."]
+               }
+           ],
        "base_money":"13.99"
        },
       { "name":"YouTube Music",
         "icon":"youtube_music",
        "url":"https://music.youtube.com",
        "category":"Entertainment",
+       "plan":[
+           {"name":"Student",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"5.49","desc":"Eligible students only. Annual verification required."}
+                 ],
+               "benefits":["Eligible students only. Annual verification required."]
+               },
+           {"name":"Individual",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"10.99","desc":"Get 1 month free"}
+                 ],
+               "benefits":["Get 1 month free"]
+               },
+           {"name":"Family",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"16.99","desc":"Add up to 5 family members (ages 13+) in your household. "}
+                 ],
+               "benefits":["Add up to 5 family members (ages 13+) in your household."]
+               }
+           ],
        "base_money":"10.99"
        },
       { "name":"X Premium",
@@ -80,6 +154,26 @@
        "icon":"apple_dev",
        "url":"https://developer.apple.com",
        "category":"DevTools",
+       "plan":[
+           {"name":"Individuals",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"99","desc":""}
+                 ]
+               },
+           {"name":"organizations",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"99","desc":""}
+                 ]
+               },
+           {"name":"Enterprise",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"299","desc":""}
+                 ]
+               }
+           ],
        "base_money":"99"
        },
       
@@ -126,11 +220,41 @@
         "base_money":"15",
         "free_trial": 0
         },
-      { "name":"Dropbox Plus",
+      { "name":"Dropbox",
         "icon":"dropbox",
         "url":"https://www.dropbox.com",
         "category":"Productivity",
         "base_money":"11.99",
+        "plan":[
+            {"name":"Plus",
+                "level":1,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"11.99","desc":"For individuals"}
+                  ],
+                "benefits":["1 user","2 TB (2,000 GB)","Unlimited device linking","30-day file and account recovery","Large file delivery with Dropbox Transfer (up to 2 GB)"]
+                },
+            {"name":"Professional",
+                "level":2,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"19.99","desc":"For freelancers"}
+                  ],
+                "benefits":["1 user","3 TB (3,000 GB)","Unlimited device linking","180-day file and account recovery","Large file delivery with Dropbox Transfer (up to 100 GB)","3 free eSignatures per month","Advanced sharing controls and file locking"]
+                },
+            {"name":"Standard",
+                "level":3,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"18","desc":"For smaller teams"}
+                  ],
+                "benefits":["3+ user","5 TB (5,000 GB) shared by the team","Unlimited device linking","Recover files or restore your entire account up to 180 days","Large file delivery with Dropbox Transfer (up to 2 GB)","Unlimited signing and 3 signature requests per month","Advanced sharing controls and file locking","Easy to use content protection and external sharing controls"]
+                },
+            {"name":"Advanced",
+                "level":3,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"30","desc":"For large teams"}
+                  ],
+                "benefits":["3+ user","Starts at 15 TB (15,000 GB) shared by the team","Unlimited device linking","Recover files or restore your entire account up to 180 days","Large file delivery with Dropbox Transfer (up to 2 GB)","Unlimited signing and 3 signature requests per month","Advanced sharing controls and file locking","Always-on security monitoring, notifications, and alerts","Data Classification for sensitive and confidential information"]
+                }
+            ],
         "free_trial": 0
         },
       { "name":"Unity Pro",
@@ -144,12 +268,22 @@
        "icon":"poe",
        "url":"https://www.poe.com",
        "category":"DevTools",
-       "base_money":"20"
+       "base_money":"19.99"
        },
       { "name":"Adobe Creative Cloud",
        "icon":"adobe",
        "url":"https://www.adobe.com",
        "category":"Productivity",
+       "plan":[
+           {"name":"Extras",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"82.49","desc":"Cancel anytime, no fee."},
+                   {"cycle":4,"free_trial": 14,  "price":"599.88","desc":"Cancel anytime, no fee."}
+                 ],
+               "benefits":["100GB of cloud storage","Step-by-step tutorials ","Adobe Portfolio","Adobe Fonts ","Behance","Creative Cloud Libraries","Access to the latest features","1000 monthly generative credits"]
+               }
+           ],
        "base_money":"54.99"
        },
       { "name":"Adobe Photoshop",
@@ -163,6 +297,32 @@
        "url":"https://www.microsoft.com",
        "category":"Productivity",
        "free_trial": 30,
+       "keyword":"office,onedrive",
+       "plan":[
+           {"name":"Base",
+            "level":1,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"1.99","desc":"Specially designed for teams that need to build project plans with peace of mind."}
+                 ],
+            "benefits":["For one person","5 GB of cloud storage","15 GB of mailbox storage","Works on Windows, macOS, iOS, and Android™","OneDrive photo and file backup across your devices","Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps","Ad-free Outlook and mobile email and calendar with advanced security features","Access to Microsoft support experts"]
+               },
+           {"name":"Personal",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"6.99","desc":""},
+                   {"cycle":4,"free_trial": 0,  "price":"69.99","desc":""}
+                 ],
+               "benefits":["For one person","5 GB of cloud storage","15 GB of mailbox storage","Works on Windows, macOS, iOS, and Android™","OneDrive photo and file backup across your devices","Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps","Ad-free Outlook and mobile email and calendar with advanced security features","Access to Microsoft support experts","Advanced file and photo protection with OneDrive","Data and device protection with Microsoft Defende"]
+               },
+           {"name":"Family",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":""},
+                   {"cycle":4,"free_trial": 30,  "price":"99.99","desc":""}
+                 ],
+               "benefits":["For one person","5 GB of cloud storage","15 GB of mailbox storage","Works on Windows, macOS, iOS, and Android™","OneDrive photo and file backup across your devices","Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps","Ad-free Outlook and mobile email and calendar with advanced security features","Access to Microsoft support experts","Advanced file and photo protection with OneDrive","Data and device protection for the entire family with Microsoft Defender","Premium features in the Microsoft Family Safety mobile app"]
+               }
+           ],
        "base_money":"69.99"
        },
       { "name":"Apple One",
@@ -181,6 +341,29 @@
        "icon":"google",
        "url":"https://one.google.com/about/plans",
        "category":"Entertainment",
+       "plan":[
+           {"name":"Basic",
+            "level":1,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"15","desc":"100 GB"}
+                 ],
+            "benefits":["100 GB of storage","Access to Google experts","Share with up to 5 others","More Google Photos editing features","Extra member benefits"]
+               },
+           {"name":"Standard",
+            "level":3,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"23","desc":"200 GB"}
+                 ],
+            "benefits":["200 GB of storage","Access to Google experts","Share with up to 5 others","More Google Photos editing features","Extra member benefits"]
+               },
+           {"name":"Premium",
+            "level":3,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"79","desc":"2 TB"}
+                 ],
+            "benefits":["2 TB of storage","Access to Google experts","Share with up to 5 others","More Google Photos editing features","Extra member benefits","Google Workspace premium features"]
+               }
+           ],
        "base_money":"1.99"
        },
       { "name":"Spotify Premium",
@@ -222,6 +405,36 @@
        "url":"https://www.playstation.com/en-us/ps-plus/#subscriptions",
        "category":"Entertainment",
        "free_trial": 0,
+       "keyword":"sony",
+       "plan":[
+           { "name":"Essential",
+             "level":1,
+             "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":"Pay every month. Subscription continues until canceled."},
+                   {"cycle":3, "free_trial": 0, "price":"24.99","desc":"Pay every 3 months. Subscription continues until canceled."},
+                   {"cycle":4,"free_trial": 0,  "price":"79.99","desc":"Pay every 12 months. Subscription continues until canceled."}
+               ],
+             "benefits":["Share Play","Game Help","Cloud Storage","Exclusive Content","Monthly Games","Online Multiplayer","Exclusive Discounts"]
+           },
+           {"name":"Extra",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"14.99","desc":"Pay every month. Subscription continues until canceled."},
+                   {"cycle":3, "free_trial": 0, "price":"39.99","desc":"Pay every 3 months. Subscription continues until canceled."},
+                   {"cycle":4,"free_trial": 0, "price":"134.99","desc":"Pay every 12 months. Subscription continues until canceled."}
+                 ],
+               "benefits":["Share Play","Game Help","Cloud Storage","Exclusive Content","Monthly Games","Online Multiplayer","Exclusive Discounts","Game Catalog","Ubisoft+ Classics"]
+               },
+           {"name":"Premium",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"17.99","desc":"Pay every month. Subscription continues until canceled."},
+                   {"cycle":3, "free_trial": 0, "price":"49.99","desc":"Pay every 3 months. Subscription continues until canceled."},
+                   {"cycle":4,"free_trial": 0,  "price":"159.99","desc":"Pay every 12 months. Subscription continues until canceled."}
+                 ],
+               "benefits":["Share Play","Game Help","Cloud Storage","Exclusive Content","Monthly Games","Online Multiplayer","Exclusive Discounts","Game Catalog","Ubisoft+ Classics","Classics Catalog","Game Trials","Cloud Streaming"]
+               }
+           ],
        "base_money":"17.99"
        },
       { "name":"Xbox Game Pass",
@@ -229,6 +442,24 @@
        "url":"https://www.xbox.com",
        "category":"Entertainment",
        "free_trial": 0,
+       "keyword":"microsoft",
+       "plan":[
+           {"name":"Core",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":"Play PC or console."}
+                 ],
+               "benefits":["EA Play membership","Member deals & discounts","New games on day one","Hundreds of high-quality games on PC/console"]
+               },
+           {"name":"Ultimate",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"16.99","desc":"Hundreds of high-quality games on console, PC, and cloud"}
+                 ],
+               "benefits":["EA Play membership","Member deals & discounts","New games on day one","Member deals, discounts, and Perks","Online console multiplayer", "Hundreds of high-quality games on console, PC, and cloud"]
+               }
+           ],
+       
        "base_money":"10.99"
        },
       { "name":"Nintendo Switch Online",
@@ -236,6 +467,34 @@
        "url":"https://www.nintendo.com/switch/online",
        "category":"Entertainment",
        "free_trial": 7,
+       "plan":[
+           {"name":"Individual membership",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 7,  "price":"3.99","desc":""},
+                   {"cycle":3,"free_trial": 7,  "price":"7.99","desc":"Equivalent to $2.67/month"},
+                   {"cycle":4,"free_trial": 7,  "price":"19.99","desc":"Equivalent to $1.67/month"}
+                 ]
+           },
+           {"name":"Family membership",
+               "level":2,
+               "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"34.99","desc":"Equivalent to $2.92/month"}
+                 ]
+           },
+           {"name":"Expansion Pack Individual membership",
+               "level":2,
+               "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"49.99","desc":"Equivalent to $1.67/month"}
+                 ]
+           },
+           {"name":"Expansion Pack family membership",
+               "level":3,
+               "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"79.99","desc":"Equivalent to $6.67/month"}
+                 ]
+           }
+           ],
        "base_money":"3.99"
        },
       { "name":"EA Play",
@@ -243,7 +502,25 @@
        "url":"https://www.ea.com/subscribe",
        "category":"Entertainment",
        "free_trial": 0,
-       "base_money":"4.99"
+       "base_money":"4.99",
+       "plan":[
+           {"name":"Play",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"4.99","desc":""},
+                   {"cycle":4,"free_trial": 0,  "price":"29.99","desc":""}
+                 ],
+               "benefits":["EA Play members can get on the field with the 10-hour trial.","Unlock in-game member rewards.","Get unlimited access to a collection of our best-loved games."]
+           },
+           {"name":"Play Pro",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"14.99","desc":""},
+                   {"cycle":4,"free_trial": 0,  "price":"99.99","desc":""}
+                 ],
+               "benefits":["Play premium editions of select new-release games days before they launch.","Get unlimited access to a library of premium edition Electronic Arts games and fan-favorite series.","Unlock in-game member rewards."]
+           }
+       ]
        },
       { "name":"Apple Arcade",
        "icon":"arcade",
@@ -257,13 +534,72 @@
        "url":"https://plus.ubisoft.com",
        "category":"Entertainment",
        "free_trial": 0,
+       "plan":[
+           { "name":"PC Access",
+               "level":1,
+             "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"14.99","desc":"Play games on PC"}
+               ]
+           },
+           {"name":"Multi Access",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"17.99","desc":"Play games anywhere"}
+                 ]
+               }
+           ],
        "base_money":"14.99"
+       },
+      { "name":"Asana",
+       "icon":"asana",
+       "url":"https://app.asana.com",
+       "category":"Productivity",
+       "free_trial": 0,
+       "keyword":"project,todo",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"10.99","desc":"Specially designed for teams that need to build project plans with peace of mind."}
+                 ]
+               },
+           {"name":"Business",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"24.99","desc":"Specially designed for companies that need to manage work across multiple teams."}
+                 ]
+               }
+           ],
+       "base_money":"10.99"
        },
        { "name":"Netflix",
        "icon":"netflix",
        "url":"https://www.netflix.com",
        "category":"Entertainment",
        "free_trial": 0,
+       "plan":[
+           { "name":"Standard with ads",
+               "level":1,
+             "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"6.99","desc":"The Standard with ads plan may not be available through all third-party billing partners and packages. Please check with your provider to confirm availability."}
+               ],
+             "benefits":["Ad-supported, all but a few movies and TV shows available, unlimited mobile games","Watch on 2 supported devices at a time","Watch in Full HD"]
+           },
+           {"name":"Standard",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"15.99","desc":"extra member slots** can be added for $7.99 each / month"}
+                 ],
+               "benefits":["Unlimited ad-free movies, TV shows, and mobile games","Watch on 2 supported devices at a time","Watch in Full HD","Download on 2 supported devices at a time","Option to add 1 extra member who doesn't live with you"]
+               },
+           {"name":"Premium",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"19.99","desc":"extra member slots** can be added for $7.99 each / month"}
+                 ],
+               "benefits":["Unlimited ad-free movies, TV shows, and mobile games","Watch on 4 supported devices at a time","Watch in Full HD","Download on 6 supported devices at a time","Option to add 2 extra member who doesn't live with you","Netflix spatial audio"]
+               }
+           ],
        "base_money":"6.99"
        }
     ]

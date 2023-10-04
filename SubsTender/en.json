@@ -29,6 +29,48 @@
           "url":"https://www.att.com/plans/wireless/",
           "category":"Misc",
           "free_trial": 0,
+          "plan":[
+              {"name":"Starter® plan",
+                  "level":1,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"35","desc":"when you get 4 lines"}
+
+                    ],
+                  "benefits":["Unlimited talk, text & data","AT&T ActiveArmorSM mobile security","3GB hotspot data per line per month","Standard-definition streaming"]
+                  },
+              {"name":"Extra® plan",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"40","desc":"when you get 4 lines"}
+
+                    ],
+                  "benefits":["Unlimited talk, text, data + 50GB of Premium Data","AT&T ActiveArmorSM advanced mobile security. Free app with Public Wi-Fi Protection, Identity Monitoring, and more.","15GB hotspot data per line per month","Standard-definition streaming"]
+                  },
+              {"name":"Premium℠ plan",
+                  "level":3,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"50","desc":"when you get 4 lines"}
+
+                    ],
+                  "benefits":["Unlimited talk, text, & high-speed data that can’t slow down based on how much you use","AT&T ActiveArmorSM advanced mobile security. Free app with Public Wi-Fi Protection, Identity Monitoring, and more.","50GB hotspot data per line per month","Unlimited talk, text & high-speed data in 19 Latin American countries","4K UHD streaming available","Signature Program members save up to $10/mo. per line through your work or organization"]
+                  },
+              {"name":"AT&T Value Plus plan",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"50","desc":"Eligible for 1 line only"}
+
+                    ],
+                  "benefits":["Unlimited talk, text & data","5G access included","AT&T ActiveArmorSM mobile security","Unlimited talk, text and data in and between the US, Canada, and Mexico.","Unlimited texting from U.S. to 200+ countries","Standard-definition streaming"]
+                  },
+              {"name":"AT&T 4GB plan",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"50","desc":"when you get 1 line"}
+
+                    ],
+                  "benefits":["Unlimited talk, text and 4GB of data per line in the US, Canada, and Mexico","Mobile Hotspot","AT&T ActiveArmorSM mobile security","Standard-definition streaming","Unlimited texting from U.S. to 200+ countries","Eligible for Signature Program discount through your work or organization"]
+                  }
+              ],
           "base_money":"35"
           },
          { "name":"Verizon Unlimited",
@@ -36,6 +78,32 @@
           "url":"https://www.verizon.com/plans/unlimited/",
           "category":"Misc",
           "free_trial": 0,
+          "plan":[
+              {"name":"Unlimited Welcome",
+                  "level":1,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"25","desc":"Our reliable,fast 5G."}
+
+                    ],
+                  "benefits":["5G","Home Internet as low as $40/mo,service availability varies"]
+                  },
+              {"name":"Unlimited Plus",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"30","desc":"Our reliable,fast 5G,up to 10x faster than 4G LTE.No matter how much you use"}
+
+                    ],
+                  "benefits":["5G Ultra Wideband","30 GB premium mobile hotspot data","Up to 50% off 1 connected device plan","Home Internet as low as $25/mo,service availability varies"]
+                  },
+              {"name":"Unlimited Ultimate",
+                  "level":3,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"40","desc":"Everything in Unlimited Plus,with double the mobile hotspot data,international connectivity and more."}
+
+                    ],
+                  "benefits":["5G Ultra Wideband","30 GB premium mobile hotspot data","Up to 50% off 1 connected device plan","High-speed international data,talk & text", "Home Internet as low as $25/mo,service availability varies"]
+                  }
+              ],
           "base_money":"25"
           },
          { "name":"T-mobile Essentials",
@@ -43,6 +111,32 @@
           "url":"https://www.t-mobile.com",
           "category":"Misc",
           "free_trial": 0,
+          "plan":[
+              {"name":"Essentials",
+                  "level":1,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"90","desc":""}
+
+                    ],
+                  "benefits":["All the great benefits shown above","50GB premium data","Unlimited 3G mobile hotspot data incl.","Unlimited 5G & 4G LTE with 50GB of Premium Data","No annual service contract required"]
+                  },
+              {"name":"Go5G Plus",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"150","desc":""}
+
+                    ],
+                  "benefits":["All the great benefits shown above","Taxes & fees included","Unlimited premium data","Netflix on Us (2-screen within a household)","50GB high-speed mobile hotspot"]
+                  },
+              {"name":"Go5G Next",
+                  "level":3,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"180","desc":""}
+
+                    ],
+                  "benefits":["All the great benefits shown above","Taxes & fees included","Unlimited premium data","Netflix on Us (2-screen within a household)","50GB high-speed mobile hotspot"]
+                  }
+              ],
           "base_money":"90"
           },
         { "name":"Cricket Wireless Unlimited",
@@ -57,6 +151,24 @@
          "url":"https://www.uscellular.com/plans/unlimited",
          "category":"Misc",
          "free_trial": 0,
+         "plan":[
+             {"name":"Promotional Unlimited",
+                 "level":1,
+                 "suit":[
+                     {"cycle":2,"free_trial": 0,  "price":"29.99","desc":"1 line"}
+
+                   ],
+                 "benefits":[" Unlimited Talk, Text & Data","SD Streaming"]
+                 },
+             {"name":"Unlimited Evolved",
+                 "level":2,
+                 "suit":[
+                     {"cycle":2,"free_trial": 0,  "price":"30","desc":"For 4 lines"}
+
+                   ],
+                 "benefits":[" Unlimited Talk, Text & Data","SD Streaming"]
+                 }
+             ],
          "base_money":"29.99"
          },
         { "name":"Boost Mobile",
@@ -64,6 +176,24 @@
          "url":"https://www.boostmobile.com",
          "category":"Misc",
          "free_trial": 0,
+         "plan":[
+             {"name":"Unlimited",
+                 "level":2,
+                 "suit":[
+                     {"cycle":2,"free_trial": 0,  "price":"40","desc":""}
+
+                   ],
+                 "benefits":["Unlimited Talk & Text","Unlimited Mobile Data*","12GB Mobile Hotspot*","New Customers Only"]
+                 },
+             {"name":"Unlimited Plus",
+                 "level":3,
+                 "suit":[
+                     {"cycle":2,"free_trial": 0,  "price":"60","desc":""}
+
+                   ],
+                 "benefits":["Unlimited Talk & Text","Unlimited Mobile Data*","30GB Mobile Hotspot*","Todo Mexico Included**"]
+                 }
+             ],
          "base_money":"15"
          },
    { "name":"Tinder Plus",
@@ -71,6 +201,29 @@
     "url":"https://tinder.com",
     "category":"Social Media",
     "free_trial": 0,
+    "plan":[
+        {"name":"Tinder+",
+            "level":1,
+            "suit":[
+                {"cycle":2,"free_trial": 30,  "price":"7.49","desc":""}
+              ],
+            "benefits":["Unlimited Likes","Unlimited Rewinds","Passport™ To Any Location","Hide Advertisements"]
+            },
+        {"name":"Tinder Gold",
+            "level":2,
+            "suit":[
+                {"cycle":2,"free_trial": 30,  "price":"7.49","desc":""}
+              ],
+            "benefits":["See Who Likes You"," New Top Picks every day","5 Super Likes a week","1 Free Boost a month","Free monthly Boost only available for 1 month or longer subscriptions.","And everything you love from Tinder Plus®!"]
+            },
+        {"name":"Tinder Platinum",
+            "level":3,
+            "suit":[
+                {"cycle":2,"free_trial": 30,  "price":"7.49","desc":""}
+              ],
+            "benefits":["Message before Matching","Prioritized Likes","See the Likes you’ve sent in the last 7 days","And everything you love from Tinder Gold™!"]
+            }
+        ],
     "base_money":"7.99"
     },
    { "name":"Hinge Preferred",
@@ -146,7 +299,7 @@
 
      { "name":"Apple Fitness+",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/fitness.png",
-       "url":"https://www.onepeloton.com",
+       "url":"https://www.apple.com/apple-fitness-plus/",
        "category":"Health",
        "free_trial": 90,
        "base_money":"9.99"
@@ -185,6 +338,24 @@
        "url":"https://www.audible.com",
        "category":"Education",
        "base_money":"14.95",
+       "plan":[
+           {"name":"Audible Plus",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"7.95","desc":""}
+
+                 ],
+               "benefits":["Originals","audiobooks","sleep tracks","meditation programs","podcasts"]
+               },
+           {"name":"Audible Premium Plus",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"14.95","desc":""}
+
+                 ],
+               "benefits":["Enjoy everything Audible Plus offers plus 1 title per month from an extended selection of best sellers and new releases yours to keep"]
+               }
+           ],
        "free_trial": 30
        },
      { "name":"Scribd",
@@ -214,6 +385,25 @@
        "url":"https://subscribe.washingtonpost.com",
        "category":"Education",
        "base_money":"4",
+       "plan":[
+           {"name":"All-Access Digital",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"4","desc":""},
+                   {"cycle":4,"free_trial": 0,  "price":"29","desc":""}
+
+                 ],
+               "benefits":["All-Access Digital","In-depth investigations you won’t find anywhere else","200+ original stories daily, delivering news as it breaks","Unlimited access on our app and website"]
+               },
+           {"name":"Premium Digital",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"6","desc":""},
+                   {"cycle":4,"free_trial": 0,  "price":"39","desc":""}
+                 ],
+               "benefits":["Every All-Access Digital feature","A bonus subscription to share","Monthly 30-day digital passes to share","","Exclusive eBooks written by our journalists"]
+               }
+           ],
        "free_trial": 0
        },
      { "name":"The Wall Street Journal",
@@ -221,6 +411,22 @@
        "url":"https://www.wsj.com",
        "category":"Education",
        "base_money":"6",
+       "plan":[
+           {"name":"WSJ Digital",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"2","desc":"That's $0.50 USD every week"}
+                 ],
+               "benefits":["Unlimited access on WSJ.com and in the WSJ app","Daily puzzles and crosswords","Audio versions of WSJ articles"]
+               },
+           {"name":"WSJ Digital Bundle",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"4","desc":"That's $1 USD every week"}
+                 ],
+               "benefits":["Unlimited access on WSJ.com and in the WSJ app","Daily puzzles and crosswords","Audio versions of WSJ articles","Unlimited access on Barrons.com and Marketwatch.com","The Barron’s and MarketWatch apps","Access to all three publications with a single account","Live events with journalists from all three publications","Personal finance advice, stock picks, and news, all in one subscription"]
+               }
+           ],
        "free_trial": 0
        },
      { "name":"Microsoft 365 Copilot",
