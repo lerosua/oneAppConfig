@@ -31,6 +31,33 @@
       "keyword":"家庭,home",
       "base_money":"200"
       },
+     {"name":"中国电信",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-dianxin.png",
+          "url":"https://www.189.cn",
+          "category":"Lifestyle",
+          "keyword":"phone,mobile",
+          "base_money":"19"
+          },
+     {"name":"中国联通",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-liantong.png",
+          "url":"https://www.10010.com",
+          "category":"Lifestyle",
+          "keyword":"phone,mobile",
+          "plan":[
+              {"name":"4G套餐",
+                  "level":1,
+                "suit":[
+                      {"cycle":2,"free_trial": 0,"price":"59","desc":""}
+                  ]
+                  },
+              {"name":"5G套餐",
+                  "level":2,
+                "suit":[
+                      {"cycle":2,"free_trial": 0,"price":"99","desc":""}
+                  ]
+                  }
+              ]
+          },
      {
          "name":"中国移动",
           "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-mobile.png",
