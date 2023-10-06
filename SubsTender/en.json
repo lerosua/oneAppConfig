@@ -429,12 +429,104 @@
            ],
        "free_trial": 0
        },
+     { "name":"Bloomberg",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bloomberg.png",
+       "url":"https://www.bloomberg.com",
+       "category":"Finance",
+       "base_money":"8",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"34.99","desc":""}
+                 ],
+               "benefits":["Unlock unlimited access to Bloomberg.com and the Bloomberg app","Subscriber-only content and newsletters","Live TV, radio, podcasts and narrated articles","Subscription auto-renews, cancel anytime"]
+               }
+           ],
+       "free_trial": 0
+       },
+     { "name":"Bitly",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bitly.png",
+       "url":"https://bitly.com/pages/pricing",
+       "category":"Productivity",
+       "base_money":"8",
+       "plan":[
+           {"name":"Core",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"8","desc":""}
+                 ],
+               "benefits":["30 days of click & scan data","UTM Builder","Advanced QR Code customizations","Link & QR Code redirects"]
+               },
+           {"name":"Growth",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"35","desc":""}
+                 ],
+               "benefits":["Complimentary custom domain*","Additional QR Code download formats","4 months of click & scan data","Bulk link shortening"]
+               },
+           {"name":"Premium",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"300","desc":""}
+                 ],
+               "benefits":["1 year of click & scan data","Custom campaign-level tracking","City-level & device type click & scan data","Mobile deep linking"]
+               }
+           ],
+       "free_trial": 0
+       },
      { "name":"Microsoft 365 Copilot",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/copilot.png",
        "url":"https://adoption.microsoft.com/en-us/copilot/",
        "category":"Productivity",
        "base_money":"30",
        "free_trial": 0
+       },
+     { "name":"Acorn TV",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/acorn.png",
+       "url":"https://www.acorn.tv",
+       "category":"Entertainment",
+       "base_money":"6.99",
+       "free_trial": 7
+       },
+     { "name":"Audi Connect",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/audi.png",
+       "url":"https://www.adulttime.com",
+       "category":"Lifestyle",
+       "base_money":"19.95",
+       "plan":[
+           {"name":"Connect Prime",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"36","desc":"Featuring services such as Google Earth™, Traffic Light Information, and myAudi Route Planner, PRIME can help you make informed decisions."}
+                 ],
+               "benefits":["Infotainment on the go.","Google Earth","Online Traffic & Traffic Light Info","Basic Wi-Fi","Parking, Fuel Prices","Streaming Services such as Online Radio, Amazon Music, and Hybrid Radio"]
+               },
+           {"name":"Connect Plus",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"49","desc":"Turn your Audi into a Wi-Fi hotspot with PLUS. The Audi connect® trial plan and PLUS plan include all PRIME services"}
+                 ],
+               "benefits":["Infotainment on the go.","Google Earth","Online Traffic & Traffic Light Info","Basic Wi-Fi","Parking, Fuel Prices","Streaming Services such as Online Radio, Amazon Music, and Hybrid Radio"]
+               }
+           ],
+       "free_trial": 0
+       },
+     { "name":"Adult Time",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adult-time.png",
+       "url":"https://www.adulttime.com",
+       "category":"Entertainment",
+       "base_money":"19.95",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"19.95","desc":""}
+                 ],
+               "benefits":["8+ Updates Per Day","Access To Over 60,000 Videos","Exclusive Original Features","Over 400 Channels To Choose From","Compatible With Interactive Sex Toys","Personalized Experience","Original Content Subtitled In 7 Languages","24/7 Customer & Technical Support","Compatible With Any Device: Mobile, Desktop, TV, Tablet","Now Available On Firetv And Chromecast","Stream VR Videos Directly From Your Headset!"]
+               }
+           ],
+       "free_trial": 7
        },
      { "name":"Atlassian Suite",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/news.png",

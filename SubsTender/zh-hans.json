@@ -194,6 +194,34 @@
       "currency":"CNY",
       "base_money":"10"
       },
+     { "name":"B站",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bilibili.png",
+      "url":"https://bilibili.com",
+      "category":"Entertainment",
+      "keyword":"视频,bilibili",
+      "plan":[
+          {"name":"大会员",
+              "level":1,
+            "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"15","desc":"每季按15元自动续费，可随时取消"},
+                  {"cycle":3,"free_trial": 0,"price":"45","desc":"每季按45元自动续费，可随时取消"},
+                  {"cycle":4,"free_trial": 0, "price":"98","desc":"首年98元，每年按148元自动续费，可随时取消自动续费"}
+              ],
+            "benefits":["电脑/手机/ipad上可用"]
+              },
+          {"name":"超级大会员",
+              "level":2,
+              "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"20","desc":"自动续费，可随时取消"},
+                  {"cycle":3,"free_trial": 0,"price":"83","desc":"低至0.9元/日，自动续费，可随时取消"},
+                  {"cycle":4,"free_trial": 0, "price":"138","desc":"必赠月卡，一天仅需0.34元！每年以178元自动续费，可随时取消"}
+              ],
+              "benefits":["TV/电脑/手机/ipad上可用"]
+          }
+          ],
+      "currency":"CNY",
+      "base_money":"10"
+      },
      { "name":"爱奇艺",
       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/iqiyi.png",
       "url":"https://iqiyi.com",
@@ -206,7 +234,8 @@
                   {"cycle":2,"free_trial": 0,  "price":"15","desc":"到期按每月25元自动续费，可随时取消"},
                   {"cycle":3, "free_trial": 0, "price":"50","desc":"到期按每季68元自动续费，可随时取消"},
                   {"cycle":4,"free_trial": 0, "price":"148","desc":"到期将按每年238元自动续费，可随时取消。已签约连包的用户购买则将以新签约价格续费"}
-              ]
+              ],
+            "benefits":["电脑/手机/平板可用"]
           },
           {"name":"白金VIP",
               "level":2,
@@ -214,14 +243,16 @@
                     {"cycle":2,"free_trial": 0,"price":"19","desc":"到期按每月35元自动续费，可随时取消"},
                     {"cycle":3,"free_trial": 0,  "price":"73","desc":"到期按每季98元自动续费，可随时取消"},
                     {"cycle":4, "free_trial": 0, "price":"249","desc":"到期按每年348元自动续费，随时可取消"}
-                ]
+                ],
+              "benefits":["黄金权益+电视可用"]
               },
           {"name":"星钻VIP",
               "level":3,
               "suit":[
                     {"cycle":2,"free_trial": 0, "price":"25","desc":"到期按每月45元自动续费，可随时取消"},
                     {"cycle":4,"free_trial": 0, "price":"318","desc":"到期按每年428元自动续费，可随时取消"}
-                ]
+                ],
+              "benefits":["升级特惠 七端通用"]
               }
           ],
       "base_money":"15"
@@ -242,6 +273,39 @@
        "base_money":"9",
        "currency":"CNY",
        "keyword":"腾讯,tencent"
+       },
+      { "name":"QQ音乐",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/qq-music.png",
+       "url":"https://y.qq.com",
+       "category":"Entertainment",
+       "base_money":"180",
+       "currency":"CNY",
+       "plan":[
+           { "name":"绿钻豪华版",
+               "level":1,
+             "suit":[
+                   {"cycle":4,"free_trial": 0, "price":"180","desc":""}
+               ],
+             "benefits":["每日15点绿钻成长值","点亮年费绿钻图标","功能大提升 直接享受LV5特权","支付一年年费 奖励200点成长值","赠送好友背景音乐有效期翻倍","200元生活福利特权"]
+           }
+        ],
+       "keyword":"腾讯,tencent"
+       },
+      { "name":"京东Plus",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jd.png",
+       "url":"https://plus.jd.com/index",
+       "category":"Lifestyle",
+       "base_money":"99",
+       "currency":"CNY",
+       "plan":[
+           { "name":"Plus京典卡年卡",
+               "level":1,
+             "suit":[
+                   {"cycle":4,"free_trial": 0, "price":"99","desc":""}
+               ],
+             "benefits":["最高3%返利","专属客服","读书VIP年卡","免费退换货","无限免邮","免费问诊","免费体检"]
+           }],
+       "keyword":"jd"
        }
 ]
 }

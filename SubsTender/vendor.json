@@ -218,6 +218,29 @@
         "url":"https://www.wsj.com",
         "category":"Productivity",
         "base_money":"15",
+        "plan":[
+            {"name":"Pro",
+                "level":1,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"15.99","desc":"/month/user"}
+                  ],
+                "benefits":["Meetings up to 30 hours per meeting","100 Attendees per meeting","Whiteboard Basic","Team Chat","Mail & Calendar","Client & Service","NEW Notes","NEW AI Companion","Cloud Storage 5GB","Essential Apps Free premium apps for 1 year (terms apply)"]
+                },
+            {"name":"Business",
+                "level":2,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"19.99","desc":"/month/user"}
+                  ],
+                "benefits":["Meetings up to 30 hours per meeting","300 Attendees per meeting","Whiteboard Basic","Team Chat","Mail & Calendar","Client & Service","NEW Notes","NEW AI Companion","Cloud Storage 5GB","Essential Apps Free premium apps for 1 year (terms apply)","Extras SSO, managed domains & more"]
+                },
+            {"name":"Business Plus",
+                "level":3,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"25","desc":"/month/user"}
+                  ],
+                "benefits":["Meetings up to 30 hours per meeting","300 Attendees per meeting","Whiteboard Basic","Team Chat","Mail & Calendar","Client & Service","NEW Notes","NEW AI Companion","Cloud Storage 100GB","Essential Apps Free premium apps for 1 year (terms apply)","Extras SSO, managed domains & more","Phone Unlimited regional","Translated Captions","Workspace Reservation"]
+                }
+            ],
         "free_trial": 0
         },
       { "name":"Dropbox",
@@ -292,6 +315,57 @@
        "category":"Productivity",
        "base_money":"20.99"
        },
+      { "name":"Evernote",
+       "icon":"evernote",
+       "url":"https://evernote.com/compare-plans",
+       "category":"Productivity",
+       "plan":[
+           {"name":"Mac",
+            "level":1,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"10.83","desc":"Keep home and family on track"}
+                 ],
+            "benefits":["Sync unlimited devices","10 GB monthly uploads","200 MB max. note size","Customize Home dashboard and access extra widgets","Connect primary Google Calendar account","Add due dates, reminders, and notifications to your tasks","Manage tasks in one place","Get offline access on mobile and desktop","Search text inside images, docs, and PDFs","Create custom templates","Mark up images and PDFs"]
+               },
+           {"name":"Mac",
+            "level":1,
+            "suit":[
+                   {"cycle":2,"free_trial": 7,  "price":"14.17","desc":"Tackle any project, at work or at home"}
+                 ],
+            "benefits":["Save 2x more content with 20 GB monthly uploads","Access to all widgets and customization for Home","Connect both personal and workplace Google Calendar accounts","Create, manage, and assign tasks to others, and easily track their progress","Use Boolean terms to refine search results","Find content by location with geographic search","Export notebooks as PDF files","Integrate with Slack, Microsoft Teams, and others"]
+               }
+           ],
+       "base_money":"10.83"
+       },
+      { "name":"Setapp Membership",
+       "icon":"setapp",
+       "url":"https://setapp.com/pricing",
+       "category":"Productivity",
+       "plan":[
+           {"name":"Mac",
+            "level":1,
+            "suit":[
+                   {"cycle":2,"free_trial": 7,  "price":"1.99","desc":"Supercharge your beloved Mac with awesome apps."}
+                 ],
+            "benefits":["For 1 Mac"]
+               },
+           {"name":"Mac + iOS",
+            "level":2,
+            "suit":[
+                   {"cycle":2,"free_trial": 7,  "price":"12.49","desc":"If you do everything on your Mac, iPhone and iPad."}
+                 ],
+            "benefits":["For 1 Mac","For 4 iOS devices"]
+               },
+           {"name":"Power User",
+            "level":3,
+            "suit":[
+                   {"cycle":2,"free_trial": 7,  "price":"14.99","desc":"Got several Macs? Get this plan for maximum flexibility."}
+                 ],
+            "benefits":["For 4 Macs","For 4 iOS devices"]
+               }
+           ],
+       "base_money":"9.99"
+       },
       { "name":"Microsoft 365",
        "icon":"microsoft",
        "url":"https://www.microsoft.com",
@@ -336,6 +410,75 @@
        "url":"https://www.docker.com/pricing/",
        "category":"DevTools",
        "base_money":"7"
+       },
+      { "name":"Adguard",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adguard.png",
+       "url":"https://adguard.com/en/license.html",
+       "category":"DevTools",
+       "plan":[
+           {"name":"Personal",
+            "level":2,
+            "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"2.49","desc":""},
+                   {"cycle":5,"free_trial": 0,  "price":"79.99","desc":""}
+
+                 ],
+            "benefits":["Exceptional ad-blocking tool","Full tracking protection","Up to 3 devices"]
+               },
+           {"name":"Family",
+            "level":3,
+            "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"5.49","desc":""},
+                   {"cycle":5,"free_trial": 0,  "price":"169.99","desc":""}
+                 ],
+            "benefits":["Exceptional ad-blocking tool","Full tracking protection","Up to 9 devices"]
+               }
+           ],
+       "base_money":"2.49"
+       },
+      { "name":"Bitbucket",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bitbucket.png",
+       "url":"https://www.atlassian.com/software/bitbucket/pricing",
+       "category":"DevTools",
+       "plan":[
+           {"name":"Standard",
+            "level":2,
+            "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"15","desc":"5 Users"}
+                 ],
+            "benefits":["Build minutes-2,500 minutes per month","Git LFS(5GB)","Up to 3 devices","Code insights-Tree integrations"]
+               },
+           {"name":"Premium",
+            "level":3,
+            "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"30","desc":"5 Users"}
+                 ],
+            "benefits":["Build minutes-3,500 minutes per month","Git LFS(10GB)","Up to 9 devices","Code insights-Unlimited"]
+               }
+           ],
+       "base_money":"2.49"
+       },
+      { "name":"AdBlock",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adblock.png",
+       "url":"https://www.getadblock.com/premium/",
+       "category":"DevTools",
+       "plan":[
+           {"name":"Premium",
+            "level":2,
+            "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"20","desc":"Enhanced pop-up blocking, faster page load times, and better privacy protection"}
+                 ],
+            "benefits":["Ehanced Pop-up Blocking","Dark Mode and Themes","Backup and Sync Settings","Customize AdBlock"]
+               },
+           {"name":"Premium+VPN",
+            "level":3,
+            "suit":[
+                   {"cycle":4,"free_trial": 0,  "price":"40","desc":"Powerful ad and pop up blocking, private browsing, and tracker blocking"}
+                 ],
+            "benefits":["Improved Privacy Protection","Easy Access to Geo Content","Private Web Browsing", "Strict No-Logging Policy","Access to servers in 30+ countries"]
+               }
+           ],
+       "base_money":"20"
        },
       { "name":"Google One",
        "icon":"google",
