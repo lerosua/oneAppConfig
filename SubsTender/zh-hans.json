@@ -43,6 +43,7 @@
           "url":"https://www.10010.com",
           "category":"Lifestyle",
           "keyword":"phone,mobile",
+          "base_money":"59",
           "plan":[
               {"name":"4G套餐",
                   "level":1,
@@ -220,7 +221,7 @@
           }
           ],
       "currency":"CNY",
-      "base_money":"10"
+      "base_money":"15"
       },
      { "name":"爱奇艺",
       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/iqiyi.png",
