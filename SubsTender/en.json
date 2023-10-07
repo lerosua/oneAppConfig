@@ -24,6 +24,66 @@
           "category":"Lifestyle",
           "base_money":"200"
           },
+         { "name":"Deezer",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/deezer.png",
+          "url":"https://www.deezer.com",
+          "category":"Entertainment",
+          "keyword":"music",
+          "plan":[
+              {"name":"Premium",
+                  "level":1,
+                  "suit":[
+                      {"cycle":2,"free_trial": 30,  "price":"10.99","desc":""}
+                    ],
+                  "benefits":["Pick and play any track ad-free, plus download your favorites and listen offline.","Enjoy High Fidelity sound and stream across all your devices."]
+
+                  },
+              {"name":"Family",
+                  "level":1,
+                  "suit":[
+                      {"cycle":2,"free_trial": 30,  "price":"17.99","desc":""}
+                    ],
+                  "benefits":["Music for everyone.","Get 6 individual accounts, all with Deezer Premium benefits including High Fidelity sound.","Listen simultaneously on multiple devices."]
+                  }
+              ],
+          "base_money":"10.99"
+          },
+         { "name":"Squarespace",
+          "icon":"squarespace",
+          "url":"https://www.squarespace.com/pricing",
+          "category":"Misc",
+          "plan":[
+              {"name":"Personal",
+                  "level":1,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"23","desc":"Our foundational plan with access to fully customizable, best-in-class templates."}
+                    ],
+                  "benefits":["Mobile optimized websites","Templates to fit every need"]
+                  },
+              {"name":"Business",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"33","desc":"For those looking to grow their audience and begin taking payments."}
+                    ],
+                  "benefits":["Mobile optimized websites","Templates to fit every need","Advanced website analytics","Fully integrated ecommerce 3% transaction fee","Checkout on your domain"]
+                  },
+              {"name":"Commerce Basic",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"36","desc":"Selling tools to help grow your business. No transaction fees."}
+                    ],
+                  "benefits":["Mobile optimized websites","Templates to fit every need","Advanced website analytics","Fully integrated ecommerce 0% transaction fee","Checkout on your domain","Powerful merchandising"]
+                  },
+              {"name":"Commerce Advanced",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 0,  "price":"65","desc":"All the tools necessary for the more advanced seller. No transaction fees."}
+                    ],
+                  "benefits":["Mobile optimized websites","Templates to fit every need","Advanced website analytics","Fully integrated ecommerce 0% transaction fee","Checkout on your domain","Powerful merchandising","Advanced Shipping","Advanced discounting","Sell subscriptions"]
+                  }
+              ],
+          "base_money":"200"
+          },
          { "name":"AT&T Unlimited",
           "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/att.png",
           "url":"https://www.att.com/plans/wireless/",
@@ -167,6 +227,32 @@
 
                    ],
                  "benefits":[" Unlimited Talk, Text & Data","SD Streaming"]
+                 }
+             ],
+         "base_money":"29.99"
+         },
+        { "name":"Vodafone",
+         "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/vodafone.png",
+         "url":"https://www.vodafone.com",
+         "category":"Misc",
+         "free_trial": 0,
+         "currency":"EUR",
+         "plan":[
+             {"name":"RED Unlimited",
+                 "level":1,
+                 "suit":[
+                     {"cycle":2,"free_trial": 0,  "price":"35","desc":"€25/ month for 6 months"}
+
+                   ],
+                 "benefits":["Full access to your plan when roaming across Europe","In April of each year, the monthly price of your plan will increase by the rate of inflation (CPI) plus 3%. The increase will be calculated on the “thereafter” price."]
+                 },
+             {"name":"RED Unlimited Max",
+                 "level":2,
+                 "suit":[
+                     {"cycle":2,"free_trial": 0,  "price":"45","desc":"€35/ month for 6 months"}
+
+                   ],
+                 "benefits":["Full access to your plan when roaming across Europe","In April of each year, the monthly price of your plan will increase by the rate of inflation (CPI) plus 3%. The increase will be calculated on the “thereafter” price."]
                  }
              ],
          "base_money":"29.99"
