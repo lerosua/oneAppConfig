@@ -292,6 +292,25 @@
         ],
        "keyword":"腾讯,tencent"
        },
+      { "name":"Aifun",
+       "icon":"aifun",
+       "url":"https://getai.fun",
+       "category":"Misc",
+       "base_money":"28",
+       "currency":"CNY",
+       "plan":[
+           { "name":"Premium",
+               "level":2,
+             "suit":[
+                   {"cycle":2,"free_trial": 0, "price":"28","desc":""}
+                   {"cycle":4,"free_trial": 0, "price":"168","desc":""}
+
+               ],
+             "benefits":["无限制使用次数，网络加速稳定","官方1/5价格，ChatGPT 20美元/月","外贸电商、文案、编程开发等白领打工神器","开启AI智能助手"]
+           }
+        ],
+       "keyword":"chatgpt"
+       },
       { "name":"京东Plus",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jd.png",
        "url":"https://plus.jd.com/index",
