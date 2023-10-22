@@ -171,6 +171,47 @@
       "currency":"CNY",
       "base_money":"20"
       },
+     { "name":"阿里云盘",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/aliyundrive.png",
+      "url":"https://www.aliyundrive.com",
+      "category":"Misc",
+      "keyword":"aliyun",
+      "plan":[
+          {"name":"超级会员",
+              "level":1,
+            "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"8","desc":"首三月每月8元，第四个月起20元/月"},
+                  {"cycle":4,"free_trial": 0, "price":"148","desc":"次年自动续费¥168，可随时取消"}
+              ],
+            "benefits":["8TB存储空间","自动备份电脑文件夹","大文件上传(最高1TB)","手机视频备份","单次转存数(不限量)","优享极速下载","回收站有效期(60天内文件恢复)","设备登录数(10台同时在线)","高清播放(1080P视频播放)"]
+              },
+          {"name":"大容量套餐",
+              "level":2,
+              "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"288","desc":"13TB容量"}
+              ],
+              "benefits":["13TB存储空间","自动备份电脑文件夹","大文件上传(最高1TB)","手机视频备份","单次转存数(不限量)","优享极速下载","回收站有效期(60天内文件恢复)","设备登录数(10台同时在线)","高清播放(1080P视频播放)"]}
+          ],
+      "currency":"CNY",
+      "base_money":"20"
+      },
+     { "name":"115网盘",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/115.png",
+      "url":"https://www.aliyundrive.com",
+      "category":"Misc",
+      "keyword":"aliyun",
+      "plan":[
+          {"name":"超级会员",
+              "level":1,
+            "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"55","desc":"初始空间容量15G"}
+              ],
+            "benefits":["15GB存储空间","链接任务配额(200个/月)","链接任务大小(115GB/次)","大文件上传(115GB)","在线云解压(20GB内压缩包)","共享文件数上限(1万/个)","回收站有效期(30天内文件恢复)","在线预览视频(单个文件30GB且10小时以内)"]
+              }
+          ],
+      "currency":"CNY",
+      "base_money":"20"
+      },
      { "name":"优酷",
       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/youku.png",
       "url":"https://youku.com",
@@ -275,6 +316,14 @@
        "currency":"CNY",
        "keyword":"腾讯,tencent"
        },
+      { "name":"读库",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/duku.png",
+       "url":"https://www.duku.cn/dk",
+       "category":"Education",
+       "base_money":"283",
+       "currency":"CNY",
+       "keyword":"book"
+       },
       { "name":"QQ音乐",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/qq-music.png",
        "url":"https://y.qq.com",
@@ -309,6 +358,40 @@
            }
         ],
        "keyword":"chatgpt"
+       },
+      { "name":"得到",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/dedao.png",
+       "url":"https://www.dedao.cn/vip/home?type=ebook",
+       "category":"Education",
+       "base_money":"18",
+       "currency":"CNY",
+       "plan":[
+           { "name":"锦囊会员",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0, "price":"18","desc":""}
+               ],
+               "benefits":["最高3%返利","专属客服","读书VIP年卡","免费退换货","无限免邮","免费问诊","免费体检"]
+           },
+           { "name":"电子书会员",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0, "price":"35","desc":"全场9万本好书随意畅读"},
+                   {"cycle":4,"free_trial": 0, "price":"189","desc":"超9万本好书随意畅读"}
+               ],
+               "benefits":["90%电子书 免费畅读","独家好书 仅在得到","专属直播 优先参与","身份标识 专属勋章"]
+           },
+           { "name":"听书VIP",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0, "price":"48","desc":"千本听书 免费畅听"},
+                   {"cycle":4,"free_trial": 0, "price":"315","desc":"每天半小时，了解一本书"}
+
+               ],
+               "benefits":["海量听书 全场畅听","所有好书 随意赠送","专业团队 打磨精品","主题书单 为你精选","一人开通 亲友同享"]
+           }
+       ],
+       "keyword":"dedao"
        },
       { "name":"京东Plus",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jd.png",

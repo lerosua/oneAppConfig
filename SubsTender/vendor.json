@@ -191,7 +191,202 @@
        "category":"DevTools",
        "base_money":"20"
        },
-      
+      { "name":"GoDaddy",
+       "icon":"godaddy",
+       "url":"https://www.godaddy.com",
+       "category":"DevTools",
+       "keyword":"domain",
+       "base_money":"5.99"
+       },
+      { "name":"Cloudflare",
+       "icon":"cloudflare",
+       "url":"https://www.cloudflare.com",
+       "category":"DevTools",
+       "keyword":"domain",
+       "base_money":"5.99"
+       },
+      { "name":"Dribbble",
+       "icon":"dribbble",
+       "url":"https://www.dribbble.com",
+       "category":"DevTools",
+       "keyword":"design",
+       "plan":[
+           {"name":"Pro",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"16","desc":""}
+                 ],
+               "benefits":["Everything in Basic","Priority visibility in hiring feeds","Priority visibility in inspiration feeds","Instant creative portfolio on your domain","Enhanced profile presentation","Showcase project work & case studies","Ad free browsing experience","Create a team account for your agency","Stats & analytics"]
+               }
+           ],
+       "base_money":"16"
+       },
+      { "name":"Namecheap",
+       "icon":"namecheap",
+       "url":"https://www.namecheap.com/hosting/shared/",
+       "category":"DevTools",
+       "keyword":"domain",
+       "plan":[
+           {"name":"Stellar",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"4.48","desc":""}
+                 ],
+               "benefits":["3 Websites","20 GB SSD","30 Mailboxes","Website Builder"]
+               },
+           {"name":"Stellar Plus",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"6.48","desc":""}
+                 ],
+               "benefits":["Unlimited Websites","Unlimited SSD","Unlimited Mailboxes","Website Builder","AutoBackup"]
+               },
+           {"name":"Stellar Business",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"9.48","desc":""}
+                 ],
+               "benefits":["Unlimited Websites","50 GB SSD","Unlimited Mailboxes","Website Builder","AutoBackup & Cloud Storage"]
+               }
+           ],
+       "base_money":"4.48"
+       },
+      { "name":"National geographic",
+       "icon":"nat-geo",
+       "url":"",
+       "category":"Education",
+       "keyword":"book",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":4,"free_trial": 30,  "price":"29","desc":"Only $19 for 1 year"}
+                 ],
+               "benefits":["Subscriber-exclusive content and new stories published daily Unlimited access to our digital archive","Immersive online-only experiences and unlimited access to natgeo.com","Downloadable stories to read on-the-go with our ad-free, mobile app for Apple® and Android® devices","Curated subscriber newsletter delivered weekly"]
+               }
+           ],
+       "base_money":"29"
+       },
+      { "name":"Sketch",
+       "icon":"sketch",
+       "url":"https://www.sketch.com/pricing/",
+       "category":"Productivity",
+       "keyword":"design",
+       "plan":[
+           {"name":"Standard",
+               "level":1,
+               "suit":[
+                   {"cycle":4,"free_trial": 30,  "price":"10","desc":"USD per month"}
+                 ],
+               "benefits":["Native macOS app","Design, prototype and illustrate","Work privately, offline","Collaborate in real-time"]
+               },
+           {"name":"Business",
+               "level":2,
+               "suit":[
+                   {"cycle":4,"free_trial": 30,  "price":"20","desc":"USD per month"}
+                 ],
+               "benefits":["Everything in Standard plus","Single Sign-On (SSO)","Unlimited cloud storage","Invoice-based billing","Permissions directory"]
+               },
+           {"name":"Mac-only",
+               "level":2,
+               "suit":[
+                   {"cycle":5,"free_trial": 0,  "price":"120","desc":"Per license"}
+                 ],
+               "benefits":["Native macOS app", "Work privately, offline","Save documents locally","No automatic renewal","One year of updates","No collaborative features","No free trial"]
+               }
+           ],
+       "base_money":"10.59"
+       },
+      { "name":"Mega",
+       "icon":"mega",
+       "url":"https://www.mega.io",
+       "category":"Productivity",
+       "keyword":"disk,save",
+       "plan":[
+           {"name":"Pro I",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"10.59","desc":"USD per month"}
+                 ],
+               "benefits":["2 TB of storage","2 TB of transfer"]
+               },
+           {"name":"Pro II",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"21.19","desc":"USD per month"}
+                 ],
+               "benefits":["6 TB of storage","6 TB of transfer"]
+               },
+           {"name":"Pro III",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"31.79","desc":"USD per month"}
+                 ],
+               "benefits":["16 TB of storage","16 TB of transfer"]
+               }
+           ],
+       "base_money":"10.59"
+       },
+      { "name":"Midjourney",
+       "icon":"midjourney",
+       "url":"https://www.midjourney.com",
+       "category":"Productivity",
+       "free_trial": 0,
+       "plan":[
+           {"name":"Basic",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"10","desc":""}
+                 ],
+               "benefits":["Maximum Concurrent Jobs(3 Jobs,10 Jobs waiting in queue)","Fast GPU Time(3.3 hr/month)","Purchase Extra GPU Time($4/hr)","Work Solo In Your Direct Messages","Rate Images to Earn Free GPU Time"]
+               },
+           {"name":"Standard",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"30","desc":""}
+                 ],
+               "benefits":["Maximum Concurrent Jobs(3 Jobs,10 Jobs waiting in queue)","Fast GPU Time(15 hr/month)","Purchase Extra GPU Time($4/hr)","Work Solo In Your Direct Messages","Rate Images to Earn Free GPU Time","Relax GPU Time"]
+               },
+           {"name":"Pro",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"60","desc":""}
+                 ],
+               "benefits":["Maximum Concurrent Jobs(12 Fast Jobs,3 Relaxed Jobs,10 Jobs in queue)","Fast GPU Time(30 hr/month)","Purchase Extra GPU Time($4/hr)","Work Solo In Your Direct Messages","Rate Images to Earn Free GPU Time","Relax GPU Time"]
+               },
+           {"name":"Mega",
+               "level":4,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"120","desc":""}
+                 ],
+               "benefits":["Maximum Concurrent Jobs(12 Fast Jobs,3 Relaxed Jobs,10 Jobs in queue)","Fast GPU Time(60 hr/month)","Purchase Extra GPU Time($4/hr)","Work Solo In Your Direct Messages","Rate Images to Earn Free GPU Time","Relax GPU Time"]
+               }
+           ],
+       "base_money":"15"
+       },
+      { "name":"Figma",
+       "icon":"figma",
+       "url":"https://www.figma.com",
+       "category":"Productivity",
+       "free_trial": 0,
+       "plan":[
+           {"name":"Professional",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"15","desc":"/editor/mo"}
+                 ],
+               "benefits":["Unlimited files,pages,and projects","Version history", "Team-wide","Custom file and user permissions"]
+               },
+           {"name":"Organization",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"45","desc":"/editor/mo"}
+                 ],
+               "benefits":["Unlimited files,pages,and projects","Version history","Org-wide","Custom file and user permissions","Audio conversations","SSO,advanced security","Design system analytics","Custom templates"]
+               }
+           ],
+       "base_money":"15"
+       },
       { "name":"GitHub Copilot",
        "icon":"copilot",
        "url":"https://github.com/github-copilot/signup",
@@ -710,6 +905,26 @@
                "level":2,
                "suit":[
                    {"cycle":2,"free_trial": 0,  "price":"24.99","desc":"Specially designed for companies that need to manage work across multiple teams."}
+                 ]
+               }
+           ],
+       "base_money":"10.99"
+       },
+      { "name":"Infuse",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/infuse.png",
+       "url":"https://firecore.com/infuse",
+       "category":"Entertainment",
+       "free_trial": 0,
+       "keyword":"project,todo",
+       "plan":[
+           {"name":"Infuse Pro",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 30,  "price":"0.99","desc":""},
+                   {"cycle":4,"free_trial": 0,  "price":"9.99","desc":""},
+                   {"cycle":5,"free_trial": 0,  "price":"94.99","desc":""},
+
+
                  ]
                }
            ],
