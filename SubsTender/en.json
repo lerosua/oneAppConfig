@@ -620,6 +620,23 @@
        "category":"DevTools",
        "base_money":"30",
        "free_trial": 0
+       },
+     { "name":"Heptabase",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/heptabase.png",
+       "url":"https://heptabase.com/#pricing",
+       "category":"Lifestyle",
+       "base_money":"11.99",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 7,  "price":"11.99","desc":""},
+                   {"cycle":4,"free_trial": 7,  "price":"107.88","desc":""}
+                 ],
+               "benefits":["Whiteboard note-taking","PDF Annotations","Web App & Mobile App","Real-time syncing with local first support"]
+               }
+           ],
+       "free_trial": 7
        }
     ]
 }
