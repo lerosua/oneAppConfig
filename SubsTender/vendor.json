@@ -150,6 +150,21 @@
        "category":"Misc",
        "base_money":"100"
        },
+      { "name":"Vercel",
+       "icon":"vercel",
+       "url":"https://vercel.com/pricing",
+       "category":"DevTools",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"20","desc":"per user / month"}
+                 ],
+               "benefits":["Unlimited Environments","More Functions (Serverless, Edge)","More Databases (KV, Postgres)","More Web Analytics Events","More Experimentation (Edge Config, Middleware)","Preview/Comment/Edit Deployments","Basic DDoS Mitigation","Email Support"]
+               }
+           ],
+       "base_money":"20"
+       },
       { "name":"Apple developer program",
        "icon":"apple_dev",
        "url":"https://developer.apple.com",
@@ -738,6 +753,36 @@
        "free_trial": 30,
        "base_money":"4.99"
        },
+      { "name":"RAWG",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/rawg.png",
+       "url":"https://rawg.io/apidocs#pricing",
+       "category":"Entertainment",
+       "free_trial": 0,
+       "plan":[
+           { "name":"little rawger",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"1","desc":""}
+               ],
+               "benefits":["Thank You Message"]
+           },
+           { "name":"Big rawger",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"5","desc":""}
+               ],
+               "benefits":["Thank You Message","Full Database Editing Access"]
+           },
+           { "name":"TOP rawger",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"20","desc":""}
+               ],
+               "benefits":["Thank You Message","Full Database Editing Access","Patron API Plan"]
+           }
+       ],
+       "base_money":"149"
+       },
       { "name":"Playstation Plus",
        "icon":"playstation",
        "url":"https://www.playstation.com/en-us/ps-plus/#subscriptions",
@@ -921,15 +966,71 @@
                "level":1,
                "suit":[
                    {"cycle":2,"free_trial": 30,  "price":"0.99","desc":""},
-                   {"cycle":4,"free_trial": 0,  "price":"9.99","desc":""},
-                   {"cycle":5,"free_trial": 0,  "price":"94.99","desc":""},
-
-
+                   {"cycle":4,"free_trial": 360,  "price":"9.99","desc":""},
+                   {"cycle":5,"free_trial": 0,  "price":"94.99","desc":""}
                  ]
                }
            ],
        "base_money":"10.99"
        },
+      { "name":"Notion",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/notion.png",
+       "url":"https://firecore.com/infuse",
+       "category":"Entertainment",
+       "free_trial": 0,
+       "keyword":"project,todo",
+       "plan":[
+           {"name":"Plus Plan",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 14,  "price":"10","desc":""}
+                 ],
+               "benefits":["Collaborative workspace","Slack, GitHub, and more integrations","Unlimited blocks for teams","Unlimited file uploads","30 day page history","Invite up to 100 guests"]
+               },
+           {"name":"Business Plan",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 14,  "price":"18","desc":""}
+                 ],
+               "benefits":["Everything in Plus","SAML SSO","Private Teamspaces","Bulk PDF export","90 day page history","Invite up to 250 guests"]
+               },
+           {"name":"Enterprise Plan",
+               "level":3,
+               "suit":[
+                   {"cycle":3,"free_trial": 0,  "price":"25","desc":""}
+                 ],
+               "benefits":["Everything in Business","SAML SSO","Private Teamspaces","Bulk PDF export","Unlimited page history","Custom guest limits","User provisioning (SCIM)","Advanced security controls","Audit log","Customer success manager"]
+               }
+           ],
+       "base_money":"10"
+       },
+      {
+          "name":"Duolingo",
+          "icon":"duolingo",
+          "url":"https://www.duolingo.com",
+          "category":"Education",
+          "free_trial": 7,
+          "keyword":"language,english",
+          "plan":[
+              {"name":"Popular Plan",
+                  "level":1,
+                  "suit":[
+                      {"cycle":2,"free_trial": 14,  "price":"12.99","desc":""},
+                      {"cycle":4,"free_trial": 14,  "price":"83.99","desc":" ($6.99 USD/month"}
+
+                    ],
+                  "benefits":["No ads", "personalized practice", "unlimited Legendary!"]
+                  },
+              {"name":"Family Plan",
+                  "level":2,
+                  "suit":[
+                      {"cycle":2,"free_trial": 14,  "price":"119.99","desc":"($9.99 USD/month"}
+                    ],
+                  "benefits":["No ads", "personalized practice", "unlimited Legendary!"]
+                  }
+              ],
+          "base_money":"12.99"
+      },
        { "name":"Netflix",
        "icon":"netflix",
        "url":"https://www.netflix.com",
