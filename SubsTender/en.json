@@ -24,6 +24,30 @@
           "category":"Lifestyle",
           "base_money":"200"
           },
+         { "name":"Obsidian",
+           "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/obsidian.png",
+           "url":"https://obsidian.md/pricing",
+           "category":"DevTools",
+           "free_trial": 30,
+           "keyword":"document",
+           "plan":[
+               {"name":"Obsidian Sync",
+                   "level":1,
+                   "suit":[
+                       {"cycle":2,"free_trial": 0,  "price":"10","desc":""}
+                     ],
+                   "benefits":["Sync notes across devices","End-to-end encryption","Version history","Priority email support"]
+                   },
+               {"name":"Obsidian Publish",
+                   "level":1,
+                   "suit":[
+                       {"cycle":2,"free_trial": 0,  "price":"10","desc":""}
+                     ],
+                   "benefits":["Sync notes across devices","End-to-end encryption","Version history","Priority email support"]
+                   }
+               ],
+           "base_money":"10"
+           },
          { "name":"D-ID API",
            "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/did.png",
            "url":"https://www.d-id.com/pricing/studio/",
