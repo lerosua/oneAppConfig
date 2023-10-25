@@ -53,8 +53,8 @@
             {"name":"Pro",
                 "level":2,
                 "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"29","desc":"},
-                    {"cycle":4,"free_trial": 0,  "price":"191","desc":"45% discount""}
+                    {"cycle":2,"free_trial": 0,  "price":"29","desc":""},
+                    {"cycle":4,"free_trial": 0,  "price":"191","desc":"45% discount"}
                   ],
                 "benefits":["Commercial License","AI Watermark","Gold Support","Premium & Standard Presenters","100 AI Presenter Prompt Generations","AI Script Generations","Canva Plugin"]
                 },

@@ -24,6 +24,41 @@
           "category":"Lifestyle",
           "base_money":"200"
           },
+         { "name":"D-ID API",
+           "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/did.png",
+           "url":"https://www.d-id.com/pricing/studio/",
+           "category":"DevTools",
+           "free_trial": 30,
+           "keyword":"video",
+           "plan":[
+               {"name":"Build",
+                   "level":1,
+                   "suit":[
+                       {"cycle":2,"free_trial": 0,  "price":"18","desc":""},
+                       {"cycle":4,"free_trial": 0,  "price":"173","desc":""}
+
+                     ],
+                   "benefits":["Personal Use License","D-ID Watermark","Silver Support","Standard Presenters","Expression Control","Voice Style Control","Voice Pitch & Rate Control","Unlimited Uploads","Live Streaming","Use Your Own S3 Storage","Subtitles (SRT file)","Premium Voices"]
+                   },
+               {"name":"Launch",
+                   "level":2,
+                   "suit":[
+                       {"cycle":2,"free_trial": 0,  "price":"50","desc":""},
+                       {"cycle":4,"free_trial": 0,  "price":"420","desc":""}
+                     ],
+                   "benefits":["Commercial Use License","AI Watermark","Gold Support","Standard and Premium Presenters","Expression Control","Voice Style Control","Voice Pitch & Rate Control","Unlimited Uploads","Live Streaming","Use Your Own S3 Storage","Subtitles (SRT file)","Premium Voices"]
+                   },
+               {"name":"Scale",
+                   "level":3,
+                   "suit":[
+                       {"cycle":2,"free_trial": 0,  "price":"198","desc":""},
+                       {"cycle":4,"free_trial": 0,  "price":"1663","desc":""}
+                     ],
+                   "benefits":["Commercial Use License","AI Watermark","Gold Support","Standard and Premium Presenters","Expression Control","Voice Style Control","Voice Pitch & Rate Control","Unlimited Uploads","Live Streaming","Use Your Own S3 Storage","Subtitles (SRT file)","Premium Voices"]
+                   }
+               ],
+           "base_money":"4.7"
+           },
          { "name":"Deezer",
           "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/deezer.png",
           "url":"https://www.deezer.com",
