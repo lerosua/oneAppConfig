@@ -44,21 +44,25 @@
             {"name":"Lite",
                 "level":1,
                 "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"4.7","desc":"20% discount"}
+                    {"cycle":2,"free_trial": 0,  "price":"5.9","desc":""},
+                    {"cycle":4,"free_trial": 0,  "price":"56","desc":"20% discount"}
+
                   ],
                 "benefits":["Personal License","D-ID Watermark","Silver Support","Standard Presenters only","50 AI Presenter Prompt Generations","AI Script Generations"]
                 },
             {"name":"Pro",
                 "level":2,
                 "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"16","desc":"45% discount"}
+                    {"cycle":2,"free_trial": 0,  "price":"29","desc":"},
+                    {"cycle":4,"free_trial": 0,  "price":"191","desc":"45% discount""}
                   ],
                 "benefits":["Commercial License","AI Watermark","Gold Support","Premium & Standard Presenters","100 AI Presenter Prompt Generations","AI Script Generations","Canva Plugin"]
                 },
             {"name":"Advanced",
                 "level":3,
                 "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"108","desc":"45% discount"}
+                    {"cycle":2,"free_trial": 0,  "price":"196","desc":""},
+                    {"cycle":4,"free_trial": 0,  "price":"1293","desc":"45% discount"}
                   ],
                 "benefits":["Commercial License","Custom Watermark","Premium Support","Premium & Standard Presenters","600 AI Presenter Prompt Generations","AI Script Generations","Canva Plugin","PowerPoint Plugin"]
                 }
