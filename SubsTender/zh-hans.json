@@ -409,6 +409,30 @@
            }],
        "keyword":"note"
        },
+      { "name":"语雀",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/yuque.png",
+       "url":"https://www.yuque.com/about/price",
+       "category":"Productivity",
+       "base_money":"99",
+       "currency":"CNY",
+       "plan":[
+           { "name":"专业会员",
+               "level":1,
+               "suit":[
+                   {"cycle":4,"free_trial": 0, "price":"99","desc":"适合笔记深度用户，构建你的数字花园"}
+               ],
+               "benefits":["普通用户所有权益","无限文稿数","无限知识库数","更多格式、更大附件","安全等知识库高级功能","互联网公开","公开我的花园"]
+           },
+           { "name":"超级会员",
+               "level":2,
+               "suit":[
+                   {"cycle":4,"free_trial": 0, "price":"299","desc":"适合知识构建与分享的践行者，与朋友共同成长"}
+               ],
+               "benefits":["专业会员所有权益","超大月度流量","超大附件上传","花园特色功能","特色功能优先体验","超级会员交流群"]
+           }
+       ],
+       "keyword":"note"
+       },
       { "name":"京东Plus",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jd.png",
        "url":"https://plus.jd.com/index",
