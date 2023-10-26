@@ -620,6 +620,36 @@
            ],
        "free_trial": 0
        },
+     { "name":"Pumble",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/pumble.png",
+       "url":"https://pumble.com/pricing",
+       "category":"Productivity",
+       "base_money":"2.49",
+       "plan":[
+           {"name":"Pro",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"2.99","desc":""}
+                 ],
+               "benefits":["Group meetings (voice and video)","Screen sharing","Customizable sections","10GB storage per seat","Up to 10 integrations (soon)"]
+               },
+           {"name":"Business",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"4.99","desc":""}
+                 ],
+               "benefits":["Permissions","Guest access","User groups","20GB storage per seat","Meeting recordings (soon)","Unlimited integrations (soon)"]
+               },
+           {"name":"Enterprise",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"7.99","desc":""}
+                 ],
+               "benefits":["Single sign-on (SSO)","Data retention","100GB storage per seat"]
+               }
+           ],
+       "free_trial": 0
+       },
      { "name":"Microsoft 365 Copilot",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/copilot.png",
        "url":"https://adoption.microsoft.com/en-us/copilot/",

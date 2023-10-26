@@ -449,13 +449,29 @@
        "url":"https://github.com/settings/billing/plans",
        "category":"DevTools",
        "free_trial": 0,
-       "base_money":"10"
+       "base_money":"4"
        },
       { "name":"Slack",
         "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/slack.png",
-        "url":"https://www.wsj.com",
+        "url":"https://slack.com",
         "category":"Productivity",
-        "base_money":"8.75",
+        "base_money":"7.25",
+        "plan":[
+            {"name":"Pro",
+                "level":1,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"7.25","desc":"More power for small teams who want better collaboration"}
+                  ],
+                "benefits":["All the benefits of Free","The full context of your organization’s message history at your fingertips","Unlimited workflows and app integrations","Audio and video conversations with screen sharing with up to 50 people","Secure collaboration with outside organizations or guests from within Slack","Unlimited canvases with 30 days of version history and advanced user roles"]
+                },
+            {"name":"Business+",
+                "level":2,
+                "suit":[
+                    {"cycle":2,"free_trial": 0,  "price":"12.50","desc":"Scale your business, increase productivity, and keep your teams connected"}
+                  ],
+                "benefits":["All the goodness of Pro","Advanced identity management through SAML-based SSO and real-time Active Directory sync with OneLogin, Okta and Ping Identity","Compliance requirements met with data exports for all messages","Around-the-clock teamwork and assistance with 99.99% guaranteed uptime and 24/7 support with a four-hour response time","Unlimited canvases with 90 days of version history"]
+                }
+            ],
         "free_trial": 0
         },
       { "name":"Zoom",
