@@ -393,6 +393,22 @@
        ],
        "keyword":"dedao"
        },
+      { "name":"为知笔记",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/wiznote.png",
+       "url":"https://www.wiz.cn/zh-cn/vip.html",
+       "category":"Productivity",
+       "base_money":"60",
+       "currency":"CNY",
+       "plan":[
+           { "name":"VIP",
+               "level":1,
+             "suit":[
+                   {"cycle":4,"free_trial": 0, "price":"60","desc":""}
+               ],
+             "benefits":["邮件分享 群组分享 外链分享(不支持附件) 分享到微博 分享到微信","所有模板均可免费使用","1000篇/群组"]
+           }],
+       "keyword":"note"
+       },
       { "name":"京东Plus",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jd.png",
        "url":"https://plus.jd.com/index",
