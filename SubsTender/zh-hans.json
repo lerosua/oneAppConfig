@@ -92,6 +92,36 @@
           "currency":"CNY",
           "base_money":"10"
      },
+     {"name":"墨刀",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/modao.png",
+          "url":"https://modao.cc",
+          "category":"Productivity",
+          "keyword":"原型",
+          "base_money":"59",
+          "plan":[
+              {"name":"个人使用",
+                  "level":1,
+                "suit":[
+                      {"cycle":2,"free_trial": 0,"price":"45","desc":""},
+                      {"cycle":3,"free_trial": 0,"price":"69","desc":""},
+                      {"cycle":4,"free_trial": 0,"price":"199","desc":""},
+                      {"cycle":5,"free_trial": 0,"price":"799","desc":""}
+                  ]
+                  },
+              {"name":"团队版",
+                  "level":2,
+                "suit":[
+                      {"cycle":4,"free_trial": 0,"price":"349","desc":""}
+                  ]
+                  },
+              {"name":"企业版",
+                  "level":3,
+                "suit":[
+                      {"cycle":4,"free_trial": 0,"price":"599","desc":""}
+                  ]
+                  }
+              ]
+          },
      { "name":"迅游",
       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/xunyou.png",
       "url":"https://www.xunyou.com",
