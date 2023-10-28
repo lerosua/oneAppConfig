@@ -336,6 +336,18 @@
       "keyword":"sina,新浪,weibo",
       "free_trial": 10,
       "currency":"CNY",
+      "plan":[
+          { "name":"VIP",
+              "level":1,
+            "suit":[
+                  {"cycle":2,"free_trial": 0,  "price":"12","desc":""},
+                  {"cycle":3,"free_trial": 0,  "price":"30","desc":""},
+                  {"cycle":4,"free_trial": 0,  "price":"118","desc":""}
+
+              ],
+            "benefits":["会员享编辑微博，修改昵称等特权"]
+          }
+          ],
       "base_money":"12"
       },
       { "name":"微信读书",
