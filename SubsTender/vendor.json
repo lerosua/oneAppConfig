@@ -144,12 +144,40 @@
        "icon":"x",
        "url":"https://twitter.com",
        "category":"Social Media",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"8","desc":""}
+                 ]
+               },
+           {"name":"Premium+",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"16","desc":"Get 1 month free"}
+                 ]
+               }
+           ],
        "base_money":"8"
        },
       { "name":"Twitter Premium",
        "icon":"twitter",
        "url":"https://twitter.com",
        "category":"Social Media",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"8","desc":""}
+                 ]
+               },
+           {"name":"Premium+",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"16","desc":"Get 1 month free"}
+                 ]
+               }
+           ],
        "base_money":"8"
        },
 
