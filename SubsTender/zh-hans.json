@@ -31,6 +31,66 @@
       "keyword":"家庭,home",
       "base_money":"200"
       },
+     {"name":"剪映",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/capcut.png",
+          "url":"https://www.capcut.cn",
+          "category":"Lifestyle",
+          "keyword":"jianyin,capcut",
+          "base_money":"72",
+          "plan":[
+              {"name":"会员",
+                  "level":1,
+                "suit":[
+                      {"cycle":2,"free_trial": 0,"price":"25","desc":""},
+                      {"cycle":4,"free_trial": 0,"price":"168","desc":""}
+                  ]
+              }]
+          },
+     {"name":"腾讯微云",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/weiyun.png",
+          "url":"https://i.mi.com",
+          "category":"Lifestyle",
+          "keyword":"tencent,yun",
+          "base_money":"72",
+          "plan":[
+              {"name":"超级会员",
+                  "level":1,
+                "suit":[
+                      {"cycle":2,"free_trial": 0,"price":"30","desc":""}
+                  ],
+                "benefits":["6TB存储空间","文档正文检索","在线解压","备份视频","视频倍速播放","文件保险箱","回收站保留(90天)","备份原画视频","每日离线下载"]
+                  }]
+          },
+     {"name":"小米云服务",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/xiaomi.png",
+          "url":"https://i.mi.com",
+          "category":"Misc",
+          "keyword":"xiao,yun,mobile",
+          "base_money":"72",
+          "plan":[
+              {"name":"黄金会员",
+                  "level":1,
+                "suit":[
+                      {"cycle":4,"free_trial": 0,"price":"72","desc":""}
+                  ],
+                "benefits":["50GB存储空间","云相册回收站保留(60天)","通讯录回收站保留(60天)","录音回收站保留(60天)","笔记回收站保留(60天)","短信回收站保留(60天)","小米云盘回收站保留(60天)","面孔相册识别加速","云备份"]
+                  },
+              {"name":"白金会员",
+                  "level":2,
+                "suit":[
+                      {"cycle":4,"free_trial": 0,"price":"252","desc":""}
+                  ],
+                "benefits":["50GB存储空间","云相册回收站保留(90天)","通讯录回收站保留(90天)","录音回收站保留(90天)","笔记回收站保留(90天)","短信回收站保留(90天)","小米云盘回收站保留(90天)","面孔相册识别加速","云备份"]
+                  },
+              {"name":"钻石会员",
+                  "level":3,
+                "suit":[
+                      {"cycle":4,"free_trial": 0,"price":"816","desc":""}
+                  ],
+                "benefits":["50GB存储空间","云相册回收站保留(180天)","通讯录回收站保留(180天)","录音回收站保留(180天)","笔记回收站保留(180天)","短信回收站保留(180天)","小米云盘回收站保留(180天)","面孔相册识别加速","云备份"]
+                  }
+              ]
+          },
      {"name":"中国电信",
           "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-dianxin.png",
           "url":"https://www.189.cn",
@@ -289,6 +349,32 @@
                   {"cycle":4,"free_trial": 0, "price":"138","desc":"必赠月卡，一天仅需0.34元！每年以178元自动续费，可随时取消"}
               ],
               "benefits":["TV/电脑/手机/ipad上可用"]
+          }
+          ],
+      "currency":"CNY",
+      "base_money":"15"
+      },
+     { "name":"腾讯视频",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/tencent_video.png",
+      "url":"https://film.qq.com/h5/upay/?tab=vip&ptag=cdkey.h5.kaitong",
+      "category":"Entertainment",
+      "keyword":"视频,bilibili",
+      "plan":[
+          {"name":"VIP",
+              "level":1,
+            "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"15","desc":"3月后每月15"},
+                  {"cycle":3,"free_trial": 0,"price":"50","desc":"到期后按68元自动续费，可随时取消"},
+                  {"cycle":4,"free_trial": 0, "price":"178","desc":"每年按238元自动续费，可随时取消自动续费"}
+              ]
+            },
+          {"name":"SVIP",
+              "level":2,
+              "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"16","desc":"到期后按35元自动续费"},
+                  {"cycle":3,"free_trial": 0,"price":"88","desc":"到期后按98元自动续费，可随时取消"},
+                  {"cycle":4,"free_trial": 0, "price":"278","desc":"每年按348元自动续费，可随时取消自动续费"}
+              ]
           }
           ],
       "currency":"CNY",
