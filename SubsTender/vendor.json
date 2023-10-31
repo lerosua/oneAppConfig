@@ -74,13 +74,30 @@
         "url":"https://hulu.com/",
         "category":"Entertainment",
         "free_trial": 30,
+        "plan":[
+            {"name":"Hulu (With Ads)",
+                "level":1,
+                "suit":[
+                    {"cycle":2,"free_trial": 30,  "price":"7.99","desc":""}
+                  ],
+                "benefits":["Streaming Library with tons of TV episodes and movies","Most new episodes the day after they air†","Access to award-winning Hulu Originals","Watch on your favorite devices, including TV, laptop, phone, or tablet","Up to 6 user profiles","Watch on 2 different screens at the same time"]
+                },
+            {"name":"Hulu (No Ads)",
+                "level":2,
+                "suit":[
+                    {"cycle":2,"free_trial": 30,  "price":"17.99","desc":""}
+                  ],
+                "benefits":["Streaming Library with tons of TV episodes and movies","Most new episodes the day after they air†","Access to award-winning Hulu Originals","Watch on your favorite devices, including TV, laptop, phone, or tablet","Up to 6 user profiles","Watch on 2 different screens at the same time","No ads in streaming library","Download and watch"]
+                }
+            ],
         "base_money":"7.99"
         },
       { "name":"Apple TV+",
        "icon":"apple_tv",
        "url":"https://www.apple.com/apple-tv-plus/",
        "category":"Entertainment",
-       "base_money":"6.99"
+       "free_trial": 7,
+       "base_money":"9.99"
        },
       { "name":"YouTube Premium",
         "icon":"youtube",
@@ -1051,6 +1068,30 @@
                }
            ],
        "base_money":"10.99"
+       },
+      { "name":"Todoist",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/todoist.png",
+       "url":"https://todoist.com/pricing",
+       "category":"Productivity",
+       "free_trial": 0,
+       "keyword":"project,todo",
+       "plan":[
+           {"name":"Pro",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"5","desc":"Stay on top of all your tasks and goals, at work and at home"}
+                 ],
+               "benefits":["300 personal projects","150 filter views","Unlimited activity history","Task reminders & duration","Automatic backups","AI Assistant"]
+               },
+           {"name":"Business",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"8","desc":"Simplify and organize your team’s work, too"}
+                 ],
+               "benefits":["A shared team workspace","500 team projects","Unlimited team members & guests","Team roles & permissions","Centralized team billing","Restricted projects"]
+               }
+           ],
+       "base_money":"5"
        },
       { "name":"Notion",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/notion.png",
