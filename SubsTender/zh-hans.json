@@ -289,7 +289,7 @@
       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/115.png",
       "url":"https://www.aliyundrive.com",
       "category":"Misc",
-      "keyword":"aliyun",
+      "keyword":"cloud,yun",
       "plan":[
           {"name":"超级会员",
               "level":1,
@@ -301,6 +301,24 @@
           ],
       "currency":"CNY",
       "base_money":"20"
+      },
+     { "name":"城通网盘",
+      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/ctfile.png",
+      "url":"https://www.aliyundrive.com",
+      "category":"Misc",
+      "keyword":"cloud,yun",
+      "plan":[
+          {"name":"超级会员",
+              "level":1,
+            "suit":[
+                  {"cycle":2,"free_trial": 0,"price":"28","desc":"无优惠，小试一下"},
+                  {"cycle":4,"free_trial": 0,"price":"98","desc":"比月付省238元 仅8元/月"}
+              ],
+            "benefits":["多文件同时高速下载","会员专享加速下载通道","去除弹窗广告"]
+              }
+          ],
+      "currency":"CNY",
+      "base_money":"28"
       },
      { "name":"优酷",
       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/youku.png",
