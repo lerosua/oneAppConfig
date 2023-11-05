@@ -157,6 +157,21 @@
            ],
        "base_money":"10.99"
        },
+      { "name":"Twitch",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/twitch.png",
+       "url":"https://www.twitch.tv",
+       "category":"Entertainment",
+       "plan":[
+           {"name":"Turbo",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"11.99","desc":""}
+                 ]
+               }
+           ],
+       "benefits":["Ad-free viewing","Extended Broadcast Storage (60 days)","Exclusive Chat Badge","Two additional emoticon sets (monkey & Glitch)","Custom Chat Username Colors"],
+       "base_money":"11.99"
+       },
       { "name":"X Premium",
        "icon":"x",
        "url":"https://twitter.com",
