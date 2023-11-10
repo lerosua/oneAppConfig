@@ -871,6 +871,29 @@
        "icon":"disney",
        "url":"https://help.disneyplus.com",
        "category":"Entertainment",
+       "plan":[
+           {"name":"Basic",
+            "level":1,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"7,99","desc":"(Disney+)"}
+                 ],
+            "benefits":["Thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic on Disney+","Exciting new releases every week","Ad free streaming","Download and watch your favorites on the go (select content only)","Watch on multiple devices at once","A growing range of Disney+ titles in 4K UHD"]
+               },
+           {"name":"Duo",
+            "level":3,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":"(Disney+,Hulu)"}
+                 ],
+            "benefits":["Disney+ has thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.","Get Hulu's complete streaming library with tons of TV episodes and movies","Ad free streaming","Download and watch your favorites on the go (select content only)","Watch on multiple devices at once","A growing range of Disney+ titles in 4K UHD"]
+               },
+           {"name":"Trio",
+            "level":3,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"14.99","desc":"(Disney+,Hulu,ESPN+)"}
+                 ],
+            "benefits":["Disney+ has thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.","Get Hulu's complete streaming library with tons of TV episodes and movies","Ad free streaming","Download and watch your favorites on the go (select content only)","Watch on multiple devices at once","ESPN+ has live sports from the best leagues and biggest tournaments in the world"]
+               }
+           ],
        "base_money":"7.99"
        },
       { "name":"Amazon Prime Video",
