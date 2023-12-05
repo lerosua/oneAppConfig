@@ -207,40 +207,52 @@
        "url":"https://twitter.com",
        "category":"Social Media",
        "plan":[
-           {"name":"Premium",
+           {"name":"Base",
                "level":1,
                "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"8","desc":""}
+                   {"cycle":2,"free_trial": 0,  "price":"4","desc":""}
+                 ]
+               },
+           {"name":"Premium",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"11","desc":""}
                  ]
                },
            {"name":"Premium+",
-               "level":2,
+               "level":3,
                "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"16","desc":"Get 1 month free"}
+                   {"cycle":2,"free_trial": 0,  "price":"22","desc":""}
                  ]
                }
            ],
-       "base_money":"8"
+       "base_money":"4"
        },
       { "name":"Twitter Premium",
        "icon":"twitter",
        "url":"https://twitter.com",
        "category":"Social Media",
        "plan":[
-           {"name":"Premium",
+           {"name":"Base",
                "level":1,
                "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"8","desc":""}
+                   {"cycle":2,"free_trial": 0,  "price":"4","desc":""}
+                 ]
+               },
+           {"name":"Premium",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"11","desc":""}
                  ]
                },
            {"name":"Premium+",
-               "level":2,
+               "level":3,
                "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"16","desc":"Get 1 month free"}
+                   {"cycle":2,"free_trial": 0,  "price":"22","desc":"Get 1 month free"}
                  ]
                }
            ],
-       "base_money":"8"
+       "base_money":"4"
        },
 
       { "name":"Telegram Premium",
