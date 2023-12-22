@@ -272,7 +272,7 @@
        "url":"https://www.reddit.com",
        "free_trial": 30,
        "category":"Social Media",
-       "base_money":"6.99"
+       "base_money":"5.99"
        },
       { "name":"Linkedin Premium",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/linkedin.png",
@@ -1230,6 +1230,15 @@
                   }
               ],
           "base_money":"12.99"
+      },
+      {
+          "name":"Gaffgiff",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/gaff.png",
+          "url":"https://www.giffgaff.com",
+          "category":"Lifestyle",
+          "free_trial": 0,
+          "keyword":"phone,gaff",
+          "base_money":"10"
       },
        { "name":"Netflix",
        "icon":"netflix",
