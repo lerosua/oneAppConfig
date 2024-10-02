@@ -83,6 +83,27 @@
                ],
            "base_money":"4.7"
            },
+
+          { "name":"Uber Eats",
+          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/uber-one.png",
+          "url":"https://www.ubereats.com/gb/uber-one",
+          "category":"Lifestyle",
+          "plan":[
+              {"name":"Uber One",
+                  "level":1,
+                  "suit":[
+                      {"cycle":2,"free_trial": 30,  "price":"5.99","desc":""},
+                      {"cycle":4,"free_trial": 0,  "price":"59.99","desc":""}
+
+                    ],
+                  "benefits":["£0 Delivery fee on eligible food, groceries and more.","5% off eligible deliveries and pick-up orders.","5-10% off eligible trips","£5 credit if our latest arrival estimate on your order is off*","£5 credit if our latest arrival estimate on your order is off*"]
+
+                  }
+              ],
+          "base_money":"9.99"
+          },
+
+
          { "name":"Deezer",
           "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/deezer.png",
           "url":"https://www.deezer.com",
