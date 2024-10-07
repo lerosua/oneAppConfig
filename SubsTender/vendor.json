@@ -766,7 +766,29 @@
        "icon":"apple",
        "url":"https://www.apple.com/apple-one",
        "category":"Entertainment",
-       "base_money":"16.95"
+       "plan":[
+           {"name":"Individual",
+            "level":1,
+            "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"19.95","desc":"Save $9/mo.** on your favorite content and iCloud+ storage."}
+                 ],
+            "benefits":["iCloud+ 50GB","tv+","Music","Arcade"]
+               },
+           {"name":"Family",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"25.95","desc":"Share with up to five people"}
+                 ],
+               "benefits":["iCloud+ 200GB","tv+","Music","Arcade"]
+               },
+           {"name":"Premier",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"37.95","desc":"Share with up to five people"}                 ],
+               "benefits":["iCloud+ 2TB","tv+","Music","Arcade","Fitness+","News+"]
+               }
+           ],
+       "base_money":"19.95"
        },
       { "name":"Docker",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/docker.png",
@@ -1083,7 +1105,7 @@
        },
       { "name":"Apple Arcade",
        "icon":"arcade",
-       "url":"",
+       "url":"https://www.apple.com/apple-arcade/",
        "category":"Entertainment",
        "free_trial": 30,
        "base_money":"4.99"
