@@ -334,14 +334,48 @@
        "url":"https://www.openai.com",
        "category":"DevTools",
        "free_trial": 0,
+       "plan":[
+           {"name":"Personal",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"20","desc":""}
+                 ],
+               "benefits":["Access to OpenAI o1-preview, OpenAI o1-mini","Access to GPT-4o, GPT-4o mini, GPT-4","Up to 5x more messages for GPT‑4o","Access to data analysis, file uploads, vision, web browsing, and image generation","Enhanced profile presentation","Access to Advanced Voice Mode","Create and use custom GPTs","Early access to new features"]
+               },
+           {"name":"Business",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"25","desc":""}
+                 ],
+               "benefits":["Higher limits for GPT-4, GPT‑4o, and tools like DALL·E image generation, advanced data analysis, web browsing, and more","Create and share GPTs with your workspace","Admin console for workspace management","Team data excluded from training by default."]
+               }
+           ],
        "base_money":"20"
        },
 
-      { "name":"Raycast Pro",
+      { "name":"Raycast",
        "icon":"raycast",
-       "url":"https://www.raycast.com",
+       "url":"https://www.raycast.com/pricing",
        "category":"DevTools",
-       "base_money":"20"
+       "plan":[
+           {"name":"Pro",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"10","desc":"AI at your fingertips"},
+                   {"cycle":4,"free_trial": 0,  "price":"96","desc":"AI at your fingertips"}
+                 ],
+               "benefits":["Raycast AI","Cloud Sync","Custom Themes","Unlimited Clipboard History","Translator","Custom Window Management Commands"]
+               },
+           {"name":"Team Pro",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"15","desc":"AI for your whole team"},
+                   {"cycle":4,"free_trial": 0,  "price":"144","desc":"AI for your whole team"}
+                 ],
+               "benefits":["Everything in Pro","Unlimited Shared Commands","Unlimited Shared Snippets","Unlimited Shared Quicklinks","Unlimited Team Members"]
+               }
+           ],
+       "base_money":"10"
        },
       { "name":"GoDaddy",
        "icon":"godaddy",
