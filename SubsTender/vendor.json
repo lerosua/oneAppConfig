@@ -255,10 +255,21 @@
        "base_money":"4"
        },
 
-      { "name":"Telegram Premium",
+      { "name":"Telegram",
        "icon":"telegram",
-       "url":"https://twitter.com",
+       "url":"https://telegram.org",
        "category":"Social Media",
+       "plan":[
+           {"name":"Premium",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"3.99","desc":""},
+                   {"cycle":4,"free_trial": 0,  "price":"28.99","desc":""}
+
+                 ],
+               "benefits":["Stories","Telegram Business","Unlimited Cloud Storage","Doubled Limits","Last Seen Times","Voice-to-Text Conversion","Faster Download Speed","Real-Time Translation","Animated Emoji","Emoji Statuses","Tags for Messages","Name and Profile Colors","Wallpapers for Both Sides","Profile Badge","Message Privacy","Advanced Chat Management","No Ads","Infinite Reactions","Animated Profile Pictures","Premium Stickers","Tag Your Chats"]
+               }
+           ],
        "base_money":"4.99"
        },
       { "name":"Instagram Meta Verified ",
