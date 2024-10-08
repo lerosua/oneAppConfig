@@ -1000,7 +1000,7 @@
       { "name":"Jetbrains",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jetbrains.png",
        "url":"https://www.jetbrains.com/go/buy/?section=personal&billing=monthly",
-       "category":"Dev",
+       "category":"DevTools",
        "free_trial": 0,
        "plan":[
            { "name":"Individual",
