@@ -688,11 +688,27 @@
             ],
         "free_trial": 0
         },
-      { "name":"Unity Pro",
+      { "name":"Unity",
        "icon":"unity",
        "url":"https://unity.com/pricing",
        "category":"DevTools",
        "free_trial": 30,
+       "plan":[
+           {"name":"Pro",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"185","desc":"Unlock your team’s potential with professional tools to create across game devices and platforms."}
+                 ],
+               "benefits":["Publish to game consoles","Priority customer service","Unity Cloud collaboration services"]
+               },
+           {"name":"Industry",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"450","desc":"Get tools and enterprise-level support to transform CAD and 3D data into immersive apps on any device."}
+                 ],
+               "benefits":["Build immersive experiences","Overcome roadblocks faster with premium technical support and professional training resources","Unlock the value of your CAD and 3D data"]
+               }
+           ],
        "base_money":"185"
        },
       { "name":"Poe Pro",
@@ -721,7 +737,23 @@
        "icon":"photoshop",
        "url":"https://www.adobe.com",
        "category":"Productivity",
-       "base_money":"20.99"
+       "plan":[
+           {"name":"Individuals",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"22.99","desc":""}
+                 ],
+               "benefits":["Create beautiful graphics, photos, and art on desktop, web, and iPad. Comes with Adobe Fresco for drawing and painting"]
+               },
+           {"name":"Business",
+               "level":3,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"37.99","desc":""}
+                 ],
+               "benefits":["Create beautiful graphics, photos, and art on desktop, web, and iPad. Comes with Adobe Fresco for drawing and painting"]
+               }
+           ],
+       "base_money":"22.99"
        },
       { "name":"Evernote",
        "icon":"evernote",
