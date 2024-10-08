@@ -996,6 +996,31 @@
        "free_trial": 30,
        "base_money":"4.99"
        },
+      
+      { "name":"Jetbrains",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jetbrains.png",
+       "url":"https://www.jetbrains.com/go/buy/?section=personal&billing=monthly",
+       "category":"Dev",
+       "free_trial": 0,
+       "plan":[
+           { "name":"Individual",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"9.9","desc":""}
+               ],
+               "benefits":["JetBrains AI Assistant"]
+           },
+           { "name":"Organizations",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"24,9","desc":""}
+               ],
+               "benefits":["JetBrains AI Assistant"]
+           }
+       ],
+       "base_money":"9.9"
+       },
+      
       { "name":"RAWG",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/rawg.png",
        "url":"https://rawg.io/apidocs#pricing",
