@@ -299,7 +299,7 @@
        "base_money":"100"
        },
       { "name":"Navicat Premium",
-       "icon":"navicat",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/navicat.png",
        "url":"https://www.navicat.com/en/store/navicat-premium-plan",
        "category":"DevTools",
        "plan":[
