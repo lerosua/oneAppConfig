@@ -298,6 +298,30 @@
        "category":"Misc",
        "base_money":"100"
        },
+      { "name":"Navicat Premium",
+       "icon":"navicat",
+       "url":"https://www.navicat.com/en/store/navicat-premium-plan",
+       "category":"DevTools",
+       "plan":[
+           {"name":"Non-Commercial",
+               "level":1,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"39.99","desc":"per month"},
+                   {"cycle":4,"free_trial": 0,  "price":"399.99","desc":"per year"}
+                 ],
+               "benefits":["flexibility on payment","low cost to get started","always get the latest applications"]
+               },
+           {"name":"Enterprise",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"79.99","desc":"per month"},
+                   {"cycle":4,"free_trial": 0,  "price":"399.99","desc":"per year"}
+                 ],
+               "benefits":["flexibility on payment","low cost to get started","always get the latest applications"]
+               }
+           ],
+       "base_money":"20"
+       },
       { "name":"Vercel",
        "icon":"vercel",
        "url":"https://vercel.com/pricing",
