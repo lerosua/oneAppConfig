@@ -731,6 +731,39 @@
        "base_money":"30",
        "free_trial": 0
        },
+     { "name":"DOGGIE LAWN",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/doggie.png",
+       "url":"https://doggielawn.com/pages/pick-your-plan",
+       "category":"Lifestyle",
+       "base_money":"32.20",
+       "plan":[
+           {"name":"Standard",
+               "level":1,
+               "suit":[
+                   {"cycle":1,"free_trial": 0,  "price":"32.20","desc":"24” x 16” (for dogs under 15lbs)"}                 ],
+               "benefits":["Subscribe for Free Shipping","Lowest Price Guarantee","WFlexible Scheduling","Easy Cancellation Any Time"]
+               },
+           {"name":"Medium",
+               "level":1,
+               "suit":[
+                   {"cycle":1,"free_trial": 0,  "price":"33.20","desc":"24” x 20” (for dogs 10-30lbs)"}                 ],
+               "benefits":["Subscribe for Free Shipping","Lowest Price Guarantee","WFlexible Scheduling","Easy Cancellation Any Time"]
+               },
+           {"name":"Large",
+               "level":1,
+               "suit":[
+                   {"cycle":1,"free_trial": 0,  "price":"36.95","desc":"24” x 24” (for dogs 20-50lbs)"}                 ],
+               "benefits":["Subscribe for Free Shipping","Lowest Price Guarantee","WFlexible Scheduling","Easy Cancellation Any Time"]
+               },
+           {"name":"XL",
+               "level":1,
+               "suit":[
+                   {"cycle":1,"free_trial": 0,  "price":"41.70","desc":"24” x 48”(for dogs over 40lbs or multiple dogs)"}                 ],
+               "benefits":["Subscribe for Free Shipping","Lowest Price Guarantee","WFlexible Scheduling","Easy Cancellation Any Time"]
+               }
+           ],
+       "free_trial": 0
+       },
      { "name":"Heptabase",
        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/heptabase.png",
        "url":"https://heptabase.com/#pricing",
