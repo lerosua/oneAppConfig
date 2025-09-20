@@ -364,7 +364,7 @@
        "base_money":"99"
        },
       { "name":"Trae.ai",
-       "icon":"trae",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/trae.png",
        "url":"https://www.trae.ai",
        "category":"DevTools",
        "free_trial": 0,
@@ -380,7 +380,7 @@
        "base_money":"10"
        },
       { "name":"Cursor",
-       "icon":"cursor",
+       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cursor.png",
        "url":"https://cursor.com/pricing",
        "category":"DevTools",
        "free_trial": 0,
