@@ -363,7 +363,59 @@
            ],
        "base_money":"99"
        },
-      
+      { "name":"Trae.ai",
+       "icon":"trae",
+       "url":"https://www.trae.ai",
+       "category":"DevTools",
+       "free_trial": 0,
+       "plan":[
+           {"name":"Pro",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"10","desc":""}
+                 ],
+               "benefits":["600 Fast requests and unlimited Slow requests of Premium models / month","Unlimited Requests of Advanced models","Unlimited Autocomplete"]
+               }
+           ],
+       "base_money":"10"
+       },
+      { "name":"Cursor",
+       "icon":"cursor",
+       "url":"https://cursor.com/pricing",
+       "category":"DevTools",
+       "free_trial": 0,
+       "plan":[
+           {"name":"Pro",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"20","desc":""}
+                 ],
+               "benefits":["Extended limits on Agent","Unlimited Tab completions","Background Agents","Maximum context windows"]
+               },
+           {"name":"Pro+",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"60","desc":""}
+                 ],
+               "benefits":["3x usage on all OpenAI,Claude,Gemini models"]
+               },
+           {"name":"Ultra",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"200","desc":""}
+                 ],
+               "benefits":["20x usage on all OpenAI,Claude,Gemini models","Priority access to new features"]
+               },
+           {"name":"Teams",
+               "level":2,
+               "suit":[
+                   {"cycle":2,"free_trial": 0,  "price":"40","desc":"$40/user/mo"}
+               ],
+               "benefits":["Centralized team billing","Usage analytics and reporting","Org-wide privacy mode controls","Role-based access control","SAML/OIDC SSO"]
+            }
+           ],
+       "base_money":"20"
+       },
       { "name":"ChatGPT Plus",
        "icon":"chatgpt",
        "url":"https://www.openai.com",
