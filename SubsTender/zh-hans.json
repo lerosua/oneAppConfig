@@ -32,7 +32,7 @@
       "base_money":"200"
       },
      {"name":"剪映",
-          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/capcut.png",
+          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/capcut.png",
           "url":"https://www.capcut.cn",
           "category":"Lifestyle",
           "keyword":"jianyin,capcut",
@@ -47,7 +47,7 @@
               }]
           },
      {"name":"腾讯微云",
-          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/weiyun.png",
+          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/weiyun.png",
           "url":"https://i.mi.com",
           "category":"Lifestyle",
           "keyword":"tencent,yun",
@@ -62,7 +62,7 @@
                   }]
           },
      {"name":"小米云服务",
-          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/xiaomi.png",
+          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/xiaomi.png",
           "url":"https://i.mi.com",
           "category":"Misc",
           "keyword":"xiao,yun,mobile",
@@ -92,14 +92,14 @@
               ]
           },
      {"name":"中国电信",
-          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-dianxin.png",
+          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-dianxin.png",
           "url":"https://www.189.cn",
           "category":"Lifestyle",
           "keyword":"phone,mobile",
           "base_money":"19"
           },
      {"name":"中国联通",
-          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-liantong.png",
+          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-liantong.png",
           "url":"https://www.10010.com",
           "category":"Lifestyle",
           "keyword":"phone,mobile",
@@ -121,7 +121,7 @@
           },
      {
          "name":"中国移动",
-          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-mobile.png",
+          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cn-mobile.png",
           "url":"https://youku.com",
           "category":"Lifestyle",
           "keyword":"phone,mobile",
@@ -153,7 +153,7 @@
           "base_money":"10"
      },
      {"name":"墨刀",
-          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/modao.png",
+          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/modao.png",
           "url":"https://modao.cc",
           "category":"Productivity",
           "keyword":"原型",
@@ -183,7 +183,7 @@
               ]
           },
      { "name":"迅游",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/xunyou.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/xunyou.png",
       "url":"https://www.xunyou.com",
       "category":"Misc",
       "keyword":"xunyou",
@@ -207,7 +207,7 @@
       "base_money":"20"
       },
      { "name":"迅雷",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/thunder.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/thunder.png",
       "url":"https://vip.xunlei.com",
       "category":"Misc",
       "keyword":"xunlei,thunder",
@@ -231,7 +231,7 @@
       "base_money":"20"
       },
      { "name":"百度网盘",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/baidu_pan.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/baidu_pan.png",
       "url":"https://pan.baidu.com",
       "category":"Misc",
       "keyword":"baidu",
@@ -262,7 +262,7 @@
       "base_money":"20"
       },
      { "name":"阿里云盘",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/aliyundrive.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/aliyundrive.png",
       "url":"https://www.aliyundrive.com",
       "category":"Misc",
       "keyword":"aliyun",
@@ -286,7 +286,7 @@
       "base_money":"20"
       },
      { "name":"115网盘",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/115.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/115.png",
       "url":"https://www.aliyundrive.com",
       "category":"Misc",
       "keyword":"cloud,yun",
@@ -303,7 +303,7 @@
       "base_money":"20"
       },
      { "name":"城通网盘",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/ctfile.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/ctfile.png",
       "url":"https://www.aliyundrive.com",
       "category":"Misc",
       "keyword":"cloud,yun",
@@ -321,7 +321,7 @@
       "base_money":"28"
       },
      { "name":"优酷",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/youku.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/youku.png",
       "url":"https://youku.com",
       "category":"Entertainment",
       "keyword":"视频,youku",
@@ -345,7 +345,7 @@
       "base_money":"10"
       },
      { "name":"B站",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bilibili.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bilibili.png",
       "url":"https://bilibili.com",
       "category":"Entertainment",
       "keyword":"视频,bilibili",
@@ -373,7 +373,7 @@
       "base_money":"15"
       },
      { "name":"腾讯视频",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/tencent_video.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/tencent_video.png",
       "url":"https://film.qq.com/h5/upay/?tab=vip&ptag=cdkey.h5.kaitong",
       "category":"Entertainment",
       "keyword":"视频,bilibili",
@@ -399,7 +399,7 @@
       "base_money":"15"
       },
      { "name":"爱奇艺",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/iqiyi.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/iqiyi.png",
       "url":"https://iqiyi.com",
       "category":"Entertainment",
       "keyword":"视频,iqiyi",
@@ -434,7 +434,7 @@
       "base_money":"15"
       },
      { "name":"微博",
-      "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/weibo.png",
+      "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/weibo.png",
       "url":"https://weibo.com",
       "category":"Social Media",
       "keyword":"sina,新浪,weibo",
@@ -463,7 +463,7 @@
        "keyword":"腾讯,tencent"
        },
       { "name":"读库",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/duku.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/duku.png",
        "url":"https://www.duku.cn/dk",
        "category":"Education",
        "base_money":"283",
@@ -471,7 +471,7 @@
        "keyword":"book"
        },
       { "name":"QQ音乐",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/qq-music.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/qq-music.png",
        "url":"https://y.qq.com",
        "category":"Entertainment",
        "base_money":"180",
@@ -506,7 +506,7 @@
        "keyword":"chatgpt"
        },
       { "name":"得到",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/dedao.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/dedao.png",
        "url":"https://www.dedao.cn/vip/home?type=ebook",
        "category":"Education",
        "base_money":"18",
@@ -540,7 +540,7 @@
        "keyword":"dedao"
        },
       { "name":"为知笔记",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/wiznote.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/wiznote.png",
        "url":"https://www.wiz.cn/zh-cn/vip.html",
        "category":"Productivity",
        "base_money":"60",
@@ -556,7 +556,7 @@
        "keyword":"note"
        },
       { "name":"语雀",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/yuque.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/yuque.png",
        "url":"https://www.yuque.com/about/price",
        "category":"Productivity",
        "base_money":"99",
@@ -580,7 +580,7 @@
        "keyword":"note"
        },
       { "name":"京东Plus",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jd.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jd.png",
        "url":"https://plus.jd.com/index",
        "category":"Lifestyle",
        "base_money":"99",

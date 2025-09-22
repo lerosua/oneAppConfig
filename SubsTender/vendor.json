@@ -35,7 +35,7 @@
        "base_money":"9.99"
        },
       { "name":"D-ID",
-        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/did.png",
+        "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/did.png",
         "url":"https://www.d-id.com/pricing/studio/",
         "category":"Productivity",
         "free_trial": 30,
@@ -93,7 +93,7 @@
         "base_money":"7.99"
         },
       { "name":"Proton Mail",
-        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/proton.png",
+        "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/proton.png",
         "url":"https://proton.me/",
         "category":"Productivity",
         "free_trial": 0,
@@ -188,7 +188,7 @@
        "base_money":"10.99"
        },
       { "name":"Twitch",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/twitch.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/twitch.png",
        "url":"https://www.twitch.tv",
        "category":"Entertainment",
        "plan":[
@@ -286,7 +286,7 @@
        "base_money":"5.99"
        },
       { "name":"Linkedin Premium",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/linkedin.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/linkedin.png",
        "url":"https://premium.linkedin.com",
        "free_trial": 30,
        "category":"Social Media",
@@ -299,7 +299,7 @@
        "base_money":"100"
        },
       { "name":"Navicat Premium",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/navicat.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/navicat.png",
        "url":"https://www.navicat.com/en/store/navicat-premium-plan",
        "category":"DevTools",
        "plan":[
@@ -364,7 +364,7 @@
        "base_money":"99"
        },
       { "name":"Trae.ai",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/trae.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/trae.png",
        "url":"https://www.trae.ai",
        "category":"DevTools",
        "free_trial": 0,
@@ -380,7 +380,7 @@
        "base_money":"10"
        },
       { "name":"Cursor",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cursor.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cursor.png",
        "url":"https://cursor.com/pricing",
        "category":"DevTools",
        "free_trial": 0,
@@ -668,14 +668,14 @@
        "base_money":"10"
        },
       { "name":"GitHub Pro",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/github.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/github.png",
        "url":"https://github.com/settings/billing/plans",
        "category":"DevTools",
        "free_trial": 0,
        "base_money":"4"
        },
       { "name":"Slack",
-        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/slack.png",
+        "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/slack.png",
         "url":"https://slack.com",
         "category":"Productivity",
         "base_money":"7.25",
@@ -698,7 +698,7 @@
         "free_trial": 0
         },
       { "name":"Zoom",
-        "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/zoom.png",
+        "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/zoom.png",
         "url":"https://www.wsj.com",
         "category":"Productivity",
         "base_money":"15",
@@ -944,13 +944,13 @@
        "base_money":"19.95"
        },
       { "name":"Docker",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/docker.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/docker.png",
        "url":"https://www.docker.com/pricing/",
        "category":"DevTools",
        "base_money":"7"
        },
       { "name":"Adguard",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adguard.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adguard.png",
        "url":"https://adguard.com/en/license.html",
        "category":"DevTools",
        "plan":[
@@ -975,7 +975,7 @@
        "base_money":"2.49"
        },
       { "name":"Bitbucket",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bitbucket.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bitbucket.png",
        "url":"https://www.atlassian.com/software/bitbucket/pricing",
        "category":"DevTools",
        "plan":[
@@ -997,7 +997,7 @@
        "base_money":"2.49"
        },
       { "name":"AdBlock",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adblock.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adblock.png",
        "url":"https://www.getadblock.com/premium/",
        "category":"DevTools",
        "plan":[
@@ -1106,7 +1106,7 @@
        },
       
       { "name":"Jetbrains",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jetbrains.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jetbrains.png",
        "url":"https://www.jetbrains.com/go/buy/?section=personal&billing=monthly",
        "category":"DevTools",
        "free_trial": 0,
@@ -1130,7 +1130,7 @@
        },
       
       { "name":"RAWG",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/rawg.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/rawg.png",
        "url":"https://rawg.io/apidocs#pricing",
        "category":"Entertainment",
        "free_trial": 0,
@@ -1332,7 +1332,7 @@
        "base_money":"10.99"
        },
       { "name":"Infuse",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/infuse.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/infuse.png",
        "url":"https://firecore.com/infuse",
        "category":"Entertainment",
        "free_trial": 0,
@@ -1350,7 +1350,7 @@
        "base_money":"10.99"
        },
       { "name":"Todoist",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/todoist.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/todoist.png",
        "url":"https://todoist.com/pricing",
        "category":"Productivity",
        "free_trial": 0,
@@ -1374,7 +1374,7 @@
        "base_money":"5"
        },
       { "name":"Notion",
-       "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/notion.png",
+       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/notion.png",
        "url":"https://firecore.com/infuse",
        "category":"Entertainment",
        "free_trial": 0,
@@ -1433,7 +1433,7 @@
       },
       {
           "name":"Gaffgiff",
-          "icon":"https://cdn.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/gaff.png",
+          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/gaff.png",
           "url":"https://www.giffgaff.com",
           "category":"Lifestyle",
           "free_trial": 0,
