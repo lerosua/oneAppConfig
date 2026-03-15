@@ -776,42 +776,33 @@
       "base_money": 20,
       "plan": [
         {
-          "name": "Free",
+          "name": "Max 5x",
           "level": 1,
           "suit": [
             {
               "cycle": 1,
               "free_trial": 0,
-              "price": "0",
-              "desc": "免费版"
+              "price": "100",
+              "desc": "Per person billed monthly"
             }
           ],
           "benefits": [
-            "访问 Claude 3.5 Sonnet 模型",
-            "有限的使用次数",
-            "标准响应速度",
-            "基础功能访问"
+            "Great for frequent users who work with Claude on a variety of tasks, with 5x more usage per session than Pro."
           ]
         },
         {
-          "name": "Pro",
+          "name": "Max 20x",
           "level": 2,
           "suit": [
             {
               "cycle": 1,
               "free_trial": 0,
-              "price": "20",
-              "desc": "按月订阅"
+              "price": "200",
+              "desc": "Per person billed monthly"
             }
           ],
           "benefits": [
-            "访问所有 Claude 模型（包括 Claude 3 Opus）",
-            "5倍于免费版的使用量",
-            "优先访问新功能",
-            "更快的响应速度",
-            "更长的对话上下文",
-            "Projects 功能（知识库）",
-            "Artifacts 功能（代码和文档生成）"
+            "Perfect for daily users who collaborate often with Claude for most tasks, with 20x more usage per session than Pro."
           ]
         },
         {
@@ -821,42 +812,12 @@
             {
               "cycle": 1,
               "free_trial": 0,
-              "price": "30",
-              "desc": "每用户/月，最少5个席位"
+              "price": "20",
+              "desc": "Per seat / month if billed annually. $25 if billed monthly."
             }
           ],
           "benefits": [
-            "Pro 版所有功能",
-            "团队协作空间",
-            "共享对话和项目",
-            "集中计费管理",
-            "使用情况分析",
-            "优先技术支持",
-            "更高的使用限额"
-          ]
-        },
-        {
-          "name": "Enterprise",
-          "level": 4,
-          "suit": [
-            {
-              "cycle": 1,
-              "free_trial": 0,
-              "price": "定制",
-              "desc": "联系销售"
-            }
-          ],
-          "benefits": [
-            "Team 版所有功能",
-            "SSO 单点登录",
-            "SCIM 用户管理",
-            "审计日志",
-            "数据保留控制",
-            "专属支持团队",
-            "SLA 服务保障",
-            "自定义使用限额",
-            "API 访问权限",
-            "企业级安全与合规"
+            "Chat, projects, Claude Code, connectors, centralized admin, billing, and more."
           ]
         }
       ]
