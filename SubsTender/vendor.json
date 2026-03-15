@@ -2284,6 +2284,133 @@
       "base_money": "1.99"
     },
     {
+      "name": "Google AI",
+      "icon": "google",
+      "url": "https://one.google.com/u/1/ai",
+      "category": "Productivity",
+      "plan": [
+        {
+          "name": "Plus",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "7.99",
+              "desc": "100 GB"
+            }
+          ],
+          "benefits": [
+            "Gemini 应用",
+            "以更高权限畅享 Google 旗下最强大的模型 3.1 Pro、3.1 Pro 中的 Deep Research 功能和 Nano Banana Pro 图片生成功能，并抢先体验 Veo 3.1 视频生成功能（有用量限制）",
+            "Flow",
+            "利用我们的 AI 影片制作工具呈现电影般的场景和故事，包括有限制地使用 Veo 3.1",
+            "Whisk",
+            "获得更高权限，畅享 Veo 3 的图生视频功能",
+            "200 月度 AI 赠金",
+            "AI 点数可用于解锁使用更高阶 Google AI 功能的权限",
+            "Google 搜索",
+            "获享 Gemini 3 Pro 模型的更多访问权限及更多福利",
+            "Google 财经",
+            "享有深度搜索功能的更多使用权限，获得最复杂财经问题的解答",
+            "NotebookLM",
+            "获得更多的 Google 研究助手使用权限，畅享音视频概览、测验等功能",
+            "Gmail、日历和 Meet 中的 Gemini",
+            "直接在 Google 应用中使用 Gemini",
+            "存储空间",
+            "Google 相册、云端硬盘和 Gmail 共用总计 200 GB 的存储空间"
+          ]
+        },
+        {
+          "name": "Pro",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "19.99",
+              "desc": "200 GB"
+            }
+          ],
+          "benefits": [
+            "Gemini 应用",
+            "以更高权限畅享 Google 旗下最强大的模型 3.1 Pro、3.1 Pro 中的 Deep Research 功能和 Nano Banana Pro 图片生成功能，并抢先体验 Veo 3.1 视频生成功能（有用量限制）",
+            "Flow",
+            "获享我们的 AI 影片制作工具的更高访问权限，利用 Veo 3.1 呈现电影般的场景和故事",
+            "Whisk",
+            "获得更高权限，畅享 Veo 3 的图生视频功能",
+            "1,000 月度 AI 赠金",
+            "AI 点数可用于解锁使用更高阶 Google AI 功能的权限",
+            "Google 搜索",
+            "获享 Gemini 3 Pro 模型的更高访问权限及更多福利",
+            "Google 财经",
+            "享有深度搜索功能的更高使用权限，获得最复杂财经问题的解答",
+            "NotebookLM",
+            "获得更高的 Google 研究助手使用权限，畅享音视频概览、测验等功能",
+            "Gmail、Google 文档、Google Vids 等产品中的 Gemini",
+            "直接在 Google 应用中使用 Gemini",
+            "Chrome 中的 Gemini",
+            "利用 Chrome 自动浏览功能，轻松完成各项任务",
+            "Google Home Premium Standard",
+            "可留存 30 天的事件记录，提供 Gemini 功能",
+            "Google Antigravity",
+            "在我们的智能体开发平台 Google Antigravity 中，获享更高的智能体模型速率限制",
+            "Google 开发者计划高级方案",
+            "为开发者提供 Gemini CLI、Gemini Code Assist、Jules 的更高用量限额以及 Cloud 赠金等诸多福利，助您更快地构建、学习和成长",
+            "存储空间",
+            "Google 相册、云端硬盘和 Gmail 共用总计 2 TB 的存储空间"
+          ]
+        },
+        {
+          "name": "Ultra",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "49.99",
+              "desc": "2 TB"
+            }
+          ],
+          "benefits": [
+            "Gemini 应用",
+            "所有功能和模型可享最高用量限额，还可使用 Deep Think、Gemini Agent 和最新的视频生成模型 Veo 3.1",
+            "Flow",
+            "获享 AI 影片制作工具的最高用量限额，并可使用 Veo 3.1",
+            "Whisk",
+            "在使用 Veo 3 进行图像转视频时享有最高限额",
+            "Project Genie",
+            "借助我们开创性的 Genie 3 世界模型，即时创造和探索互动世界",
+            "25,000 月度 AI 赠金",
+            "AI 点数可用于解锁使用更高阶 Google AI 功能的权限",
+            "Google 搜索",
+            "获享 Gemini 3 Pro 模型的最高访问权限及更多福利",
+            "Google 财经",
+            "享有深度搜索功能的最高使用权限，获得最复杂财经问题的解答",
+            "NotebookLM",
+            "获得最高的 Google 研究助手使用权限，畅享音视频概览、测验等功能",
+            "Gmail、Google 文档、Google Vids 等产品中的 Gemini",
+            "直接在 Google 应用中使用 Gemini，并享有最高限额",
+            "Chrome 中的 Gemini",
+            "对 Chrome 自动浏览功能拥有最高访问权限，轻松完成各项任务",
+            "Project Mariner（抢先体验版）",
+            "使用智能体式研究原型简化任务",
+            "YouTube Premium 个人方案",
+            "畅享没有广告干扰、支持离线播放和后台播放的 YouTube 体验",
+            "Google Home Premium Advanced",
+            "提供全天候视频历史记录、事件描述等功能",
+            "Google Antigravity",
+            "在我们的智能体开发平台 Google Antigravity 中，获享最高的智能体模型速率限制",
+            "Google 开发者计划高级方案",
+            "为开发者提供 Gemini CLI、Gemini Code Assist、Jules 的最高用量限额以及 Cloud 赠金等诸多福利，助您更快地构建、学习和成长",
+            "存储空间",
+            "Google 相册、云端硬盘和 Gmail 共用总计 30 TB 的存储空间"
+          ]
+        }
+      ],
+      "base_money": 7.99
+    },
+    {
       "name": "Spotify Premium",
       "icon": "spotify",
       "url": "https://www.spotify.com",
