@@ -98,13 +98,6 @@
                   </el-avatar>
                   <span class="card-title">{{ item.name }}</span>
                 </div>
-                <el-button
-                  type="danger"
-                  :icon="Delete"
-                  circle
-                  size="small"
-                  @click="confirmDelete(index)"
-                />
               </div>
             </template>
             
@@ -135,10 +128,16 @@
             </div>
             
             <template #footer>
-              <el-button type="primary" text @click="editItem(index)">
-                <el-icon><Edit /></el-icon>
-                编辑
-              </el-button>
+              <div class="card-footer-actions">
+                <el-button type="primary" text @click="editItem(index)">
+                  <el-icon><Edit /></el-icon>
+                  编辑
+                </el-button>
+                <el-button type="success" text @click="duplicateItem(index)">
+                  <el-icon><CopyDocument /></el-icon>
+                  复制
+                </el-button>
+              </div>
             </template>
           </el-card>
         </div>
@@ -184,7 +183,21 @@
           
           <el-col :span="12">
             <el-form-item label="分类">
-              <el-input v-model="editingItem.category" placeholder="请输入分类" />
+              <el-select 
+                v-model="editingItem.category" 
+                placeholder="请选择或输入分类"
+                filterable
+                allow-create
+                default-first-option
+                style="width: 100%;"
+              >
+                <el-option
+                  v-for="cat in categories"
+                  :key="cat"
+                  :label="cat"
+                  :value="cat"
+                />
+              </el-select>
             </el-form-item>
           </el-col>
           
@@ -226,7 +239,9 @@
               />
             </el-form-item>
           </el-col>
-          
+        </el-row>
+        
+        <el-row :gutter="20">
           <el-col :span="24">
             <el-form-item label="关键词">
               <el-input
@@ -235,24 +250,183 @@
               />
             </el-form-item>
           </el-col>
-          
+        </el-row>
+        
+        <el-row :gutter="20" style="margin-top: 32px;">
           <el-col :span="24">
-            <el-divider content-position="left">套餐信息 (JSON格式)</el-divider>
-            <el-form-item>
-              <el-input
-                v-model="planJson"
-                type="textarea"
-                :rows="10"
-                placeholder='[{"name":"套餐名","level":1,"suit":[...],"benefits":[...]}]'
-              />
-            </el-form-item>
+            <el-divider content-position="left">
+              套餐信息
+              <el-button 
+                type="primary" 
+                size="small" 
+                @click="addPlan"
+                style="margin-left: 10px;"
+              >
+                添加套餐
+              </el-button>
+            </el-divider>
+            
+            <!-- 套餐列表 -->
+            <div v-if="editingItem.plan && editingItem.plan.length > 0" style="margin-bottom: 20px;">
+              <el-card 
+                v-for="(plan, planIndex) in editingItem.plan" 
+                :key="planIndex"
+                style="margin-bottom: 15px;"
+                shadow="hover"
+              >
+                <template #header>
+                  <div class="plan-card-header">
+                    <div class="plan-title-section" @click="togglePlanCollapse(planIndex)">
+                      <el-icon class="collapse-icon" :class="{ 'is-collapsed': planCollapsed[planIndex] }">
+                        <ArrowDown />
+                      </el-icon>
+                      <span class="plan-title">套餐 {{ planIndex + 1 }}: {{ plan.name || '未命名' }}</span>
+                    </div>
+                    <el-button 
+                      type="danger" 
+                      size="small" 
+                      @click="removePlan(planIndex)"
+                      :icon="Delete"
+                    >
+                      删除套餐
+                    </el-button>
+                  </div>
+                </template>
+                
+                <el-collapse-transition>
+                  <div v-show="!planCollapsed[planIndex]">
+                
+                <el-row :gutter="20">
+                  <el-col :span="12">
+                    <el-form-item label="套餐名称">
+                      <el-input v-model="plan.name" placeholder="例如：个人版" />
+                    </el-form-item>
+                  </el-col>
+                  <el-col :span="12">
+                    <el-form-item label="等级">
+                      <el-input-number v-model="plan.level" :min="1" style="width: 100%;" />
+                    </el-form-item>
+                  </el-col>
+                </el-row>
+                
+                <!-- 价格方案表格 -->
+                <el-form-item label="价格方案">
+                  <el-table 
+                    :data="plan.suit || []" 
+                    border 
+                    style="width: 100%;"
+                    v-if="plan.suit && plan.suit.length > 0"
+                  >
+                    <el-table-column label="周期" width="120">
+                      <template #default="scope">
+                        <el-input-number 
+                          v-model="scope.row.cycle" 
+                          :min="0" 
+                          size="small"
+                          style="width: 100%;"
+                        />
+                      </template>
+                    </el-table-column>
+                    
+                    <el-table-column label="价格" width="120">
+                      <template #default="scope">
+                        <el-input 
+                          v-model="scope.row.price" 
+                          size="small"
+                          placeholder="0"
+                        />
+                      </template>
+                    </el-table-column>
+                    
+                    <el-table-column label="免费试用(天)" width="130">
+                      <template #default="scope">
+                        <el-input-number 
+                          v-model="scope.row.free_trial" 
+                          :min="0" 
+                          size="small"
+                          style="width: 100%;"
+                        />
+                      </template>
+                    </el-table-column>
+                    
+                    <el-table-column label="描述">
+                      <template #default="scope">
+                        <el-input 
+                          v-model="scope.row.desc" 
+                          size="small"
+                          placeholder="可选描述"
+                        />
+                      </template>
+                    </el-table-column>
+                    
+                    <el-table-column label="操作" width="80" fixed="right">
+                      <template #default="scope">
+                        <el-button 
+                          type="danger" 
+                          size="small" 
+                          @click="removeSuit(planIndex, scope.$index)"
+                          :icon="Delete"
+                          link
+                        />
+                      </template>
+                    </el-table-column>
+                  </el-table>
+                  
+                  <el-button 
+                    type="primary" 
+                    size="small" 
+                    @click="addSuit(planIndex)"
+                    style="margin-top: 10px;"
+                  >
+                    添加价格方案
+                  </el-button>
+                </el-form-item>
+                
+                <!-- 权益列表 -->
+                <el-form-item label="权益列表">
+                  <el-input
+                    :model-value="getBenefitsText(planIndex)"
+                    @input="updateBenefits(planIndex, $event)"
+                    type="textarea"
+                    :rows="6"
+                    placeholder="每行一条权益，例如：&#10;无限存储空间&#10;支持多设备同步&#10;优先客服支持"
+                  />
+                  <div style="margin-top: 8px; font-size: 12px; color: #9ca3af;">
+                    提示：每行输入一条权益，空行将被忽略
+                  </div>
+                </el-form-item>
+                  </div>
+                </el-collapse-transition>
+              </el-card>
+            </div>
+            
+            <el-empty 
+              v-else 
+              description="暂无套餐信息，点击上方按钮添加"
+              :image-size="100"
+            />
           </el-col>
         </el-row>
       </el-form>
       
       <template #footer>
-        <el-button @click="showEditDialog = false">取消</el-button>
-        <el-button type="primary" @click="saveEdit">保存</el-button>
+        <div class="dialog-footer">
+          <el-button 
+            v-if="editingIndex !== -1" 
+            type="danger" 
+            plain
+            @click="confirmDeleteFromEdit"
+            class="delete-button-left"
+          >
+            <el-icon><Delete /></el-icon>
+            删除此项
+          </el-button>
+          <div class="dialog-footer-spacer"></div>
+          <div class="dialog-footer-right">
+            <el-button @click="showEditDialog = false">取消</el-button>
+            <el-button type="primary" @click="saveEdit">保存</el-button>
+          </div>
+        </div>
       </template>
     </el-dialog>
 
@@ -315,7 +489,7 @@ import axios from 'axios'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import {
   Search, Plus, Edit, Delete, Upload, Download, Document,
-  Coin, Box, Grid, Key, Link, Select, UploadFilled
+  Coin, Box, Grid, Key, Link, Select, UploadFilled, ArrowDown, CopyDocument
 } from '@element-plus/icons-vue'
 
 const API_BASE = '/api'
@@ -332,7 +506,7 @@ const categoryFilter = ref(null)
 const showEditDialog = ref(false)
 const editingIndex = ref(-1)
 const editingItem = ref({})
-const planJson = ref('')
+const planCollapsed = ref({}) // 套餐折叠状态
 
 // 删除相关
 const showDeleteDialog = ref(false)
@@ -409,19 +583,33 @@ const loadFile = async () => {
 }
 
 const saveData = async () => {
-  if (!selectedFile.value) return
+  if (!selectedFile.value) {
+    ElMessage.warning('请先选择文件')
+    return
+  }
+  
+  console.log('=== 开始保存 ===')
+  console.log('文件名:', selectedFile.value)
+  console.log('数据结构:', Object.keys(currentData.value))
+  console.log('数据项数量:', currentData.value.data?.length)
   
   try {
-    const response = await axios.post(`${API_BASE}/data/${selectedFile.value}`, {
-      data: currentData.value
-    })
+    const payload = { data: currentData.value }
+    console.log('发送的 payload:', payload)
+    
+    const response = await axios.post(`${API_BASE}/data/${selectedFile.value}`, payload)
+    
+    console.log('保存响应:', response.data)
     
     if (response.data.success) {
       originalData.value = JSON.parse(JSON.stringify(currentData.value))
       ElMessage.success('保存成功！')
+    } else {
+      ElMessage.error('保存失败: ' + (response.data.error || '未知错误'))
     }
   } catch (error) {
-    ElMessage.error('保存失败: ' + error.message)
+    console.error('保存错误:', error)
+    ElMessage.error('保存失败: ' + (error.response?.data?.error || error.message))
   }
 }
 
@@ -438,7 +626,6 @@ const addNewItem = () => {
     free_trial: 0,
     plan: []
   }
-  planJson.value = '[]'
   showEditDialog.value = true
 }
 
@@ -446,8 +633,27 @@ const editItem = (index) => {
   const actualIndex = currentData.value.data.indexOf(filteredItems.value[index])
   editingIndex.value = actualIndex
   editingItem.value = JSON.parse(JSON.stringify(currentData.value.data[actualIndex]))
-  planJson.value = JSON.stringify(editingItem.value.plan || [], null, 2)
+  // 确保 plan 数组存在
+  if (!editingItem.value.plan) {
+    editingItem.value.plan = []
+  }
   showEditDialog.value = true
+}
+
+const duplicateItem = (index) => {
+  const actualIndex = currentData.value.data.indexOf(filteredItems.value[index])
+  const originalItem = currentData.value.data[actualIndex]
+  
+  // 深拷贝原项目
+  const duplicatedItem = JSON.parse(JSON.stringify(originalItem))
+  
+  // 修改名称，添加 +1
+  duplicatedItem.name = originalItem.name + ' +1'
+  
+  // 插入到原项目后面
+  currentData.value.data.splice(actualIndex + 1, 0, duplicatedItem)
+  
+  ElMessage.success('复制成功')
 }
 
 const saveEdit = () => {
@@ -456,17 +662,7 @@ const saveEdit = () => {
     return
   }
   
-  try {
-    if (planJson.value.trim()) {
-      editingItem.value.plan = JSON.parse(planJson.value)
-    } else {
-      editingItem.value.plan = []
-    }
-  } catch (error) {
-    ElMessage.error('套餐JSON格式错误: ' + error.message)
-    return
-  }
-  
+  // 清理空字段
   Object.keys(editingItem.value).forEach(key => {
     if (editingItem.value[key] === '') {
       delete editingItem.value[key]
@@ -488,6 +684,13 @@ const confirmDelete = (index) => {
   const actualIndex = currentData.value.data.indexOf(filteredItems.value[index])
   deleteIndex.value = actualIndex
   deleteItemName.value = currentData.value.data[actualIndex].name
+  showDeleteDialog.value = true
+}
+
+const confirmDeleteFromEdit = () => {
+  deleteIndex.value = editingIndex.value
+  deleteItemName.value = editingItem.value.name
+  showEditDialog.value = false
   showDeleteDialog.value = true
 }
 
@@ -549,6 +752,74 @@ const importData = async () => {
   reader.readAsText(importFileData.value)
 }
 
+// 套餐管理方法
+const togglePlanCollapse = (planIndex) => {
+  planCollapsed.value[planIndex] = !planCollapsed.value[planIndex]
+}
+
+const addPlan = () => {
+  if (!editingItem.value.plan) {
+    editingItem.value.plan = []
+  }
+  editingItem.value.plan.push({
+    name: '',
+    level: 1,
+    suit: [],
+    benefits: []
+  })
+  // 新添加的套餐默认展开
+  planCollapsed.value[editingItem.value.plan.length - 1] = false
+}
+
+const removePlan = (planIndex) => {
+  editingItem.value.plan.splice(planIndex, 1)
+}
+
+const addSuit = (planIndex) => {
+  if (!editingItem.value.plan[planIndex].suit) {
+    editingItem.value.plan[planIndex].suit = []
+  }
+  editingItem.value.plan[planIndex].suit.push({
+    cycle: 1,
+    price: '',
+    free_trial: 0,
+    desc: ''
+  })
+}
+
+const removeSuit = (planIndex, suitIndex) => {
+  editingItem.value.plan[planIndex].suit.splice(suitIndex, 1)
+}
+
+const addBenefit = (planIndex) => {
+  if (!editingItem.value.plan[planIndex].benefits) {
+    editingItem.value.plan[planIndex].benefits = []
+  }
+  editingItem.value.plan[planIndex].benefits.push('')
+}
+
+const removeBenefit = (planIndex, benefitIndex) => {
+  editingItem.value.plan[planIndex].benefits.splice(benefitIndex, 1)
+}
+
+// 权益文本处理方法
+const getBenefitsText = (planIndex) => {
+  const benefits = editingItem.value.plan[planIndex]?.benefits || []
+  return benefits.join('\n')
+}
+
+const updateBenefits = (planIndex, text) => {
+  if (!editingItem.value.plan[planIndex]) return
+  
+  // 将文本按行分割，过滤空行
+  const benefits = text
+    .split('\n')
+    .map(line => line.trim())
+    .filter(line => line.length > 0)
+  
+  editingItem.value.plan[planIndex].benefits = benefits
+}
+
 onMounted(() => {
   loadFiles()
 })
@@ -563,16 +834,16 @@ onMounted(() => {
 
 .app-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   background-attachment: fixed;
 }
 
 /* 顶部导航栏 */
 .app-header {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(30, 30, 46, 0.95);
   backdrop-filter: blur(20px);
-  box-shadow: 0 4px 30px rgba(31, 38, 135, 0.15);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -596,7 +867,7 @@ onMounted(() => {
 .app-title {
   font-size: 24px;
   font-weight: 700;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -620,12 +891,12 @@ onMounted(() => {
 
 /* 搜索栏 */
 .search-bar {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(30, 30, 46, 0.95);
   backdrop-filter: blur(20px);
   padding: 24px;
   border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   margin-bottom: 32px;
   display: flex;
   gap: 16px;
@@ -647,17 +918,17 @@ onMounted(() => {
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(30, 30, 46, 0.95);
   backdrop-filter: blur(20px);
-  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .item-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(31, 38, 135, 0.25);
-  background: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 12px 40px rgba(96, 165, 250, 0.3);
+  background: rgba(40, 40, 60, 0.95);
+  border-color: rgba(96, 165, 250, 0.5);
 }
 
 .card-header {
@@ -714,14 +985,57 @@ onMounted(() => {
 }
 
 .card-link {
-  color: #a0cfff;
+  color: #60a5fa;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .card-link:hover {
-  color: #ffffff;
+  color: #93c5fd;
   text-decoration: underline;
+}
+
+.card-footer-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+/* 套餐卡片样式 */
+.plan-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-title-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  flex: 1;
+  user-select: none;
+}
+
+.plan-title-section:hover .plan-title {
+  color: #93c5fd;
+}
+
+.plan-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #e5e7eb;
+  transition: color 0.3s;
+}
+
+.collapse-icon {
+  transition: transform 0.3s;
+  color: #9ca3af;
+}
+
+.collapse-icon.is-collapsed {
+  transform: rotate(-90deg);
 }
 
 /* 保存按钮 */
@@ -770,10 +1084,12 @@ onMounted(() => {
 :deep(.el-dialog) {
   border-radius: 16px;
   overflow: hidden;
+  background: #1e1e2e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 :deep(.el-dialog__header) {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
   color: white;
   padding: 20px 24px;
 }
@@ -784,7 +1100,55 @@ onMounted(() => {
 }
 
 :deep(.el-dialog__headerbtn .el-dialog__close) {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+:deep(.el-dialog__headerbtn .el-dialog__close:hover) {
+  background-color: rgba(255, 255, 255, 0.15);
   color: white;
+}
+
+:deep(.el-dialog__body) {
+  background: #1e1e2e;
+  color: #e5e7eb;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+:deep(.el-dialog__footer) {
+  background: #1e1e2e;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 16px 24px;
+}
+
+.dialog-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.delete-button-left {
+  margin-right: auto;
+}
+
+.dialog-footer-spacer {
+  flex: 1;
+}
+
+.dialog-footer-right {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
 }
 
 /* 上传组件样式 */
@@ -806,26 +1170,245 @@ onMounted(() => {
 
 /* 卡片内的 Element Plus 组件样式 */
 :deep(.el-card__header) {
-  background: rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(96, 165, 250, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   padding: 16px 20px;
 }
 
 :deep(.el-card__body) {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.85);
+  background: transparent;
 }
 
 :deep(.el-card__footer) {
-  background: rgba(255, 255, 255, 0.05);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
   padding: 12px 20px;
 }
 
 /* 标签样式优化 */
 :deep(.el-tag) {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3);
-  color: #ffffff;
+  background: rgba(96, 165, 250, 0.15);
+  border-color: rgba(96, 165, 250, 0.3);
+  color: #bfdbfe;
+  padding: 6px 16px;
+  font-size: 13px;
+}
+
+:deep(.el-tag--info) {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: rgba(139, 92, 246, 0.3);
+  color: #c4b5fd;
+}
+
+:deep(.el-tag--success) {
+  background: rgba(34, 197, 94, 0.15);
+  border-color: rgba(34, 197, 94, 0.3);
+  color: #86efac;
+}
+
+/* 表单和输入框暗色主题 */
+:deep(.el-input__wrapper) {
+  background-color: rgba(30, 30, 46, 0.6);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06) inset;
+}
+
+:deep(.el-input__wrapper:hover) {
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.3) inset;
+}
+
+:deep(.el-input__wrapper.is-focus) {
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.5) inset;
+}
+
+:deep(.el-input__inner) {
+  color: #d1d5db;
+}
+
+:deep(.el-textarea__inner) {
+  background-color: rgba(30, 30, 46, 0.6);
+  border-color: rgba(255, 255, 255, 0.06);
+  color: #d1d5db;
+}
+
+:deep(.el-textarea__inner:hover) {
+  border-color: rgba(96, 165, 250, 0.3);
+}
+
+:deep(.el-textarea__inner:focus) {
+  border-color: rgba(96, 165, 250, 0.5);
+}
+
+:deep(.el-select__wrapper) {
+  background-color: rgba(30, 30, 46, 0.6);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06) inset;
+}
+
+:deep(.el-select__wrapper:hover) {
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.3) inset;
+}
+
+:deep(.el-select__wrapper.is-focused) {
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.5) inset;
+}
+
+:deep(.el-form-item__label) {
+  color: #9ca3af;
+}
+
+:deep(.el-table) {
+  background-color: rgba(30, 30, 46, 0.4);
+  color: #d1d5db;
+}
+
+:deep(.el-table th.el-table__cell) {
+  background-color: rgba(96, 165, 250, 0.1);
+  color: #d1d5db;
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:deep(.el-table tr) {
+  background-color: transparent;
+}
+
+:deep(.el-table td.el-table__cell) {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:deep(.el-table__body tr:hover > td) {
+  background-color: rgba(96, 165, 250, 0.08);
+}
+
+:deep(.el-divider__text) {
+  background-color: #1e1e2e;
+  color: #a78bfa;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+:deep(.el-divider) {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:deep(.el-empty__description p) {
+  color: #6b7280;
+}
+
+:deep(.el-card) {
+  background-color: rgba(40, 40, 60, 0.4);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+/* 按钮内边距优化 */
+:deep(.el-button) {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+:deep(.el-button--large) {
+  padding: 13px 24px;
+  font-size: 15px;
+}
+
+:deep(.el-button--small) {
+  padding: 7px 15px;
+  font-size: 13px;
+}
+
+/* 圆形按钮修复 */
+:deep(.el-button.is-circle) {
+  padding: 8px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:deep(.el-button--small.is-circle) {
+  width: 28px;
+  height: 28px;
+  padding: 6px;
+}
+
+/* 下拉菜单暗色主题 */
+:deep(.el-select-dropdown) {
+  background-color: #1e1e2e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+:deep(.el-select-dropdown__item) {
+  color: #e5e7eb;
+}
+
+:deep(.el-select-dropdown__item:hover) {
+  background-color: rgba(96, 165, 250, 0.2);
+}
+
+:deep(.el-select-dropdown__item.is-selected) {
+  color: #60a5fa;
+  background-color: rgba(96, 165, 250, 0.15);
+  font-weight: 600;
+}
+
+:deep(.el-select-dropdown__item.is-hovering) {
+  background-color: rgba(96, 165, 250, 0.2);
+}
+
+:deep(.el-popper.is-light) {
+  background-color: #1e1e2e;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+:deep(.el-popper.is-light .el-popper__arrow::before) {
+  background-color: #1e1e2e;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 选择器图标颜色 */
+:deep(.el-select .el-icon) {
+  color: #9ca3af;
+}
+
+:deep(.el-input__prefix .el-icon) {
+  color: #9ca3af;
+}
+
+:deep(.el-input__suffix .el-icon) {
+  color: #9ca3af;
+}
+
+/* 按钮组样式优化 */
+:deep(.el-button-group .el-button) {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+:deep(.el-button-group .el-button:hover) {
+  border-color: rgba(96, 165, 250, 0.5);
+}
+
+/* 输入框占位符颜色 */
+:deep(.el-input__inner::placeholder) {
+  color: #6b7280;
+}
+
+:deep(.el-textarea__inner::placeholder) {
+  color: #6b7280;
+}
+
+/* 数字输入框按钮 */
+:deep(.el-input-number__decrease),
+:deep(.el-input-number__increase) {
+  background-color: rgba(30, 30, 46, 0.8);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #9ca3af;
+}
+
+:deep(.el-input-number__decrease:hover),
+:deep(.el-input-number__increase:hover) {
+  color: #60a5fa;
 }
 
 </style>

@@ -1,1474 +1,3181 @@
 {
-     "data":[
-      { "name":"HBO Max",
-       "icon":"hbo",
-       "url":"https://www.max.com",
-       "category":"Entertainment",
-       "plan":[
-           {"name":"With Ads",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":"Watch with limited ads."},
-                   {"cycle":4,"free_trial": 0,  "price":"99.99","desc":"Watch with limited ads."}
-
-                 ],
-               "benefits":["Stream on 2 devices at once","Full HD resolution"]
-               },
-           {"name":"Ad-Free",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"15.99","desc":"Watch on the go."},
-                   {"cycle":4,"free_trial": 0,  "price":"149.99","desc":"Watch with limited ads."}
-
-                 ],
-               "benefits":["Stream on 2 devices at once","Full HD resolution","30 downloads to watch on the go"]
-               },
-           {"name":"Ultimate Ad-Free",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"19.99","desc":"Watch on the go and in 4K."},
-                   {"cycle":4,"free_trial": 0,  "price":"199.99","desc":"Watch with limited ads."}
-                 ],
-               "benefits":["Stream on 4 devices at once","Best video quality with 4K Ultra HD","Immersive audio with Dolby Atmos","100 downloads to watch on the go"]
-               }
-           ],
-       "base_money":"9.99"
-       },
-      { "name":"D-ID",
-        "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/did.png",
-        "url":"https://www.d-id.com/pricing/studio/",
-        "category":"Productivity",
-        "free_trial": 30,
-        "keyword":"video",
-        "plan":[
-            {"name":"Lite",
-                "level":1,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"5.9","desc":""},
-                    {"cycle":4,"free_trial": 0,  "price":"56","desc":"20% discount"}
-
-                  ],
-                "benefits":["Personal License","D-ID Watermark","Silver Support","Standard Presenters only","50 AI Presenter Prompt Generations","AI Script Generations"]
-                },
-            {"name":"Pro",
-                "level":2,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"29","desc":""},
-                    {"cycle":4,"free_trial": 0,  "price":"191","desc":"45% discount"}
-                  ],
-                "benefits":["Commercial License","AI Watermark","Gold Support","Premium & Standard Presenters","100 AI Presenter Prompt Generations","AI Script Generations","Canva Plugin"]
-                },
-            {"name":"Advanced",
-                "level":3,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"196","desc":""},
-                    {"cycle":4,"free_trial": 0,  "price":"1293","desc":"45% discount"}
-                  ],
-                "benefits":["Commercial License","Custom Watermark","Premium Support","Premium & Standard Presenters","600 AI Presenter Prompt Generations","AI Script Generations","Canva Plugin","PowerPoint Plugin"]
-                }
-            ],
-        "base_money":"4.7"
-        },
-      { "name":"Hulu",
-        "icon":"hulu",
-        "url":"https://hulu.com/",
-        "category":"Entertainment",
-        "free_trial": 30,
-        "plan":[
-            {"name":"Hulu (With Ads)",
-                "level":1,
-                "suit":[
-                    {"cycle":2,"free_trial": 30,  "price":"7.99","desc":""}
-                  ],
-                "benefits":["Streaming Library with tons of TV episodes and movies","Most new episodes the day after they air†","Access to award-winning Hulu Originals","Watch on your favorite devices, including TV, laptop, phone, or tablet","Up to 6 user profiles","Watch on 2 different screens at the same time"]
-                },
-            {"name":"Hulu (No Ads)",
-                "level":2,
-                "suit":[
-                    {"cycle":2,"free_trial": 30,  "price":"17.99","desc":""}
-                  ],
-                "benefits":["Streaming Library with tons of TV episodes and movies","Most new episodes the day after they air†","Access to award-winning Hulu Originals","Watch on your favorite devices, including TV, laptop, phone, or tablet","Up to 6 user profiles","Watch on 2 different screens at the same time","No ads in streaming library","Download and watch"]
-                }
-            ],
-        "base_money":"7.99"
-        },
-      { "name":"Proton Mail",
-        "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/proton.png",
-        "url":"https://proton.me/",
-        "category":"Productivity",
-        "free_trial": 0,
-        "plan":[
-            {"name":"Mail Plus",
-                "level":1,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"4.99","desc":""}
-                  ],
-                "benefits":["15 GB of storage","1 user","Proton Mail","Proton Calendar"]
-                },
-            {"name":"Proton Unlimited)",
-                "level":2,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"12.99","desc":""}
-                  ],
-                "benefits":["500 GB of storage","1 user","Access to premium versions of all Proton services","Proton Mail","Proton Calendar","Proton Drive","Proton VPN","Proton Pass"]
-                },
-            {"name":"Proton Family)",
-                "level":3,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"29.99","desc":""}
-                  ],
-                "benefits":["3 TB of storage","6 user","Access to premium versions of all Proton services", "Proton Mail","Proton Calendar","Proton Drive","Proton VPN","Proton Pass"]
-                }
-            ],
-        "base_money":"7.99"
-        },
-      { "name":"Apple TV+",
-       "icon":"apple_tv",
-       "url":"https://www.apple.com/apple-tv-plus/",
-       "category":"Entertainment",
-       "free_trial": 7,
-       "base_money":"9.99"
-       },
-      { "name":"YouTube Premium",
-        "icon":"youtube",
-       "url":"https://www.youtube.com/premium",
-       "category":"Entertainment",
-       "plan":[
-           {"name":"Student",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 30,  "price":"7.49","desc":"Eligible students only. Annual verification required."}
-                 ],
-               "benefits":["Eligible students only. Annual verification required."]
-               },
-           {"name":"Individual",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 30,  "price":"13.99","desc":"Get 1 month free"}
-                 ],
-               "benefits":["Get 1 month free"]
-               },
-           {"name":"Family",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 30,  "price":"22.99","desc":"Add up to 5 family members (ages 13+) in your household. "}
-                 ],
-               "benefits":["Add up to 5 family members (ages 13+) in your household."]
-               }
-           ],
-       "base_money":"13.99"
-       },
-      { "name":"YouTube Music",
-        "icon":"youtube_music",
-       "url":"https://music.youtube.com",
-       "category":"Entertainment",
-       "plan":[
-           {"name":"Student",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 30,  "price":"5.49","desc":"Eligible students only. Annual verification required."}
-                 ],
-               "benefits":["Eligible students only. Annual verification required."]
-               },
-           {"name":"Individual",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 30,  "price":"10.99","desc":"Get 1 month free"}
-                 ],
-               "benefits":["Get 1 month free"]
-               },
-           {"name":"Family",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 30,  "price":"16.99","desc":"Add up to 5 family members (ages 13+) in your household. "}
-                 ],
-               "benefits":["Add up to 5 family members (ages 13+) in your household."]
-               }
-           ],
-       "base_money":"10.99"
-       },
-      { "name":"Twitch",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/twitch.png",
-       "url":"https://www.twitch.tv",
-       "category":"Entertainment",
-       "plan":[
-           {"name":"Turbo",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"11.99","desc":""}
-                 ]
-               }
-           ],
-       "benefits":["Ad-free viewing","Extended Broadcast Storage (60 days)","Exclusive Chat Badge","Two additional emoticon sets (monkey & Glitch)","Custom Chat Username Colors"],
-       "base_money":"11.99"
-       },
-      { "name":"X Premium",
-       "icon":"x",
-       "url":"https://twitter.com",
-       "category":"Social Media",
-       "plan":[
-           {"name":"Base",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"4","desc":""}
-                 ]
-               },
-           {"name":"Premium",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"11","desc":""}
-                 ]
-               },
-           {"name":"Premium+",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"22","desc":""}
-                 ]
-               }
-           ],
-       "base_money":"4"
-       },
-      { "name":"Twitter Premium",
-       "icon":"twitter",
-       "url":"https://twitter.com",
-       "category":"Social Media",
-       "plan":[
-           {"name":"Base",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"4","desc":""}
-                 ]
-               },
-           {"name":"Premium",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"11","desc":""}
-                 ]
-               },
-           {"name":"Premium+",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"22","desc":"Get 1 month free"}
-                 ]
-               }
-           ],
-       "base_money":"4"
-       },
-
-      { "name":"Telegram",
-       "icon":"telegram",
-       "url":"https://telegram.org",
-       "category":"Social Media",
-       "plan":[
-           {"name":"Premium",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"3.99","desc":""},
-                   {"cycle":4,"free_trial": 0,  "price":"28.99","desc":""}
-
-                 ],
-               "benefits":["Stories","Telegram Business","Unlimited Cloud Storage","Doubled Limits","Last Seen Times","Voice-to-Text Conversion","Faster Download Speed","Real-Time Translation","Animated Emoji","Emoji Statuses","Tags for Messages","Name and Profile Colors","Wallpapers for Both Sides","Profile Badge","Message Privacy","Advanced Chat Management","No Ads","Infinite Reactions","Animated Profile Pictures","Premium Stickers","Tag Your Chats"]
-               }
-           ],
-       "base_money":"4.99"
-       },
-      { "name":"Instagram Meta Verified ",
-       "icon":"instagram",
-       "url":"https://instagram.com",
-       "category":"Social Media",
-       "base_money":"14.99"
-       },
-      { "name":"Reddit Premium",
-       "icon":"reddit",
-       "url":"https://www.reddit.com",
-       "free_trial": 30,
-       "category":"Social Media",
-       "base_money":"5.99"
-       },
-      { "name":"Linkedin Premium",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/linkedin.png",
-       "url":"https://premium.linkedin.com",
-       "free_trial": 30,
-       "category":"Social Media",
-       "base_money":"59.99"
-       },
-      { "name":"VPN",
-       "icon":"vpn",
-       "url":"",
-       "category":"Misc",
-       "base_money":"100"
-       },
-      { "name":"Navicat Premium",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/navicat.png",
-       "url":"https://www.navicat.com/en/store/navicat-premium-plan",
-       "category":"DevTools",
-       "plan":[
-           {"name":"Non-Commercial",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"39.99","desc":"per month"},
-                   {"cycle":4,"free_trial": 0,  "price":"399.99","desc":"per year"}
-                 ],
-               "benefits":["flexibility on payment","low cost to get started","always get the latest applications"]
-               },
-           {"name":"Enterprise",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"79.99","desc":"per month"},
-                   {"cycle":4,"free_trial": 0,  "price":"399.99","desc":"per year"}
-                 ],
-               "benefits":["flexibility on payment","low cost to get started","always get the latest applications"]
-               }
-           ],
-       "base_money":"39.99"
-       },
-      { "name":"Vercel",
-       "icon":"vercel",
-       "url":"https://vercel.com/pricing",
-       "category":"DevTools",
-       "plan":[
-           {"name":"Premium",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"20","desc":"per user / month"}
-                 ],
-               "benefits":["Unlimited Environments","More Functions (Serverless, Edge)","More Databases (KV, Postgres)","More Web Analytics Events","More Experimentation (Edge Config, Middleware)","Preview/Comment/Edit Deployments","Basic DDoS Mitigation","Email Support"]
-               }
-           ],
-       "base_money":"20"
-       },
-      { "name":"Apple developer program",
-       "icon":"apple_dev",
-       "url":"https://developer.apple.com",
-       "category":"DevTools",
-       "plan":[
-           {"name":"Individuals",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"99","desc":""}
-                 ]
-               },
-           {"name":"organizations",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"99","desc":""}
-                 ]
-               },
-           {"name":"Enterprise",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"299","desc":""}
-                 ]
-               }
-           ],
-       "base_money":"99"
-       },
-      { "name":"Trae.ai",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/trae.png",
-       "url":"https://www.trae.ai",
-       "category":"DevTools",
-       "free_trial": 0,
-       "plan":[
-           {"name":"Pro",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"10","desc":""}
-                 ],
-               "benefits":["600 Fast requests and unlimited Slow requests of Premium models / month","Unlimited Requests of Advanced models","Unlimited Autocomplete"]
-               }
-           ],
-       "base_money":"10"
-       },
-      { "name":"Cursor",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cursor.png",
-       "url":"https://cursor.com/pricing",
-       "category":"DevTools",
-       "free_trial": 0,
-       "plan":[
-           {"name":"Pro",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"20","desc":""}
-                 ],
-               "benefits":["Extended limits on Agent","Unlimited Tab completions","Background Agents","Maximum context windows"]
-               },
-           {"name":"Pro+",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"60","desc":""}
-                 ],
-               "benefits":["3x usage on all OpenAI,Claude,Gemini models"]
-               },
-           {"name":"Ultra",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"200","desc":""}
-                 ],
-               "benefits":["20x usage on all OpenAI,Claude,Gemini models","Priority access to new features"]
-               },
-           {"name":"Teams",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"40","desc":"$40/user/mo"}
-               ],
-               "benefits":["Centralized team billing","Usage analytics and reporting","Org-wide privacy mode controls","Role-based access control","SAML/OIDC SSO"]
+  "data": [
+    {
+      "name": "HBO Max",
+      "icon": "hbo",
+      "url": "https://www.max.com",
+      "category": "Entertainment",
+      "plan": [
+        {
+          "name": "With Ads",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "9.99",
+              "desc": "Watch with limited ads."
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "99.99",
+              "desc": "Watch with limited ads."
             }
-           ],
-       "base_money":"20"
-       },
-      { "name":"ChatGPT Plus",
-       "icon":"chatgpt",
-       "url":"https://www.openai.com",
-       "category":"DevTools",
-       "free_trial": 0,
-       "plan":[
-           {"name":"Personal",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"20","desc":""}
-                 ],
-               "benefits":["Access to OpenAI o1-preview, OpenAI o1-mini","Access to GPT-4o, GPT-4o mini, GPT-4","Up to 5x more messages for GPT‑4o","Access to data analysis, file uploads, vision, web browsing, and image generation","Enhanced profile presentation","Access to Advanced Voice Mode","Create and use custom GPTs","Early access to new features"]
-               },
-           {"name":"Business",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"25","desc":""}
-                 ],
-               "benefits":["Higher limits for GPT-4, GPT‑4o, and tools like DALL·E image generation, advanced data analysis, web browsing, and more","Create and share GPTs with your workspace","Admin console for workspace management","Team data excluded from training by default."]
-               }
-           ],
-       "base_money":"20"
-       },
-
-      { "name":"Raycast",
-       "icon":"raycast",
-       "url":"https://www.raycast.com/pricing",
-       "category":"DevTools",
-       "plan":[
-           {"name":"Pro",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"10","desc":"AI at your fingertips"},
-                   {"cycle":4,"free_trial": 0,  "price":"96","desc":"AI at your fingertips"}
-                 ],
-               "benefits":["Raycast AI","Cloud Sync","Custom Themes","Unlimited Clipboard History","Translator","Custom Window Management Commands"]
-               },
-           {"name":"Team Pro",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"15","desc":"AI for your whole team"},
-                   {"cycle":4,"free_trial": 0,  "price":"144","desc":"AI for your whole team"}
-                 ],
-               "benefits":["Everything in Pro","Unlimited Shared Commands","Unlimited Shared Snippets","Unlimited Shared Quicklinks","Unlimited Team Members"]
-               }
-           ],
-       "base_money":"10"
-       },
-      { "name":"GoDaddy",
-       "icon":"godaddy",
-       "url":"https://www.godaddy.com",
-       "category":"DevTools",
-       "keyword":"domain",
-       "base_money":"5.99"
-       },
-      { "name":"Cloudflare",
-       "icon":"cloudflare",
-       "url":"https://www.cloudflare.com",
-       "category":"DevTools",
-       "keyword":"domain",
-       "base_money":"5.99"
-       },
-      { "name":"Dribbble",
-       "icon":"dribbble",
-       "url":"https://www.dribbble.com",
-       "category":"DevTools",
-       "keyword":"design",
-       "plan":[
-           {"name":"Pro",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"16","desc":""}
-                 ],
-               "benefits":["Everything in Basic","Priority visibility in hiring feeds","Priority visibility in inspiration feeds","Instant creative portfolio on your domain","Enhanced profile presentation","Showcase project work & case studies","Ad free browsing experience","Create a team account for your agency","Stats & analytics"]
-               }
-           ],
-       "base_money":"16"
-       },
-      { "name":"Namecheap",
-       "icon":"namecheap",
-       "url":"https://www.namecheap.com/hosting/shared/",
-       "category":"DevTools",
-       "keyword":"domain",
-       "plan":[
-           {"name":"Stellar",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"4.48","desc":""}
-                 ],
-               "benefits":["3 Websites","20 GB SSD","30 Mailboxes","Website Builder"]
-               },
-           {"name":"Stellar Plus",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"6.48","desc":""}
-                 ],
-               "benefits":["Unlimited Websites","Unlimited SSD","Unlimited Mailboxes","Website Builder","AutoBackup"]
-               },
-           {"name":"Stellar Business",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"9.48","desc":""}
-                 ],
-               "benefits":["Unlimited Websites","50 GB SSD","Unlimited Mailboxes","Website Builder","AutoBackup & Cloud Storage"]
-               }
-           ],
-       "base_money":"4.48"
-       },
-      { "name":"National geographic",
-       "icon":"nat-geo",
-       "url":"",
-       "category":"Education",
-       "keyword":"book",
-       "plan":[
-           {"name":"Premium",
-               "level":1,
-               "suit":[
-                   {"cycle":4,"free_trial": 30,  "price":"29","desc":"Only $19 for 1 year"}
-                 ],
-               "benefits":["Subscriber-exclusive content and new stories published daily Unlimited access to our digital archive","Immersive online-only experiences and unlimited access to natgeo.com","Downloadable stories to read on-the-go with our ad-free, mobile app for Apple® and Android® devices","Curated subscriber newsletter delivered weekly"]
-               }
-           ],
-       "base_money":"29"
-       },
-      { "name":"Sketch",
-       "icon":"sketch",
-       "url":"https://www.sketch.com/pricing/",
-       "category":"Productivity",
-       "keyword":"design",
-       "plan":[
-           {"name":"Standard",
-               "level":1,
-               "suit":[
-                   {"cycle":4,"free_trial": 30,  "price":"10","desc":"USD per month"}
-                 ],
-               "benefits":["Native macOS app","Design, prototype and illustrate","Work privately, offline","Collaborate in real-time"]
-               },
-           {"name":"Business",
-               "level":2,
-               "suit":[
-                   {"cycle":4,"free_trial": 30,  "price":"20","desc":"USD per month"}
-                 ],
-               "benefits":["Everything in Standard plus","Single Sign-On (SSO)","Unlimited cloud storage","Invoice-based billing","Permissions directory"]
-               },
-           {"name":"Mac-only",
-               "level":2,
-               "suit":[
-                   {"cycle":5,"free_trial": 0,  "price":"120","desc":"Per license"}
-                 ],
-               "benefits":["Native macOS app", "Work privately, offline","Save documents locally","No automatic renewal","One year of updates","No collaborative features","No free trial"]
-               }
-           ],
-       "base_money":"10.59"
-       },
-      { "name":"Mega",
-       "icon":"mega",
-       "url":"https://www.mega.io",
-       "category":"Productivity",
-       "keyword":"disk,save",
-       "plan":[
-           {"name":"Pro I",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"10.59","desc":"USD per month"}
-                 ],
-               "benefits":["2 TB of storage","2 TB of transfer"]
-               },
-           {"name":"Pro II",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"21.19","desc":"USD per month"}
-                 ],
-               "benefits":["6 TB of storage","6 TB of transfer"]
-               },
-           {"name":"Pro III",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"31.79","desc":"USD per month"}
-                 ],
-               "benefits":["16 TB of storage","16 TB of transfer"]
-               }
-           ],
-       "base_money":"10.59"
-       },
-      { "name":"Midjourney",
-       "icon":"midjourney",
-       "url":"https://www.midjourney.com",
-       "category":"Productivity",
-       "free_trial": 0,
-       "plan":[
-           {"name":"Basic",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"10","desc":""}
-                 ],
-               "benefits":["Maximum Concurrent Jobs(3 Jobs,10 Jobs waiting in queue)","Fast GPU Time(3.3 hr/month)","Purchase Extra GPU Time($4/hr)","Work Solo In Your Direct Messages","Rate Images to Earn Free GPU Time"]
-               },
-           {"name":"Standard",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"30","desc":""}
-                 ],
-               "benefits":["Maximum Concurrent Jobs(3 Jobs,10 Jobs waiting in queue)","Fast GPU Time(15 hr/month)","Purchase Extra GPU Time($4/hr)","Work Solo In Your Direct Messages","Rate Images to Earn Free GPU Time","Relax GPU Time"]
-               },
-           {"name":"Pro",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"60","desc":""}
-                 ],
-               "benefits":["Maximum Concurrent Jobs(12 Fast Jobs,3 Relaxed Jobs,10 Jobs in queue)","Fast GPU Time(30 hr/month)","Purchase Extra GPU Time($4/hr)","Work Solo In Your Direct Messages","Rate Images to Earn Free GPU Time","Relax GPU Time"]
-               },
-           {"name":"Mega",
-               "level":4,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"120","desc":""}
-                 ],
-               "benefits":["Maximum Concurrent Jobs(12 Fast Jobs,3 Relaxed Jobs,10 Jobs in queue)","Fast GPU Time(60 hr/month)","Purchase Extra GPU Time($4/hr)","Work Solo In Your Direct Messages","Rate Images to Earn Free GPU Time","Relax GPU Time"]
-               }
-           ],
-       "base_money":"15"
-       },
-      { "name":"Figma",
-       "icon":"figma",
-       "url":"https://www.figma.com",
-       "category":"Productivity",
-       "free_trial": 0,
-       "plan":[
-           {"name":"Professional",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"15","desc":"/editor/mo"}
-                 ],
-               "benefits":["Unlimited files,pages,and projects","Version history", "Team-wide","Custom file and user permissions"]
-               },
-           {"name":"Organization",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"45","desc":"/editor/mo"}
-                 ],
-               "benefits":["Unlimited files,pages,and projects","Version history","Org-wide","Custom file and user permissions","Audio conversations","SSO,advanced security","Design system analytics","Custom templates"]
-               }
-           ],
-       "base_money":"15"
-       },
-      { "name":"GitHub Copilot",
-       "icon":"copilot",
-       "url":"https://github.com/github-copilot/signup",
-       "category":"DevTools",
-       "free_trial": 30,
-       "base_money":"10"
-       },
-      { "name":"GitHub Pro",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/github.png",
-       "url":"https://github.com/settings/billing/plans",
-       "category":"DevTools",
-       "free_trial": 0,
-       "base_money":"4"
-       },
-      { "name":"Slack",
-        "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/slack.png",
-        "url":"https://slack.com",
-        "category":"Productivity",
-        "base_money":"7.25",
-        "plan":[
-            {"name":"Pro",
-                "level":1,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"7.25","desc":"More power for small teams who want better collaboration"}
-                  ],
-                "benefits":["All the benefits of Free","The full context of your organization’s message history at your fingertips","Unlimited workflows and app integrations","Audio and video conversations with screen sharing with up to 50 people","Secure collaboration with outside organizations or guests from within Slack","Unlimited canvases with 30 days of version history and advanced user roles"]
-                },
-            {"name":"Business+",
-                "level":2,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"12.50","desc":"Scale your business, increase productivity, and keep your teams connected"}
-                  ],
-                "benefits":["All the goodness of Pro","Advanced identity management through SAML-based SSO and real-time Active Directory sync with OneLogin, Okta and Ping Identity","Compliance requirements met with data exports for all messages","Around-the-clock teamwork and assistance with 99.99% guaranteed uptime and 24/7 support with a four-hour response time","Unlimited canvases with 90 days of version history"]
-                }
-            ],
-        "free_trial": 0
+          ],
+          "benefits": [
+            "Stream on 2 devices at once",
+            "Full HD resolution"
+          ]
         },
-      { "name":"Zoom",
-        "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/zoom.png",
-        "url":"https://www.wsj.com",
-        "category":"Productivity",
-        "base_money":"15",
-        "plan":[
-            {"name":"Pro",
-                "level":1,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"15.99","desc":"/month/user"}
-                  ],
-                "benefits":["Meetings up to 30 hours per meeting","100 Attendees per meeting","Whiteboard Basic","Team Chat","Mail & Calendar","Client & Service","NEW Notes","NEW AI Companion","Cloud Storage 5GB","Essential Apps Free premium apps for 1 year (terms apply)"]
-                },
-            {"name":"Business",
-                "level":2,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"19.99","desc":"/month/user"}
-                  ],
-                "benefits":["Meetings up to 30 hours per meeting","300 Attendees per meeting","Whiteboard Basic","Team Chat","Mail & Calendar","Client & Service","NEW Notes","NEW AI Companion","Cloud Storage 5GB","Essential Apps Free premium apps for 1 year (terms apply)","Extras SSO, managed domains & more"]
-                },
-            {"name":"Business Plus",
-                "level":3,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"25","desc":"/month/user"}
-                  ],
-                "benefits":["Meetings up to 30 hours per meeting","300 Attendees per meeting","Whiteboard Basic","Team Chat","Mail & Calendar","Client & Service","NEW Notes","NEW AI Companion","Cloud Storage 100GB","Essential Apps Free premium apps for 1 year (terms apply)","Extras SSO, managed domains & more","Phone Unlimited regional","Translated Captions","Workspace Reservation"]
-                }
-            ],
-        "free_trial": 0
+        {
+          "name": "Ad-Free",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "15.99",
+              "desc": "Watch on the go."
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "149.99",
+              "desc": "Watch with limited ads."
+            }
+          ],
+          "benefits": [
+            "Stream on 2 devices at once",
+            "Full HD resolution",
+            "30 downloads to watch on the go"
+          ]
         },
-      { "name":"Dropbox",
-        "icon":"dropbox",
-        "url":"https://www.dropbox.com",
-        "category":"Productivity",
-        "base_money":"11.99",
-        "plan":[
-            {"name":"Plus",
-                "level":1,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"11.99","desc":"For individuals"}
-                  ],
-                "benefits":["1 user","2 TB (2,000 GB)","Unlimited device linking","30-day file and account recovery","Large file delivery with Dropbox Transfer (up to 2 GB)"]
-                },
-            {"name":"Professional",
-                "level":2,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"19.99","desc":"For freelancers"}
-                  ],
-                "benefits":["1 user","3 TB (3,000 GB)","Unlimited device linking","180-day file and account recovery","Large file delivery with Dropbox Transfer (up to 100 GB)","3 free eSignatures per month","Advanced sharing controls and file locking"]
-                },
-            {"name":"Standard",
-                "level":3,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"18","desc":"For smaller teams"}
-                  ],
-                "benefits":["3+ user","5 TB (5,000 GB) shared by the team","Unlimited device linking","Recover files or restore your entire account up to 180 days","Large file delivery with Dropbox Transfer (up to 2 GB)","Unlimited signing and 3 signature requests per month","Advanced sharing controls and file locking","Easy to use content protection and external sharing controls"]
-                },
-            {"name":"Advanced",
-                "level":3,
-                "suit":[
-                    {"cycle":2,"free_trial": 0,  "price":"30","desc":"For large teams"}
-                  ],
-                "benefits":["3+ user","Starts at 15 TB (15,000 GB) shared by the team","Unlimited device linking","Recover files or restore your entire account up to 180 days","Large file delivery with Dropbox Transfer (up to 2 GB)","Unlimited signing and 3 signature requests per month","Advanced sharing controls and file locking","Always-on security monitoring, notifications, and alerts","Data Classification for sensitive and confidential information"]
-                }
-            ],
-        "free_trial": 0
+        {
+          "name": "Ultimate Ad-Free",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "19.99",
+              "desc": "Watch on the go and in 4K."
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "199.99",
+              "desc": "Watch with limited ads."
+            }
+          ],
+          "benefits": [
+            "Stream on 4 devices at once",
+            "Best video quality with 4K Ultra HD",
+            "Immersive audio with Dolby Atmos",
+            "100 downloads to watch on the go"
+          ]
+        }
+      ],
+      "base_money": "9.99"
+    },
+    {
+      "name": "D-ID",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/did.png",
+      "url": "https://www.d-id.com/pricing/studio/",
+      "category": "Productivity",
+      "free_trial": 30,
+      "keyword": "video",
+      "plan": [
+        {
+          "name": "Lite",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "5.9",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "56",
+              "desc": "20% discount"
+            }
+          ],
+          "benefits": [
+            "Personal License",
+            "D-ID Watermark",
+            "Silver Support",
+            "Standard Presenters only",
+            "50 AI Presenter Prompt Generations",
+            "AI Script Generations"
+          ]
         },
-      { "name":"Unity",
-       "icon":"unity",
-       "url":"https://unity.com/pricing",
-       "category":"DevTools",
-       "free_trial": 30,
-       "plan":[
-           {"name":"Pro",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"185","desc":"Unlock your team’s potential with professional tools to create across game devices and platforms."}
-                 ],
-               "benefits":["Publish to game consoles","Priority customer service","Unity Cloud collaboration services"]
-               },
-           {"name":"Industry",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"450","desc":"Get tools and enterprise-level support to transform CAD and 3D data into immersive apps on any device."}
-                 ],
-               "benefits":["Build immersive experiences","Overcome roadblocks faster with premium technical support and professional training resources","Unlock the value of your CAD and 3D data"]
-               }
-           ],
-       "base_money":"185"
-       },
-      { "name":"Poe Pro",
-       "icon":"poe",
-       "url":"https://www.poe.com",
-       "category":"DevTools",
-       "base_money":"19.99"
-       },
-      { "name":"Adobe Creative Cloud",
-       "icon":"adobe",
-       "url":"https://www.adobe.com",
-       "category":"Productivity",
-       "plan":[
-           {"name":"Extras",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"82.49","desc":"Cancel anytime, no fee."},
-                   {"cycle":4,"free_trial": 14,  "price":"599.88","desc":"Cancel anytime, no fee."}
-                 ],
-               "benefits":["100GB of cloud storage","Step-by-step tutorials ","Adobe Portfolio","Adobe Fonts ","Behance","Creative Cloud Libraries","Access to the latest features","1000 monthly generative credits"]
-               }
-           ],
-       "base_money":"54.99"
-       },
-      { "name":"Adobe Photoshop",
-       "icon":"photoshop",
-       "url":"https://www.adobe.com",
-       "category":"Productivity",
-       "plan":[
-           {"name":"Individuals",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"22.99","desc":""}
-                 ],
-               "benefits":["Create beautiful graphics, photos, and art on desktop, web, and iPad. Comes with Adobe Fresco for drawing and painting"]
-               },
-           {"name":"Business",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"37.99","desc":""}
-                 ],
-               "benefits":["Create beautiful graphics, photos, and art on desktop, web, and iPad. Comes with Adobe Fresco for drawing and painting"]
-               }
-           ],
-       "base_money":"22.99"
-       },
-      { "name":"Evernote",
-       "icon":"evernote",
-       "url":"https://evernote.com/compare-plans",
-       "category":"Productivity",
-       "plan":[
-           {"name":"Mac",
-            "level":1,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"10.83","desc":"Keep home and family on track"}
-                 ],
-            "benefits":["Sync unlimited devices","10 GB monthly uploads","200 MB max. note size","Customize Home dashboard and access extra widgets","Connect primary Google Calendar account","Add due dates, reminders, and notifications to your tasks","Manage tasks in one place","Get offline access on mobile and desktop","Search text inside images, docs, and PDFs","Create custom templates","Mark up images and PDFs"]
-               },
-           {"name":"Mac",
-            "level":1,
-            "suit":[
-                   {"cycle":2,"free_trial": 7,  "price":"14.17","desc":"Tackle any project, at work or at home"}
-                 ],
-            "benefits":["Save 2x more content with 20 GB monthly uploads","Access to all widgets and customization for Home","Connect both personal and workplace Google Calendar accounts","Create, manage, and assign tasks to others, and easily track their progress","Use Boolean terms to refine search results","Find content by location with geographic search","Export notebooks as PDF files","Integrate with Slack, Microsoft Teams, and others"]
-               }
-           ],
-       "base_money":"10.83"
-       },
-      { "name":"Setapp Membership",
-       "icon":"setapp",
-       "url":"https://setapp.com/pricing",
-       "category":"Productivity",
-       "plan":[
-           {"name":"Mac",
-            "level":1,
-            "suit":[
-                   {"cycle":2,"free_trial": 7,  "price":"1.99","desc":"Supercharge your beloved Mac with awesome apps."}
-                 ],
-            "benefits":["For 1 Mac"]
-               },
-           {"name":"Mac + iOS",
-            "level":2,
-            "suit":[
-                   {"cycle":2,"free_trial": 7,  "price":"12.49","desc":"If you do everything on your Mac, iPhone and iPad."}
-                 ],
-            "benefits":["For 1 Mac","For 4 iOS devices"]
-               },
-           {"name":"Power User",
-            "level":3,
-            "suit":[
-                   {"cycle":2,"free_trial": 7,  "price":"14.99","desc":"Got several Macs? Get this plan for maximum flexibility."}
-                 ],
-            "benefits":["For 4 Macs","For 4 iOS devices"]
-               }
-           ],
-       "base_money":"9.99"
-       },
-      { "name":"Microsoft 365",
-       "icon":"microsoft",
-       "url":"https://www.microsoft.com",
-       "category":"Productivity",
-       "free_trial": 30,
-       "keyword":"office,onedrive",
-       "plan":[
-           {"name":"Base",
-            "level":1,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"1.99","desc":"Specially designed for teams that need to build project plans with peace of mind."}
-                 ],
-            "benefits":["For one person","5 GB of cloud storage","15 GB of mailbox storage","Works on Windows, macOS, iOS, and Android™","OneDrive photo and file backup across your devices","Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps","Ad-free Outlook and mobile email and calendar with advanced security features","Access to Microsoft support experts"]
-               },
-           {"name":"Personal",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"6.99","desc":""},
-                   {"cycle":4,"free_trial": 0,  "price":"69.99","desc":""}
-                 ],
-               "benefits":["For one person","5 GB of cloud storage","15 GB of mailbox storage","Works on Windows, macOS, iOS, and Android™","OneDrive photo and file backup across your devices","Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps","Ad-free Outlook and mobile email and calendar with advanced security features","Access to Microsoft support experts","Advanced file and photo protection with OneDrive","Data and device protection with Microsoft Defende"]
-               },
-           {"name":"Family",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":""},
-                   {"cycle":4,"free_trial": 30,  "price":"99.99","desc":""}
-                 ],
-               "benefits":["For one person","5 GB of cloud storage","15 GB of mailbox storage","Works on Windows, macOS, iOS, and Android™","OneDrive photo and file backup across your devices","Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps","Ad-free Outlook and mobile email and calendar with advanced security features","Access to Microsoft support experts","Advanced file and photo protection with OneDrive","Data and device protection for the entire family with Microsoft Defender","Premium features in the Microsoft Family Safety mobile app"]
-               }
-           ],
-       "base_money":"69.99"
-       },
-      { "name":"Apple One",
-       "icon":"apple",
-       "url":"https://www.apple.com/apple-one",
-       "category":"Entertainment",
-       "plan":[
-           {"name":"Individual",
-            "level":1,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"19.95","desc":"Save $9/mo.** on your favorite content and iCloud+ storage."}
-                 ],
-            "benefits":["iCloud+ 50GB","tv+","Music","Arcade"]
-               },
-           {"name":"Family",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"25.95","desc":"Share with up to five people"}
-                 ],
-               "benefits":["iCloud+ 200GB","tv+","Music","Arcade"]
-               },
-           {"name":"Premier",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"37.95","desc":"Share with up to five people"}                 ],
-               "benefits":["iCloud+ 2TB","tv+","Music","Arcade","Fitness+","News+"]
-               }
-           ],
-       "base_money":"19.95"
-       },
-      { "name":"Docker",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/docker.png",
-       "url":"https://www.docker.com/pricing/",
-       "category":"DevTools",
-       "base_money":"7"
-       },
-      { "name":"Adguard",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adguard.png",
-       "url":"https://adguard.com/en/license.html",
-       "category":"DevTools",
-       "plan":[
-           {"name":"Personal",
-            "level":2,
-            "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"2.49","desc":""},
-                   {"cycle":5,"free_trial": 0,  "price":"79.99","desc":""}
-
-                 ],
-            "benefits":["Exceptional ad-blocking tool","Full tracking protection","Up to 3 devices"]
-               },
-           {"name":"Family",
-            "level":3,
-            "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"5.49","desc":""},
-                   {"cycle":5,"free_trial": 0,  "price":"169.99","desc":""}
-                 ],
-            "benefits":["Exceptional ad-blocking tool","Full tracking protection","Up to 9 devices"]
-               }
-           ],
-       "base_money":"2.49"
-       },
-      { "name":"Bitbucket",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bitbucket.png",
-       "url":"https://www.atlassian.com/software/bitbucket/pricing",
-       "category":"DevTools",
-       "plan":[
-           {"name":"Standard",
-            "level":2,
-            "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"15","desc":"5 Users"}
-                 ],
-            "benefits":["Build minutes-2,500 minutes per month","Git LFS(5GB)","Up to 3 devices","Code insights-Tree integrations"]
-               },
-           {"name":"Premium",
-            "level":3,
-            "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"30","desc":"5 Users"}
-                 ],
-            "benefits":["Build minutes-3,500 minutes per month","Git LFS(10GB)","Up to 9 devices","Code insights-Unlimited"]
-               }
-           ],
-       "base_money":"2.49"
-       },
-      { "name":"AdBlock",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adblock.png",
-       "url":"https://www.getadblock.com/premium/",
-       "category":"DevTools",
-       "plan":[
-           {"name":"Premium",
-            "level":2,
-            "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"20","desc":"Enhanced pop-up blocking, faster page load times, and better privacy protection"}
-                 ],
-            "benefits":["Ehanced Pop-up Blocking","Dark Mode and Themes","Backup and Sync Settings","Customize AdBlock"]
-               },
-           {"name":"Premium+VPN",
-            "level":3,
-            "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"40","desc":"Powerful ad and pop up blocking, private browsing, and tracker blocking"}
-                 ],
-            "benefits":["Improved Privacy Protection","Easy Access to Geo Content","Private Web Browsing", "Strict No-Logging Policy","Access to servers in 30+ countries"]
-               }
-           ],
-       "base_money":"20"
-       },
-      { "name":"Google One",
-       "icon":"google",
-       "url":"https://one.google.com/about/plans",
-       "category":"Entertainment",
-       "plan":[
-           {"name":"Basic",
-            "level":1,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"15","desc":"100 GB"}
-                 ],
-            "benefits":["100 GB of storage","Access to Google experts","Share with up to 5 others","More Google Photos editing features","Extra member benefits"]
-               },
-           {"name":"Standard",
-            "level":3,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"23","desc":"200 GB"}
-                 ],
-            "benefits":["200 GB of storage","Access to Google experts","Share with up to 5 others","More Google Photos editing features","Extra member benefits"]
-               },
-           {"name":"Premium",
-            "level":3,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"79","desc":"2 TB"}
-                 ],
-            "benefits":["2 TB of storage","Access to Google experts","Share with up to 5 others","More Google Photos editing features","Extra member benefits","Google Workspace premium features"]
-               }
-           ],
-       "base_money":"1.99"
-       },
-      { "name":"Spotify Premium",
-       "icon":"spotify",
-       "url":"https://www.spotify.com",
-       "free_trial": 30,
-       "category":"Entertainment",
-       "base_money":"10.99"
-       },
-      { "name":"Disney+",
-       "icon":"disney",
-       "url":"https://help.disneyplus.com",
-       "category":"Entertainment",
-       "plan":[
-           {"name":"Basic",
-            "level":1,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"7,99","desc":"(Disney+)"}
-                 ],
-            "benefits":["Thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic on Disney+","Exciting new releases every week","Ad free streaming","Download and watch your favorites on the go (select content only)","Watch on multiple devices at once","A growing range of Disney+ titles in 4K UHD"]
-               },
-           {"name":"Duo",
-            "level":3,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":"(Disney+,Hulu)"}
-                 ],
-            "benefits":["Disney+ has thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.","Get Hulu's complete streaming library with tons of TV episodes and movies","Ad free streaming","Download and watch your favorites on the go (select content only)","Watch on multiple devices at once","A growing range of Disney+ titles in 4K UHD"]
-               },
-           {"name":"Trio",
-            "level":3,
-            "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"14.99","desc":"(Disney+,Hulu,ESPN+)"}
-                 ],
-            "benefits":["Disney+ has thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.","Get Hulu's complete streaming library with tons of TV episodes and movies","Ad free streaming","Download and watch your favorites on the go (select content only)","Watch on multiple devices at once","ESPN+ has live sports from the best leagues and biggest tournaments in the world"]
-               }
-           ],
-       "base_money":"7.99"
-       },
-      { "name":"Amazon Prime Video",
-       "icon":"amazon",
-       "url":"",
-       "free_trial": 30,
-       "category":"Entertainment",
-       "base_money":"14.99"
-       },
-      { "name":"Amazon Music",
-       "icon":"amazon_music",
-       "url":"https://www.amazon.com/music",
-       "category":"Entertainment",
-       "free_trial": 30,
-       "base_money":"9.99"
-       },
-      { "name":"Apple Music",
-       "icon":"apple_music",
-       "url":"https://www.apple.com/apple-music/",
-       "category":"Entertainment",
-       "free_trial": 30,
-       "base_money":"4.99"
-       },
-      
-      { "name":"Jetbrains",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jetbrains.png",
-       "url":"https://www.jetbrains.com/go/buy/?section=personal&billing=monthly",
-       "category":"DevTools",
-       "free_trial": 0,
-       "plan":[
-           { "name":"Individual",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"9.9","desc":""}
-               ],
-               "benefits":["JetBrains AI Assistant"]
-           },
-           { "name":"Organizations",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"24,9","desc":""}
-               ],
-               "benefits":["JetBrains AI Assistant"]
-           }
-       ],
-       "base_money":"9.9"
-       },
-      
-      { "name":"RAWG",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/rawg.png",
-       "url":"https://rawg.io/apidocs#pricing",
-       "category":"Entertainment",
-       "free_trial": 0,
-       "plan":[
-           { "name":"little rawger",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"1","desc":""}
-               ],
-               "benefits":["Thank You Message"]
-           },
-           { "name":"Big rawger",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"5","desc":""}
-               ],
-               "benefits":["Thank You Message","Full Database Editing Access"]
-           },
-           { "name":"TOP rawger",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"20","desc":""}
-               ],
-               "benefits":["Thank You Message","Full Database Editing Access","Patron API Plan"]
-           }
-       ],
-       "base_money":"149"
-       },
-      { "name":"Playstation Plus",
-       "icon":"playstation",
-       "url":"https://www.playstation.com/en-us/ps-plus/#subscriptions",
-       "category":"Entertainment",
-       "free_trial": 0,
-       "keyword":"sony",
-       "plan":[
-           { "name":"Essential",
-             "level":1,
-             "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":"Pay every month. Subscription continues until canceled."},
-                   {"cycle":3, "free_trial": 0, "price":"24.99","desc":"Pay every 3 months. Subscription continues until canceled."},
-                   {"cycle":4,"free_trial": 0,  "price":"79.99","desc":"Pay every 12 months. Subscription continues until canceled."}
-               ],
-             "benefits":["Share Play","Game Help","Cloud Storage","Exclusive Content","Monthly Games","Online Multiplayer","Exclusive Discounts"]
-           },
-           {"name":"Extra",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"14.99","desc":"Pay every month. Subscription continues until canceled."},
-                   {"cycle":3, "free_trial": 0, "price":"39.99","desc":"Pay every 3 months. Subscription continues until canceled."},
-                   {"cycle":4,"free_trial": 0, "price":"134.99","desc":"Pay every 12 months. Subscription continues until canceled."}
-                 ],
-               "benefits":["Share Play","Game Help","Cloud Storage","Exclusive Content","Monthly Games","Online Multiplayer","Exclusive Discounts","Game Catalog","Ubisoft+ Classics"]
-               },
-           {"name":"Premium",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"17.99","desc":"Pay every month. Subscription continues until canceled."},
-                   {"cycle":3, "free_trial": 0, "price":"49.99","desc":"Pay every 3 months. Subscription continues until canceled."},
-                   {"cycle":4,"free_trial": 0,  "price":"159.99","desc":"Pay every 12 months. Subscription continues until canceled."}
-                 ],
-               "benefits":["Share Play","Game Help","Cloud Storage","Exclusive Content","Monthly Games","Online Multiplayer","Exclusive Discounts","Game Catalog","Ubisoft+ Classics","Classics Catalog","Game Trials","Cloud Streaming"]
-               }
-           ],
-       "base_money":"17.99"
-       },
-      { "name":"Xbox Game Pass",
-       "icon":"xbox",
-       "url":"https://www.xbox.com",
-       "category":"Entertainment",
-       "free_trial": 0,
-       "keyword":"microsoft",
-       "plan":[
-           {"name":"Core",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"9.99","desc":"Play PC or console."}
-                 ],
-               "benefits":["EA Play membership","Member deals & discounts","New games on day one","Hundreds of high-quality games on PC/console"]
-               },
-           {"name":"Ultimate",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"16.99","desc":"Hundreds of high-quality games on console, PC, and cloud"}
-                 ],
-               "benefits":["EA Play membership","Member deals & discounts","New games on day one","Member deals, discounts, and Perks","Online console multiplayer", "Hundreds of high-quality games on console, PC, and cloud"]
-               }
-           ],
-       
-       "base_money":"10.99"
-       },
-      { "name":"Nintendo Switch Online",
-       "icon":"nintendo",
-       "url":"https://www.nintendo.com/switch/online",
-       "category":"Entertainment",
-       "free_trial": 7,
-       "plan":[
-           {"name":"Individual membership",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 7,  "price":"3.99","desc":""},
-                   {"cycle":3,"free_trial": 7,  "price":"7.99","desc":"Equivalent to $2.67/month"},
-                   {"cycle":4,"free_trial": 7,  "price":"19.99","desc":"Equivalent to $1.67/month"}
-                 ]
-           },
-           {"name":"Family membership",
-               "level":2,
-               "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"34.99","desc":"Equivalent to $2.92/month"}
-                 ]
-           },
-           {"name":"Expansion Pack Individual membership",
-               "level":2,
-               "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"49.99","desc":"Equivalent to $1.67/month"}
-                 ]
-           },
-           {"name":"Expansion Pack family membership",
-               "level":3,
-               "suit":[
-                   {"cycle":4,"free_trial": 0,  "price":"79.99","desc":"Equivalent to $6.67/month"}
-                 ]
-           }
-           ],
-       "base_money":"3.99"
-       },
-      { "name":"EA Play",
-       "icon":"ea_play",
-       "url":"https://www.ea.com/subscribe",
-       "category":"Entertainment",
-       "free_trial": 0,
-       "base_money":"4.99",
-       "plan":[
-           {"name":"Play",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"4.99","desc":""},
-                   {"cycle":4,"free_trial": 0,  "price":"29.99","desc":""}
-                 ],
-               "benefits":["EA Play members can get on the field with the 10-hour trial.","Unlock in-game member rewards.","Get unlimited access to a collection of our best-loved games."]
-           },
-           {"name":"Play Pro",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"14.99","desc":""},
-                   {"cycle":4,"free_trial": 0,  "price":"99.99","desc":""}
-                 ],
-               "benefits":["Play premium editions of select new-release games days before they launch.","Get unlimited access to a library of premium edition Electronic Arts games and fan-favorite series.","Unlock in-game member rewards."]
-           }
-       ]
-       },
-      { "name":"Apple Arcade",
-       "icon":"arcade",
-       "url":"https://www.apple.com/apple-arcade/",
-       "category":"Entertainment",
-       "free_trial": 30,
-       "base_money":"4.99"
-       },
-      { "name":"UBISOFT+",
-       "icon":"ubisoft",
-       "url":"https://plus.ubisoft.com",
-       "category":"Entertainment",
-       "free_trial": 0,
-       "plan":[
-           { "name":"PC Access",
-               "level":1,
-             "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"14.99","desc":"Play games on PC"}
-               ]
-           },
-           {"name":"Multi Access",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"17.99","desc":"Play games anywhere"}
-                 ]
-               }
-           ],
-       "base_money":"14.99"
-       },
-      { "name":"Asana",
-       "icon":"asana",
-       "url":"https://app.asana.com",
-       "category":"Productivity",
-       "free_trial": 0,
-       "keyword":"project,todo",
-       "plan":[
-           {"name":"Premium",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"10.99","desc":"Specially designed for teams that need to build project plans with peace of mind."}
-                 ]
-               },
-           {"name":"Business",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"24.99","desc":"Specially designed for companies that need to manage work across multiple teams."}
-                 ]
-               }
-           ],
-       "base_money":"10.99"
-       },
-      { "name":"Infuse",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/infuse.png",
-       "url":"https://firecore.com/infuse",
-       "category":"Entertainment",
-       "free_trial": 0,
-       "keyword":"project,todo",
-       "plan":[
-           {"name":"Infuse Pro",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 30,  "price":"0.99","desc":""},
-                   {"cycle":4,"free_trial": 360,  "price":"9.99","desc":""},
-                   {"cycle":5,"free_trial": 0,  "price":"94.99","desc":""}
-                 ]
-               }
-           ],
-       "base_money":"10.99"
-       },
-      { "name":"Todoist",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/todoist.png",
-       "url":"https://todoist.com/pricing",
-       "category":"Productivity",
-       "free_trial": 0,
-       "keyword":"project,todo",
-       "plan":[
-           {"name":"Pro",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"5","desc":"Stay on top of all your tasks and goals, at work and at home"}
-                 ],
-               "benefits":["300 personal projects","150 filter views","Unlimited activity history","Task reminders & duration","Automatic backups","AI Assistant"]
-               },
-           {"name":"Business",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"8","desc":"Simplify and organize your team’s work, too"}
-                 ],
-               "benefits":["A shared team workspace","500 team projects","Unlimited team members & guests","Team roles & permissions","Centralized team billing","Restricted projects"]
-               }
-           ],
-       "base_money":"5"
-       },
-      { "name":"Notion",
-       "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/notion.png",
-       "url":"https://firecore.com/infuse",
-       "category":"Entertainment",
-       "free_trial": 0,
-       "keyword":"project,todo",
-       "plan":[
-           {"name":"Plus Plan",
-               "level":1,
-               "suit":[
-                   {"cycle":2,"free_trial": 14,  "price":"10","desc":""}
-                 ],
-               "benefits":["Collaborative workspace","Slack, GitHub, and more integrations","Unlimited blocks for teams","Unlimited file uploads","30 day page history","Invite up to 100 guests"]
-               },
-           {"name":"Business Plan",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 14,  "price":"18","desc":""}
-                 ],
-               "benefits":["Everything in Plus","SAML SSO","Private Teamspaces","Bulk PDF export","90 day page history","Invite up to 250 guests"]
-               },
-           {"name":"Enterprise Plan",
-               "level":3,
-               "suit":[
-                   {"cycle":3,"free_trial": 0,  "price":"25","desc":""}
-                 ],
-               "benefits":["Everything in Business","SAML SSO","Private Teamspaces","Bulk PDF export","Unlimited page history","Custom guest limits","User provisioning (SCIM)","Advanced security controls","Audit log","Customer success manager"]
-               }
-           ],
-       "base_money":"10"
-       },
-      {
-          "name":"Duolingo",
-          "icon":"duolingo",
-          "url":"https://www.duolingo.com",
-          "category":"Education",
-          "free_trial": 7,
-          "keyword":"language,english",
-          "plan":[
-              {"name":"Popular Plan",
-                  "level":1,
-                  "suit":[
-                      {"cycle":2,"free_trial": 14,  "price":"12.99","desc":""},
-                      {"cycle":4,"free_trial": 14,  "price":"83.99","desc":" ($6.99 USD/month"}
-
-                    ],
-                  "benefits":["No ads", "personalized practice", "unlimited Legendary!"]
-                  },
-              {"name":"Family Plan",
-                  "level":2,
-                  "suit":[
-                      {"cycle":2,"free_trial": 14,  "price":"119.99","desc":"($9.99 USD/month"}
-                    ],
-                  "benefits":["No ads", "personalized practice", "unlimited Legendary!"]
-                  }
-              ],
-          "base_money":"12.99"
-      },
-      {
-          "name":"Gaffgiff",
-          "icon":"https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/gaff.png",
-          "url":"https://www.giffgaff.com",
-          "category":"Lifestyle",
-          "free_trial": 0,
-          "keyword":"phone,gaff",
-          "base_money":"10"
-      },
-       { "name":"Netflix",
-       "icon":"netflix",
-       "url":"https://www.netflix.com",
-       "category":"Entertainment",
-       "free_trial": 0,
-       "plan":[
-           { "name":"Standard with ads",
-               "level":1,
-             "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"6.99","desc":"The Standard with ads plan may not be available through all third-party billing partners and packages. Please check with your provider to confirm availability."}
-               ],
-             "benefits":["Ad-supported, all but a few movies and TV shows available, unlimited mobile games","Watch on 2 supported devices at a time","Watch in Full HD"]
-           },
-           {"name":"Standard",
-               "level":2,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"15.99","desc":"extra member slots** can be added for $7.99 each / month"}
-                 ],
-               "benefits":["Unlimited ad-free movies, TV shows, and mobile games","Watch on 2 supported devices at a time","Watch in Full HD","Download on 2 supported devices at a time","Option to add 1 extra member who doesn't live with you"]
-               },
-           {"name":"Premium",
-               "level":3,
-               "suit":[
-                   {"cycle":2,"free_trial": 0,  "price":"19.99","desc":"extra member slots** can be added for $7.99 each / month"}
-                 ],
-               "benefits":["Unlimited ad-free movies, TV shows, and mobile games","Watch on 4 supported devices at a time","Watch in Full HD","Download on 6 supported devices at a time","Option to add 2 extra member who doesn't live with you","Netflix spatial audio"]
-               }
-           ],
-       "base_money":"6.99"
-       }
-    ]
+        {
+          "name": "Pro",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "29",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "191",
+              "desc": "45% discount"
+            }
+          ],
+          "benefits": [
+            "Commercial License",
+            "AI Watermark",
+            "Gold Support",
+            "Premium & Standard Presenters",
+            "100 AI Presenter Prompt Generations",
+            "AI Script Generations",
+            "Canva Plugin"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "196",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "1293",
+              "desc": "45% discount"
+            }
+          ],
+          "benefits": [
+            "Commercial License",
+            "Custom Watermark",
+            "Premium Support",
+            "Premium & Standard Presenters",
+            "600 AI Presenter Prompt Generations",
+            "AI Script Generations",
+            "Canva Plugin",
+            "PowerPoint Plugin"
+          ]
+        }
+      ],
+      "base_money": "4.7"
+    },
+    {
+      "name": "Hulu",
+      "icon": "hulu",
+      "url": "https://hulu.com/",
+      "category": "Entertainment",
+      "free_trial": 30,
+      "plan": [
+        {
+          "name": "Hulu (With Ads)",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "7.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Streaming Library with tons of TV episodes and movies",
+            "Most new episodes the day after they air†",
+            "Access to award-winning Hulu Originals",
+            "Watch on your favorite devices, including TV, laptop, phone, or tablet",
+            "Up to 6 user profiles",
+            "Watch on 2 different screens at the same time"
+          ]
+        },
+        {
+          "name": "Hulu (No Ads)",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "17.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Streaming Library with tons of TV episodes and movies",
+            "Most new episodes the day after they air†",
+            "Access to award-winning Hulu Originals",
+            "Watch on your favorite devices, including TV, laptop, phone, or tablet",
+            "Up to 6 user profiles",
+            "Watch on 2 different screens at the same time",
+            "No ads in streaming library",
+            "Download and watch"
+          ]
+        }
+      ],
+      "base_money": "7.99"
+    },
+    {
+      "name": "Proton Mail",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/proton.png",
+      "url": "https://proton.me/",
+      "category": "Productivity",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "Mail Plus",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "4.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "15 GB of storage",
+            "1 user",
+            "Proton Mail",
+            "Proton Calendar"
+          ]
+        },
+        {
+          "name": "Proton Unlimited)",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "12.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "500 GB of storage",
+            "1 user",
+            "Access to premium versions of all Proton services",
+            "Proton Mail",
+            "Proton Calendar",
+            "Proton Drive",
+            "Proton VPN",
+            "Proton Pass"
+          ]
+        },
+        {
+          "name": "Proton Family)",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "29.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "3 TB of storage",
+            "6 user",
+            "Access to premium versions of all Proton services",
+            "Proton Mail",
+            "Proton Calendar",
+            "Proton Drive",
+            "Proton VPN",
+            "Proton Pass"
+          ]
+        }
+      ],
+      "base_money": "7.99"
+    },
+    {
+      "name": "Apple TV+",
+      "icon": "apple_tv",
+      "url": "https://www.apple.com/apple-tv-plus/",
+      "category": "Entertainment",
+      "free_trial": 7,
+      "base_money": "9.99"
+    },
+    {
+      "name": "YouTube Premium",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/premium",
+      "category": "Entertainment",
+      "plan": [
+        {
+          "name": "Student",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "7.49",
+              "desc": "Eligible students only. Annual verification required."
+            }
+          ],
+          "benefits": [
+            "Eligible students only. Annual verification required."
+          ]
+        },
+        {
+          "name": "Individual",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "13.99",
+              "desc": "Get 1 month free"
+            }
+          ],
+          "benefits": [
+            "Get 1 month free"
+          ]
+        },
+        {
+          "name": "Family",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "22.99",
+              "desc": "Add up to 5 family members (ages 13+) in your household. "
+            }
+          ],
+          "benefits": [
+            "Add up to 5 family members (ages 13+) in your household."
+          ]
+        }
+      ],
+      "base_money": "13.99"
+    },
+    {
+      "name": "YouTube Music",
+      "icon": "youtube_music",
+      "url": "https://music.youtube.com",
+      "category": "Entertainment",
+      "plan": [
+        {
+          "name": "Student",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "5.49",
+              "desc": "Eligible students only. Annual verification required."
+            }
+          ],
+          "benefits": [
+            "Eligible students only. Annual verification required."
+          ]
+        },
+        {
+          "name": "Individual",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "10.99",
+              "desc": "Get 1 month free"
+            }
+          ],
+          "benefits": [
+            "Get 1 month free"
+          ]
+        },
+        {
+          "name": "Family",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "16.99",
+              "desc": "Add up to 5 family members (ages 13+) in your household. "
+            }
+          ],
+          "benefits": [
+            "Add up to 5 family members (ages 13+) in your household."
+          ]
+        }
+      ],
+      "base_money": "10.99"
+    },
+    {
+      "name": "Twitch",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/twitch.png",
+      "url": "https://www.twitch.tv",
+      "category": "Entertainment",
+      "plan": [
+        {
+          "name": "Turbo",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "11.99",
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "benefits": [
+        "Ad-free viewing",
+        "Extended Broadcast Storage (60 days)",
+        "Exclusive Chat Badge",
+        "Two additional emoticon sets (monkey & Glitch)",
+        "Custom Chat Username Colors"
+      ],
+      "base_money": "11.99"
+    },
+    {
+      "name": "X Premium",
+      "icon": "x",
+      "url": "https://twitter.com",
+      "category": "Social Media",
+      "plan": [
+        {
+          "name": "Base",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "4",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "11",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "name": "Premium+",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "22",
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "base_money": "4"
+    },
+    {
+      "name": "Twitter Premium",
+      "icon": "twitter",
+      "url": "https://twitter.com",
+      "category": "Social Media",
+      "plan": [
+        {
+          "name": "Base",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "4",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "11",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "name": "Premium+",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "22",
+              "desc": "Get 1 month free"
+            }
+          ]
+        }
+      ],
+      "base_money": "4"
+    },
+    {
+      "name": "Telegram",
+      "icon": "telegram",
+      "url": "https://telegram.org",
+      "category": "Social Media",
+      "plan": [
+        {
+          "name": "Premium",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "3.99",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "28.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Stories",
+            "Telegram Business",
+            "Unlimited Cloud Storage",
+            "Doubled Limits",
+            "Last Seen Times",
+            "Voice-to-Text Conversion",
+            "Faster Download Speed",
+            "Real-Time Translation",
+            "Animated Emoji",
+            "Emoji Statuses",
+            "Tags for Messages",
+            "Name and Profile Colors",
+            "Wallpapers for Both Sides",
+            "Profile Badge",
+            "Message Privacy",
+            "Advanced Chat Management",
+            "No Ads",
+            "Infinite Reactions",
+            "Animated Profile Pictures",
+            "Premium Stickers",
+            "Tag Your Chats"
+          ]
+        }
+      ],
+      "base_money": "4.99"
+    },
+    {
+      "name": "Instagram Meta Verified ",
+      "icon": "instagram",
+      "url": "https://instagram.com",
+      "category": "Social Media",
+      "base_money": "14.99"
+    },
+    {
+      "name": "Reddit Premium",
+      "icon": "reddit",
+      "url": "https://www.reddit.com",
+      "free_trial": 30,
+      "category": "Social Media",
+      "base_money": "5.99"
+    },
+    {
+      "name": "Linkedin Premium",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/linkedin.png",
+      "url": "https://premium.linkedin.com",
+      "free_trial": 30,
+      "category": "Social Media",
+      "base_money": "59.99"
+    },
+    {
+      "name": "VPN",
+      "icon": "vpn",
+      "url": "",
+      "category": "Misc",
+      "base_money": "100"
+    },
+    {
+      "name": "Navicat Premium",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/navicat.png",
+      "url": "https://www.navicat.com/en/store/navicat-premium-plan",
+      "category": "DevTools",
+      "plan": [
+        {
+          "name": "Non-Commercial",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "39.99",
+              "desc": "per month"
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "399.99",
+              "desc": "per year"
+            }
+          ],
+          "benefits": [
+            "flexibility on payment",
+            "low cost to get started",
+            "always get the latest applications"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "79.99",
+              "desc": "per month"
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "399.99",
+              "desc": "per year"
+            }
+          ],
+          "benefits": [
+            "flexibility on payment",
+            "low cost to get started",
+            "always get the latest applications"
+          ]
+        }
+      ],
+      "base_money": "39.99"
+    },
+    {
+      "name": "Vercel",
+      "icon": "vercel",
+      "url": "https://vercel.com/pricing",
+      "category": "DevTools",
+      "plan": [
+        {
+          "name": "Premium",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "20",
+              "desc": "per user / month"
+            }
+          ],
+          "benefits": [
+            "Unlimited Environments",
+            "More Functions (Serverless, Edge)",
+            "More Databases (KV, Postgres)",
+            "More Web Analytics Events",
+            "More Experimentation (Edge Config, Middleware)",
+            "Preview/Comment/Edit Deployments",
+            "Basic DDoS Mitigation",
+            "Email Support"
+          ]
+        }
+      ],
+      "base_money": "20"
+    },
+    {
+      "name": "Apple developer program",
+      "icon": "apple_dev",
+      "url": "https://developer.apple.com",
+      "category": "DevTools",
+      "plan": [
+        {
+          "name": "Individuals",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "99",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "99",
+              "desc": ""
+            }
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "299",
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "base_money": "99"
+    },
+    {
+      "name": "Trae.ai",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/trae.png",
+      "url": "https://www.trae.ai",
+      "category": "DevTools",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "Pro",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "10",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "600 Fast requests and unlimited Slow requests of Premium models / month",
+            "Unlimited Requests of Advanced models",
+            "Unlimited Autocomplete"
+          ]
+        }
+      ],
+      "base_money": "10"
+    },
+    {
+      "name": "Claude",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/claude.png",
+      "url": "https://claude.ai",
+      "category": "DevTools",
+      "keyword": "claude,anthropic,ai,chatbot,assistant",
+      "currency": "USD",
+      "base_money": 20,
+      "plan": [
+        {
+          "name": "Free",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 1,
+              "free_trial": 0,
+              "price": "0",
+              "desc": "免费版"
+            }
+          ],
+          "benefits": [
+            "访问 Claude 3.5 Sonnet 模型",
+            "有限的使用次数",
+            "标准响应速度",
+            "基础功能访问"
+          ]
+        },
+        {
+          "name": "Pro",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 1,
+              "free_trial": 0,
+              "price": "20",
+              "desc": "按月订阅"
+            }
+          ],
+          "benefits": [
+            "访问所有 Claude 模型（包括 Claude 3 Opus）",
+            "5倍于免费版的使用量",
+            "优先访问新功能",
+            "更快的响应速度",
+            "更长的对话上下文",
+            "Projects 功能（知识库）",
+            "Artifacts 功能（代码和文档生成）"
+          ]
+        },
+        {
+          "name": "Team",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 1,
+              "free_trial": 0,
+              "price": "30",
+              "desc": "每用户/月，最少5个席位"
+            }
+          ],
+          "benefits": [
+            "Pro 版所有功能",
+            "团队协作空间",
+            "共享对话和项目",
+            "集中计费管理",
+            "使用情况分析",
+            "优先技术支持",
+            "更高的使用限额"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "level": 4,
+          "suit": [
+            {
+              "cycle": 1,
+              "free_trial": 0,
+              "price": "定制",
+              "desc": "联系销售"
+            }
+          ],
+          "benefits": [
+            "Team 版所有功能",
+            "SSO 单点登录",
+            "SCIM 用户管理",
+            "审计日志",
+            "数据保留控制",
+            "专属支持团队",
+            "SLA 服务保障",
+            "自定义使用限额",
+            "API 访问权限",
+            "企业级安全与合规"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cursor",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/cursor.png",
+      "url": "https://cursor.com/pricing",
+      "category": "DevTools",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "Pro",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "20",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Extended limits on Agent",
+            "Unlimited Tab completions",
+            "Background Agents",
+            "Maximum context windows"
+          ]
+        },
+        {
+          "name": "Pro+",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "60",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "3x usage on all OpenAI,Claude,Gemini models"
+          ]
+        },
+        {
+          "name": "Ultra",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "200",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "20x usage on all OpenAI,Claude,Gemini models",
+            "Priority access to new features"
+          ]
+        },
+        {
+          "name": "Teams",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "40",
+              "desc": "$40/user/mo"
+            }
+          ],
+          "benefits": [
+            "Centralized team billing",
+            "Usage analytics and reporting",
+            "Org-wide privacy mode controls",
+            "Role-based access control",
+            "SAML/OIDC SSO"
+          ]
+        }
+      ],
+      "base_money": "20"
+    },
+    {
+      "name": "ChatGPT Plus",
+      "icon": "chatgpt",
+      "url": "https://www.openai.com",
+      "category": "DevTools",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "Personal",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "20",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Access to OpenAI o1-preview, OpenAI o1-mini",
+            "Access to GPT-4o, GPT-4o mini, GPT-4",
+            "Up to 5x more messages for GPT‑4o",
+            "Access to data analysis, file uploads, vision, web browsing, and image generation",
+            "Enhanced profile presentation",
+            "Access to Advanced Voice Mode",
+            "Create and use custom GPTs",
+            "Early access to new features"
+          ]
+        },
+        {
+          "name": "Business",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "25",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Higher limits for GPT-4, GPT‑4o, and tools like DALL·E image generation, advanced data analysis, web browsing, and more",
+            "Create and share GPTs with your workspace",
+            "Admin console for workspace management",
+            "Team data excluded from training by default."
+          ]
+        }
+      ],
+      "base_money": "20"
+    },
+    {
+      "name": "Raycast",
+      "icon": "raycast",
+      "url": "https://www.raycast.com/pricing",
+      "category": "DevTools",
+      "plan": [
+        {
+          "name": "Pro",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "10",
+              "desc": "AI at your fingertips"
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "96",
+              "desc": "AI at your fingertips"
+            }
+          ],
+          "benefits": [
+            "Raycast AI",
+            "Cloud Sync",
+            "Custom Themes",
+            "Unlimited Clipboard History",
+            "Translator",
+            "Custom Window Management Commands"
+          ]
+        },
+        {
+          "name": "Team Pro",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "15",
+              "desc": "AI for your whole team"
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "144",
+              "desc": "AI for your whole team"
+            }
+          ],
+          "benefits": [
+            "Everything in Pro",
+            "Unlimited Shared Commands",
+            "Unlimited Shared Snippets",
+            "Unlimited Shared Quicklinks",
+            "Unlimited Team Members"
+          ]
+        }
+      ],
+      "base_money": "10"
+    },
+    {
+      "name": "GoDaddy",
+      "icon": "godaddy",
+      "url": "https://www.godaddy.com",
+      "category": "DevTools",
+      "keyword": "domain",
+      "base_money": "5.99"
+    },
+    {
+      "name": "Cloudflare",
+      "icon": "cloudflare",
+      "url": "https://www.cloudflare.com",
+      "category": "DevTools",
+      "keyword": "domain",
+      "base_money": "5.99"
+    },
+    {
+      "name": "Dribbble",
+      "icon": "dribbble",
+      "url": "https://www.dribbble.com",
+      "category": "DevTools",
+      "keyword": "design",
+      "plan": [
+        {
+          "name": "Pro",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "16",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Everything in Basic",
+            "Priority visibility in hiring feeds",
+            "Priority visibility in inspiration feeds",
+            "Instant creative portfolio on your domain",
+            "Enhanced profile presentation",
+            "Showcase project work & case studies",
+            "Ad free browsing experience",
+            "Create a team account for your agency",
+            "Stats & analytics"
+          ]
+        }
+      ],
+      "base_money": "16"
+    },
+    {
+      "name": "Namecheap",
+      "icon": "namecheap",
+      "url": "https://www.namecheap.com/hosting/shared/",
+      "category": "DevTools",
+      "keyword": "domain",
+      "plan": [
+        {
+          "name": "Stellar",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "4.48",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "3 Websites",
+            "20 GB SSD",
+            "30 Mailboxes",
+            "Website Builder"
+          ]
+        },
+        {
+          "name": "Stellar Plus",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "6.48",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Unlimited Websites",
+            "Unlimited SSD",
+            "Unlimited Mailboxes",
+            "Website Builder",
+            "AutoBackup"
+          ]
+        },
+        {
+          "name": "Stellar Business",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "9.48",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Unlimited Websites",
+            "50 GB SSD",
+            "Unlimited Mailboxes",
+            "Website Builder",
+            "AutoBackup & Cloud Storage"
+          ]
+        }
+      ],
+      "base_money": "4.48"
+    },
+    {
+      "name": "National geographic",
+      "icon": "nat-geo",
+      "url": "",
+      "category": "Education",
+      "keyword": "book",
+      "plan": [
+        {
+          "name": "Premium",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 30,
+              "price": "29",
+              "desc": "Only $19 for 1 year"
+            }
+          ],
+          "benefits": [
+            "Subscriber-exclusive content and new stories published daily Unlimited access to our digital archive",
+            "Immersive online-only experiences and unlimited access to natgeo.com",
+            "Downloadable stories to read on-the-go with our ad-free, mobile app for Apple® and Android® devices",
+            "Curated subscriber newsletter delivered weekly"
+          ]
+        }
+      ],
+      "base_money": "29"
+    },
+    {
+      "name": "Sketch",
+      "icon": "sketch",
+      "url": "https://www.sketch.com/pricing/",
+      "category": "Productivity",
+      "keyword": "design",
+      "plan": [
+        {
+          "name": "Standard",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 30,
+              "price": "10",
+              "desc": "USD per month"
+            }
+          ],
+          "benefits": [
+            "Native macOS app",
+            "Design, prototype and illustrate",
+            "Work privately, offline",
+            "Collaborate in real-time"
+          ]
+        },
+        {
+          "name": "Business",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 30,
+              "price": "20",
+              "desc": "USD per month"
+            }
+          ],
+          "benefits": [
+            "Everything in Standard plus",
+            "Single Sign-On (SSO)",
+            "Unlimited cloud storage",
+            "Invoice-based billing",
+            "Permissions directory"
+          ]
+        },
+        {
+          "name": "Mac-only",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 5,
+              "free_trial": 0,
+              "price": "120",
+              "desc": "Per license"
+            }
+          ],
+          "benefits": [
+            "Native macOS app",
+            "Work privately, offline",
+            "Save documents locally",
+            "No automatic renewal",
+            "One year of updates",
+            "No collaborative features",
+            "No free trial"
+          ]
+        }
+      ],
+      "base_money": "10.59"
+    },
+    {
+      "name": "Mega",
+      "icon": "mega",
+      "url": "https://www.mega.io",
+      "category": "Productivity",
+      "keyword": "disk,save",
+      "plan": [
+        {
+          "name": "Pro I",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "10.59",
+              "desc": "USD per month"
+            }
+          ],
+          "benefits": [
+            "2 TB of storage",
+            "2 TB of transfer"
+          ]
+        },
+        {
+          "name": "Pro II",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "21.19",
+              "desc": "USD per month"
+            }
+          ],
+          "benefits": [
+            "6 TB of storage",
+            "6 TB of transfer"
+          ]
+        },
+        {
+          "name": "Pro III",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "31.79",
+              "desc": "USD per month"
+            }
+          ],
+          "benefits": [
+            "16 TB of storage",
+            "16 TB of transfer"
+          ]
+        }
+      ],
+      "base_money": "10.59"
+    },
+    {
+      "name": "Midjourney",
+      "icon": "midjourney",
+      "url": "https://www.midjourney.com",
+      "category": "Productivity",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "Basic",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "10",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Maximum Concurrent Jobs(3 Jobs,10 Jobs waiting in queue)",
+            "Fast GPU Time(3.3 hr/month)",
+            "Purchase Extra GPU Time($4/hr)",
+            "Work Solo In Your Direct Messages",
+            "Rate Images to Earn Free GPU Time"
+          ]
+        },
+        {
+          "name": "Standard",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "30",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Maximum Concurrent Jobs(3 Jobs,10 Jobs waiting in queue)",
+            "Fast GPU Time(15 hr/month)",
+            "Purchase Extra GPU Time($4/hr)",
+            "Work Solo In Your Direct Messages",
+            "Rate Images to Earn Free GPU Time",
+            "Relax GPU Time"
+          ]
+        },
+        {
+          "name": "Pro",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "60",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Maximum Concurrent Jobs(12 Fast Jobs,3 Relaxed Jobs,10 Jobs in queue)",
+            "Fast GPU Time(30 hr/month)",
+            "Purchase Extra GPU Time($4/hr)",
+            "Work Solo In Your Direct Messages",
+            "Rate Images to Earn Free GPU Time",
+            "Relax GPU Time"
+          ]
+        },
+        {
+          "name": "Mega",
+          "level": 4,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "120",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Maximum Concurrent Jobs(12 Fast Jobs,3 Relaxed Jobs,10 Jobs in queue)",
+            "Fast GPU Time(60 hr/month)",
+            "Purchase Extra GPU Time($4/hr)",
+            "Work Solo In Your Direct Messages",
+            "Rate Images to Earn Free GPU Time",
+            "Relax GPU Time"
+          ]
+        }
+      ],
+      "base_money": "15"
+    },
+    {
+      "name": "Figma",
+      "icon": "figma",
+      "url": "https://www.figma.com",
+      "category": "Productivity",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "Professional",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "15",
+              "desc": "/editor/mo"
+            }
+          ],
+          "benefits": [
+            "Unlimited files,pages,and projects",
+            "Version history",
+            "Team-wide",
+            "Custom file and user permissions"
+          ]
+        },
+        {
+          "name": "Organization",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "45",
+              "desc": "/editor/mo"
+            }
+          ],
+          "benefits": [
+            "Unlimited files,pages,and projects",
+            "Version history",
+            "Org-wide",
+            "Custom file and user permissions",
+            "Audio conversations",
+            "SSO,advanced security",
+            "Design system analytics",
+            "Custom templates"
+          ]
+        }
+      ],
+      "base_money": "15"
+    },
+    {
+      "name": "GitHub Copilot",
+      "icon": "copilot",
+      "url": "https://github.com/github-copilot/signup",
+      "category": "DevTools",
+      "free_trial": 30,
+      "base_money": "10"
+    },
+    {
+      "name": "GitHub Pro",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/github.png",
+      "url": "https://github.com/settings/billing/plans",
+      "category": "DevTools",
+      "free_trial": 0,
+      "base_money": "4"
+    },
+    {
+      "name": "Slack",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/slack.png",
+      "url": "https://slack.com",
+      "category": "Productivity",
+      "base_money": "7.25",
+      "plan": [
+        {
+          "name": "Pro",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "7.25",
+              "desc": "More power for small teams who want better collaboration"
+            }
+          ],
+          "benefits": [
+            "All the benefits of Free",
+            "The full context of your organization’s message history at your fingertips",
+            "Unlimited workflows and app integrations",
+            "Audio and video conversations with screen sharing with up to 50 people",
+            "Secure collaboration with outside organizations or guests from within Slack",
+            "Unlimited canvases with 30 days of version history and advanced user roles"
+          ]
+        },
+        {
+          "name": "Business+",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "12.50",
+              "desc": "Scale your business, increase productivity, and keep your teams connected"
+            }
+          ],
+          "benefits": [
+            "All the goodness of Pro",
+            "Advanced identity management through SAML-based SSO and real-time Active Directory sync with OneLogin, Okta and Ping Identity",
+            "Compliance requirements met with data exports for all messages",
+            "Around-the-clock teamwork and assistance with 99.99% guaranteed uptime and 24/7 support with a four-hour response time",
+            "Unlimited canvases with 90 days of version history"
+          ]
+        }
+      ],
+      "free_trial": 0
+    },
+    {
+      "name": "Zoom",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/zoom.png",
+      "url": "https://www.wsj.com",
+      "category": "Productivity",
+      "base_money": "15",
+      "plan": [
+        {
+          "name": "Pro",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "15.99",
+              "desc": "/month/user"
+            }
+          ],
+          "benefits": [
+            "Meetings up to 30 hours per meeting",
+            "100 Attendees per meeting",
+            "Whiteboard Basic",
+            "Team Chat",
+            "Mail & Calendar",
+            "Client & Service",
+            "NEW Notes",
+            "NEW AI Companion",
+            "Cloud Storage 5GB",
+            "Essential Apps Free premium apps for 1 year (terms apply)"
+          ]
+        },
+        {
+          "name": "Business",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "19.99",
+              "desc": "/month/user"
+            }
+          ],
+          "benefits": [
+            "Meetings up to 30 hours per meeting",
+            "300 Attendees per meeting",
+            "Whiteboard Basic",
+            "Team Chat",
+            "Mail & Calendar",
+            "Client & Service",
+            "NEW Notes",
+            "NEW AI Companion",
+            "Cloud Storage 5GB",
+            "Essential Apps Free premium apps for 1 year (terms apply)",
+            "Extras SSO, managed domains & more"
+          ]
+        },
+        {
+          "name": "Business Plus",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "25",
+              "desc": "/month/user"
+            }
+          ],
+          "benefits": [
+            "Meetings up to 30 hours per meeting",
+            "300 Attendees per meeting",
+            "Whiteboard Basic",
+            "Team Chat",
+            "Mail & Calendar",
+            "Client & Service",
+            "NEW Notes",
+            "NEW AI Companion",
+            "Cloud Storage 100GB",
+            "Essential Apps Free premium apps for 1 year (terms apply)",
+            "Extras SSO, managed domains & more",
+            "Phone Unlimited regional",
+            "Translated Captions",
+            "Workspace Reservation"
+          ]
+        }
+      ],
+      "free_trial": 0
+    },
+    {
+      "name": "Dropbox",
+      "icon": "dropbox",
+      "url": "https://www.dropbox.com",
+      "category": "Productivity",
+      "base_money": "11.99",
+      "plan": [
+        {
+          "name": "Plus",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "11.99",
+              "desc": "For individuals"
+            }
+          ],
+          "benefits": [
+            "1 user",
+            "2 TB (2,000 GB)",
+            "Unlimited device linking",
+            "30-day file and account recovery",
+            "Large file delivery with Dropbox Transfer (up to 2 GB)"
+          ]
+        },
+        {
+          "name": "Professional",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "19.99",
+              "desc": "For freelancers"
+            }
+          ],
+          "benefits": [
+            "1 user",
+            "3 TB (3,000 GB)",
+            "Unlimited device linking",
+            "180-day file and account recovery",
+            "Large file delivery with Dropbox Transfer (up to 100 GB)",
+            "3 free eSignatures per month",
+            "Advanced sharing controls and file locking"
+          ]
+        },
+        {
+          "name": "Standard",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "18",
+              "desc": "For smaller teams"
+            }
+          ],
+          "benefits": [
+            "3+ user",
+            "5 TB (5,000 GB) shared by the team",
+            "Unlimited device linking",
+            "Recover files or restore your entire account up to 180 days",
+            "Large file delivery with Dropbox Transfer (up to 2 GB)",
+            "Unlimited signing and 3 signature requests per month",
+            "Advanced sharing controls and file locking",
+            "Easy to use content protection and external sharing controls"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "30",
+              "desc": "For large teams"
+            }
+          ],
+          "benefits": [
+            "3+ user",
+            "Starts at 15 TB (15,000 GB) shared by the team",
+            "Unlimited device linking",
+            "Recover files or restore your entire account up to 180 days",
+            "Large file delivery with Dropbox Transfer (up to 2 GB)",
+            "Unlimited signing and 3 signature requests per month",
+            "Advanced sharing controls and file locking",
+            "Always-on security monitoring, notifications, and alerts",
+            "Data Classification for sensitive and confidential information"
+          ]
+        }
+      ],
+      "free_trial": 0
+    },
+    {
+      "name": "Unity",
+      "icon": "unity",
+      "url": "https://unity.com/pricing",
+      "category": "DevTools",
+      "free_trial": 30,
+      "plan": [
+        {
+          "name": "Pro",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "185",
+              "desc": "Unlock your team’s potential with professional tools to create across game devices and platforms."
+            }
+          ],
+          "benefits": [
+            "Publish to game consoles",
+            "Priority customer service",
+            "Unity Cloud collaboration services"
+          ]
+        },
+        {
+          "name": "Industry",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "450",
+              "desc": "Get tools and enterprise-level support to transform CAD and 3D data into immersive apps on any device."
+            }
+          ],
+          "benefits": [
+            "Build immersive experiences",
+            "Overcome roadblocks faster with premium technical support and professional training resources",
+            "Unlock the value of your CAD and 3D data"
+          ]
+        }
+      ],
+      "base_money": "185"
+    },
+    {
+      "name": "Poe Pro",
+      "icon": "poe",
+      "url": "https://www.poe.com",
+      "category": "DevTools",
+      "base_money": "19.99"
+    },
+    {
+      "name": "Adobe Creative Cloud",
+      "icon": "adobe",
+      "url": "https://www.adobe.com",
+      "category": "Productivity",
+      "plan": [
+        {
+          "name": "Extras",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "82.49",
+              "desc": "Cancel anytime, no fee."
+            },
+            {
+              "cycle": 4,
+              "free_trial": 14,
+              "price": "599.88",
+              "desc": "Cancel anytime, no fee."
+            }
+          ],
+          "benefits": [
+            "100GB of cloud storage",
+            "Step-by-step tutorials ",
+            "Adobe Portfolio",
+            "Adobe Fonts ",
+            "Behance",
+            "Creative Cloud Libraries",
+            "Access to the latest features",
+            "1000 monthly generative credits"
+          ]
+        }
+      ],
+      "base_money": "54.99"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "icon": "photoshop",
+      "url": "https://www.adobe.com",
+      "category": "Productivity",
+      "plan": [
+        {
+          "name": "Individuals",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "22.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Create beautiful graphics, photos, and art on desktop, web, and iPad. Comes with Adobe Fresco for drawing and painting"
+          ]
+        },
+        {
+          "name": "Business",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "37.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Create beautiful graphics, photos, and art on desktop, web, and iPad. Comes with Adobe Fresco for drawing and painting"
+          ]
+        }
+      ],
+      "base_money": "22.99"
+    },
+    {
+      "name": "Evernote",
+      "icon": "evernote",
+      "url": "https://evernote.com/compare-plans",
+      "category": "Productivity",
+      "plan": [
+        {
+          "name": "Mac",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "10.83",
+              "desc": "Keep home and family on track"
+            }
+          ],
+          "benefits": [
+            "Sync unlimited devices",
+            "10 GB monthly uploads",
+            "200 MB max. note size",
+            "Customize Home dashboard and access extra widgets",
+            "Connect primary Google Calendar account",
+            "Add due dates, reminders, and notifications to your tasks",
+            "Manage tasks in one place",
+            "Get offline access on mobile and desktop",
+            "Search text inside images, docs, and PDFs",
+            "Create custom templates",
+            "Mark up images and PDFs"
+          ]
+        },
+        {
+          "name": "Mac",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 7,
+              "price": "14.17",
+              "desc": "Tackle any project, at work or at home"
+            }
+          ],
+          "benefits": [
+            "Save 2x more content with 20 GB monthly uploads",
+            "Access to all widgets and customization for Home",
+            "Connect both personal and workplace Google Calendar accounts",
+            "Create, manage, and assign tasks to others, and easily track their progress",
+            "Use Boolean terms to refine search results",
+            "Find content by location with geographic search",
+            "Export notebooks as PDF files",
+            "Integrate with Slack, Microsoft Teams, and others"
+          ]
+        }
+      ],
+      "base_money": "10.83"
+    },
+    {
+      "name": "Setapp Membership",
+      "icon": "setapp",
+      "url": "https://setapp.com/pricing",
+      "category": "Productivity",
+      "plan": [
+        {
+          "name": "Mac",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 7,
+              "price": "1.99",
+              "desc": "Supercharge your beloved Mac with awesome apps."
+            }
+          ],
+          "benefits": [
+            "For 1 Mac"
+          ]
+        },
+        {
+          "name": "Mac + iOS",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 7,
+              "price": "12.49",
+              "desc": "If you do everything on your Mac, iPhone and iPad."
+            }
+          ],
+          "benefits": [
+            "For 1 Mac",
+            "For 4 iOS devices"
+          ]
+        },
+        {
+          "name": "Power User",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 7,
+              "price": "14.99",
+              "desc": "Got several Macs? Get this plan for maximum flexibility."
+            }
+          ],
+          "benefits": [
+            "For 4 Macs",
+            "For 4 iOS devices"
+          ]
+        }
+      ],
+      "base_money": "9.99"
+    },
+    {
+      "name": "Microsoft 365",
+      "icon": "microsoft",
+      "url": "https://www.microsoft.com",
+      "category": "Productivity",
+      "free_trial": 30,
+      "keyword": "office,onedrive",
+      "plan": [
+        {
+          "name": "Base",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "1.99",
+              "desc": "Specially designed for teams that need to build project plans with peace of mind."
+            }
+          ],
+          "benefits": [
+            "For one person",
+            "5 GB of cloud storage",
+            "15 GB of mailbox storage",
+            "Works on Windows, macOS, iOS, and Android™",
+            "OneDrive photo and file backup across your devices",
+            "Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps",
+            "Ad-free Outlook and mobile email and calendar with advanced security features",
+            "Access to Microsoft support experts"
+          ]
+        },
+        {
+          "name": "Personal",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "6.99",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "69.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "For one person",
+            "5 GB of cloud storage",
+            "15 GB of mailbox storage",
+            "Works on Windows, macOS, iOS, and Android™",
+            "OneDrive photo and file backup across your devices",
+            "Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps",
+            "Ad-free Outlook and mobile email and calendar with advanced security features",
+            "Access to Microsoft support experts",
+            "Advanced file and photo protection with OneDrive",
+            "Data and device protection with Microsoft Defende"
+          ]
+        },
+        {
+          "name": "Family",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "9.99",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 30,
+              "price": "99.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "For one person",
+            "5 GB of cloud storage",
+            "15 GB of mailbox storage",
+            "Works on Windows, macOS, iOS, and Android™",
+            "OneDrive photo and file backup across your devices",
+            "Web and mobile versions of Word, Excel, PowerPoint, OneNote, OneDrive, and other apps",
+            "Ad-free Outlook and mobile email and calendar with advanced security features",
+            "Access to Microsoft support experts",
+            "Advanced file and photo protection with OneDrive",
+            "Data and device protection for the entire family with Microsoft Defender",
+            "Premium features in the Microsoft Family Safety mobile app"
+          ]
+        }
+      ],
+      "base_money": "69.99"
+    },
+    {
+      "name": "Apple One",
+      "icon": "apple",
+      "url": "https://www.apple.com/apple-one",
+      "category": "Entertainment",
+      "plan": [
+        {
+          "name": "Individual",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "19.95",
+              "desc": "Save $9/mo.** on your favorite content and iCloud+ storage."
+            }
+          ],
+          "benefits": [
+            "iCloud+ 50GB",
+            "tv+",
+            "Music",
+            "Arcade"
+          ]
+        },
+        {
+          "name": "Family",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "25.95",
+              "desc": "Share with up to five people"
+            }
+          ],
+          "benefits": [
+            "iCloud+ 200GB",
+            "tv+",
+            "Music",
+            "Arcade"
+          ]
+        },
+        {
+          "name": "Premier",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "37.95",
+              "desc": "Share with up to five people"
+            }
+          ],
+          "benefits": [
+            "iCloud+ 2TB",
+            "tv+",
+            "Music",
+            "Arcade",
+            "Fitness+",
+            "News+"
+          ]
+        }
+      ],
+      "base_money": "19.95"
+    },
+    {
+      "name": "Docker",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/docker.png",
+      "url": "https://www.docker.com/pricing/",
+      "category": "DevTools",
+      "base_money": "7"
+    },
+    {
+      "name": "Adguard",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adguard.png",
+      "url": "https://adguard.com/en/license.html",
+      "category": "DevTools",
+      "plan": [
+        {
+          "name": "Personal",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "2.49",
+              "desc": ""
+            },
+            {
+              "cycle": 5,
+              "free_trial": 0,
+              "price": "79.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Exceptional ad-blocking tool",
+            "Full tracking protection",
+            "Up to 3 devices"
+          ]
+        },
+        {
+          "name": "Family",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "5.49",
+              "desc": ""
+            },
+            {
+              "cycle": 5,
+              "free_trial": 0,
+              "price": "169.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Exceptional ad-blocking tool",
+            "Full tracking protection",
+            "Up to 9 devices"
+          ]
+        }
+      ],
+      "base_money": "2.49"
+    },
+    {
+      "name": "Bitbucket",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/bitbucket.png",
+      "url": "https://www.atlassian.com/software/bitbucket/pricing",
+      "category": "DevTools",
+      "plan": [
+        {
+          "name": "Standard",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "15",
+              "desc": "5 Users"
+            }
+          ],
+          "benefits": [
+            "Build minutes-2,500 minutes per month",
+            "Git LFS(5GB)",
+            "Up to 3 devices",
+            "Code insights-Tree integrations"
+          ]
+        },
+        {
+          "name": "Premium",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "30",
+              "desc": "5 Users"
+            }
+          ],
+          "benefits": [
+            "Build minutes-3,500 minutes per month",
+            "Git LFS(10GB)",
+            "Up to 9 devices",
+            "Code insights-Unlimited"
+          ]
+        }
+      ],
+      "base_money": "2.49"
+    },
+    {
+      "name": "AdBlock",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/adblock.png",
+      "url": "https://www.getadblock.com/premium/",
+      "category": "DevTools",
+      "plan": [
+        {
+          "name": "Premium",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "20",
+              "desc": "Enhanced pop-up blocking, faster page load times, and better privacy protection"
+            }
+          ],
+          "benefits": [
+            "Ehanced Pop-up Blocking",
+            "Dark Mode and Themes",
+            "Backup and Sync Settings",
+            "Customize AdBlock"
+          ]
+        },
+        {
+          "name": "Premium+VPN",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "40",
+              "desc": "Powerful ad and pop up blocking, private browsing, and tracker blocking"
+            }
+          ],
+          "benefits": [
+            "Improved Privacy Protection",
+            "Easy Access to Geo Content",
+            "Private Web Browsing",
+            "Strict No-Logging Policy",
+            "Access to servers in 30+ countries"
+          ]
+        }
+      ],
+      "base_money": "20"
+    },
+    {
+      "name": "Google One",
+      "icon": "google",
+      "url": "https://one.google.com/about/plans",
+      "category": "Entertainment",
+      "plan": [
+        {
+          "name": "Basic",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "15",
+              "desc": "100 GB"
+            }
+          ],
+          "benefits": [
+            "100 GB of storage",
+            "Access to Google experts",
+            "Share with up to 5 others",
+            "More Google Photos editing features",
+            "Extra member benefits"
+          ]
+        },
+        {
+          "name": "Standard",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "23",
+              "desc": "200 GB"
+            }
+          ],
+          "benefits": [
+            "200 GB of storage",
+            "Access to Google experts",
+            "Share with up to 5 others",
+            "More Google Photos editing features",
+            "Extra member benefits"
+          ]
+        },
+        {
+          "name": "Premium",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "79",
+              "desc": "2 TB"
+            }
+          ],
+          "benefits": [
+            "2 TB of storage",
+            "Access to Google experts",
+            "Share with up to 5 others",
+            "More Google Photos editing features",
+            "Extra member benefits",
+            "Google Workspace premium features"
+          ]
+        }
+      ],
+      "base_money": "1.99"
+    },
+    {
+      "name": "Spotify Premium",
+      "icon": "spotify",
+      "url": "https://www.spotify.com",
+      "free_trial": 30,
+      "category": "Entertainment",
+      "base_money": "10.99"
+    },
+    {
+      "name": "Disney+",
+      "icon": "disney",
+      "url": "https://help.disneyplus.com",
+      "category": "Entertainment",
+      "plan": [
+        {
+          "name": "Basic",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "7,99",
+              "desc": "(Disney+)"
+            }
+          ],
+          "benefits": [
+            "Thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic on Disney+",
+            "Exciting new releases every week",
+            "Ad free streaming",
+            "Download and watch your favorites on the go (select content only)",
+            "Watch on multiple devices at once",
+            "A growing range of Disney+ titles in 4K UHD"
+          ]
+        },
+        {
+          "name": "Duo",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "9.99",
+              "desc": "(Disney+,Hulu)"
+            }
+          ],
+          "benefits": [
+            "Disney+ has thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.",
+            "Get Hulu's complete streaming library with tons of TV episodes and movies",
+            "Ad free streaming",
+            "Download and watch your favorites on the go (select content only)",
+            "Watch on multiple devices at once",
+            "A growing range of Disney+ titles in 4K UHD"
+          ]
+        },
+        {
+          "name": "Trio",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "14.99",
+              "desc": "(Disney+,Hulu,ESPN+)"
+            }
+          ],
+          "benefits": [
+            "Disney+ has thousands of exclusive movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.",
+            "Get Hulu's complete streaming library with tons of TV episodes and movies",
+            "Ad free streaming",
+            "Download and watch your favorites on the go (select content only)",
+            "Watch on multiple devices at once",
+            "ESPN+ has live sports from the best leagues and biggest tournaments in the world"
+          ]
+        }
+      ],
+      "base_money": "7.99"
+    },
+    {
+      "name": "Amazon Prime Video",
+      "icon": "amazon",
+      "url": "",
+      "free_trial": 30,
+      "category": "Entertainment",
+      "base_money": "14.99"
+    },
+    {
+      "name": "Amazon Music",
+      "icon": "amazon_music",
+      "url": "https://www.amazon.com/music",
+      "category": "Entertainment",
+      "free_trial": 30,
+      "base_money": "9.99"
+    },
+    {
+      "name": "Apple Music",
+      "icon": "apple_music",
+      "url": "https://www.apple.com/apple-music/",
+      "category": "Entertainment",
+      "free_trial": 30,
+      "base_money": "4.99"
+    },
+    {
+      "name": "Jetbrains",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/jetbrains.png",
+      "url": "https://www.jetbrains.com/go/buy/?section=personal&billing=monthly",
+      "category": "DevTools",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "Individual",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "9.9",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "JetBrains AI Assistant"
+          ]
+        },
+        {
+          "name": "Organizations",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "24,9",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "JetBrains AI Assistant"
+          ]
+        }
+      ],
+      "base_money": "9.9"
+    },
+    {
+      "name": "RAWG",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/rawg.png",
+      "url": "https://rawg.io/apidocs#pricing",
+      "category": "Entertainment",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "little rawger",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "1",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Thank You Message"
+          ]
+        },
+        {
+          "name": "Big rawger",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "5",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Thank You Message",
+            "Full Database Editing Access"
+          ]
+        },
+        {
+          "name": "TOP rawger",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "20",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Thank You Message",
+            "Full Database Editing Access",
+            "Patron API Plan"
+          ]
+        }
+      ],
+      "base_money": "149"
+    },
+    {
+      "name": "Playstation Plus",
+      "icon": "playstation",
+      "url": "https://www.playstation.com/en-us/ps-plus/#subscriptions",
+      "category": "Entertainment",
+      "free_trial": 0,
+      "keyword": "sony",
+      "plan": [
+        {
+          "name": "Essential",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "9.99",
+              "desc": "Pay every month. Subscription continues until canceled."
+            },
+            {
+              "cycle": 3,
+              "free_trial": 0,
+              "price": "24.99",
+              "desc": "Pay every 3 months. Subscription continues until canceled."
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "79.99",
+              "desc": "Pay every 12 months. Subscription continues until canceled."
+            }
+          ],
+          "benefits": [
+            "Share Play",
+            "Game Help",
+            "Cloud Storage",
+            "Exclusive Content",
+            "Monthly Games",
+            "Online Multiplayer",
+            "Exclusive Discounts"
+          ]
+        },
+        {
+          "name": "Extra",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "14.99",
+              "desc": "Pay every month. Subscription continues until canceled."
+            },
+            {
+              "cycle": 3,
+              "free_trial": 0,
+              "price": "39.99",
+              "desc": "Pay every 3 months. Subscription continues until canceled."
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "134.99",
+              "desc": "Pay every 12 months. Subscription continues until canceled."
+            }
+          ],
+          "benefits": [
+            "Share Play",
+            "Game Help",
+            "Cloud Storage",
+            "Exclusive Content",
+            "Monthly Games",
+            "Online Multiplayer",
+            "Exclusive Discounts",
+            "Game Catalog",
+            "Ubisoft+ Classics"
+          ]
+        },
+        {
+          "name": "Premium",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "17.99",
+              "desc": "Pay every month. Subscription continues until canceled."
+            },
+            {
+              "cycle": 3,
+              "free_trial": 0,
+              "price": "49.99",
+              "desc": "Pay every 3 months. Subscription continues until canceled."
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "159.99",
+              "desc": "Pay every 12 months. Subscription continues until canceled."
+            }
+          ],
+          "benefits": [
+            "Share Play",
+            "Game Help",
+            "Cloud Storage",
+            "Exclusive Content",
+            "Monthly Games",
+            "Online Multiplayer",
+            "Exclusive Discounts",
+            "Game Catalog",
+            "Ubisoft+ Classics",
+            "Classics Catalog",
+            "Game Trials",
+            "Cloud Streaming"
+          ]
+        }
+      ],
+      "base_money": "17.99"
+    },
+    {
+      "name": "Xbox Game Pass",
+      "icon": "xbox",
+      "url": "https://www.xbox.com",
+      "category": "Entertainment",
+      "free_trial": 0,
+      "keyword": "microsoft",
+      "plan": [
+        {
+          "name": "Core",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "9.99",
+              "desc": "Play PC or console."
+            }
+          ],
+          "benefits": [
+            "EA Play membership",
+            "Member deals & discounts",
+            "New games on day one",
+            "Hundreds of high-quality games on PC/console"
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "16.99",
+              "desc": "Hundreds of high-quality games on console, PC, and cloud"
+            }
+          ],
+          "benefits": [
+            "EA Play membership",
+            "Member deals & discounts",
+            "New games on day one",
+            "Member deals, discounts, and Perks",
+            "Online console multiplayer",
+            "Hundreds of high-quality games on console, PC, and cloud"
+          ]
+        }
+      ],
+      "base_money": "10.99"
+    },
+    {
+      "name": "Nintendo Switch Online",
+      "icon": "nintendo",
+      "url": "https://www.nintendo.com/switch/online",
+      "category": "Entertainment",
+      "free_trial": 7,
+      "plan": [
+        {
+          "name": "Individual membership",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 7,
+              "price": "3.99",
+              "desc": ""
+            },
+            {
+              "cycle": 3,
+              "free_trial": 7,
+              "price": "7.99",
+              "desc": "Equivalent to $2.67/month"
+            },
+            {
+              "cycle": 4,
+              "free_trial": 7,
+              "price": "19.99",
+              "desc": "Equivalent to $1.67/month"
+            }
+          ]
+        },
+        {
+          "name": "Family membership",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "34.99",
+              "desc": "Equivalent to $2.92/month"
+            }
+          ]
+        },
+        {
+          "name": "Expansion Pack Individual membership",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "49.99",
+              "desc": "Equivalent to $1.67/month"
+            }
+          ]
+        },
+        {
+          "name": "Expansion Pack family membership",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "79.99",
+              "desc": "Equivalent to $6.67/month"
+            }
+          ]
+        }
+      ],
+      "base_money": "3.99"
+    },
+    {
+      "name": "EA Play",
+      "icon": "ea_play",
+      "url": "https://www.ea.com/subscribe",
+      "category": "Entertainment",
+      "free_trial": 0,
+      "base_money": "4.99",
+      "plan": [
+        {
+          "name": "Play",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "4.99",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "29.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "EA Play members can get on the field with the 10-hour trial.",
+            "Unlock in-game member rewards.",
+            "Get unlimited access to a collection of our best-loved games."
+          ]
+        },
+        {
+          "name": "Play Pro",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "14.99",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 0,
+              "price": "99.99",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Play premium editions of select new-release games days before they launch.",
+            "Get unlimited access to a library of premium edition Electronic Arts games and fan-favorite series.",
+            "Unlock in-game member rewards."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apple Arcade",
+      "icon": "arcade",
+      "url": "https://www.apple.com/apple-arcade/",
+      "category": "Entertainment",
+      "free_trial": 30,
+      "base_money": "4.99"
+    },
+    {
+      "name": "UBISOFT+",
+      "icon": "ubisoft",
+      "url": "https://plus.ubisoft.com",
+      "category": "Entertainment",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "PC Access",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "14.99",
+              "desc": "Play games on PC"
+            }
+          ]
+        },
+        {
+          "name": "Multi Access",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "17.99",
+              "desc": "Play games anywhere"
+            }
+          ]
+        }
+      ],
+      "base_money": "14.99"
+    },
+    {
+      "name": "Asana",
+      "icon": "asana",
+      "url": "https://app.asana.com",
+      "category": "Productivity",
+      "free_trial": 0,
+      "keyword": "project,todo",
+      "plan": [
+        {
+          "name": "Premium",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "10.99",
+              "desc": "Specially designed for teams that need to build project plans with peace of mind."
+            }
+          ]
+        },
+        {
+          "name": "Business",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "24.99",
+              "desc": "Specially designed for companies that need to manage work across multiple teams."
+            }
+          ]
+        }
+      ],
+      "base_money": "10.99"
+    },
+    {
+      "name": "Infuse",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/infuse.png",
+      "url": "https://firecore.com/infuse",
+      "category": "Entertainment",
+      "free_trial": 0,
+      "keyword": "project,todo",
+      "plan": [
+        {
+          "name": "Infuse Pro",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 30,
+              "price": "0.99",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 360,
+              "price": "9.99",
+              "desc": ""
+            },
+            {
+              "cycle": 5,
+              "free_trial": 0,
+              "price": "94.99",
+              "desc": ""
+            }
+          ]
+        }
+      ],
+      "base_money": "10.99"
+    },
+    {
+      "name": "Todoist",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/todoist.png",
+      "url": "https://todoist.com/pricing",
+      "category": "Productivity",
+      "free_trial": 0,
+      "keyword": "project,todo",
+      "plan": [
+        {
+          "name": "Pro",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "5",
+              "desc": "Stay on top of all your tasks and goals, at work and at home"
+            }
+          ],
+          "benefits": [
+            "300 personal projects",
+            "150 filter views",
+            "Unlimited activity history",
+            "Task reminders & duration",
+            "Automatic backups",
+            "AI Assistant"
+          ]
+        },
+        {
+          "name": "Business",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "8",
+              "desc": "Simplify and organize your team’s work, too"
+            }
+          ],
+          "benefits": [
+            "A shared team workspace",
+            "500 team projects",
+            "Unlimited team members & guests",
+            "Team roles & permissions",
+            "Centralized team billing",
+            "Restricted projects"
+          ]
+        }
+      ],
+      "base_money": "5"
+    },
+    {
+      "name": "Notion",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/notion.png",
+      "url": "https://firecore.com/infuse",
+      "category": "Entertainment",
+      "free_trial": 0,
+      "keyword": "project,todo",
+      "plan": [
+        {
+          "name": "Plus Plan",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 14,
+              "price": "10",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Collaborative workspace",
+            "Slack, GitHub, and more integrations",
+            "Unlimited blocks for teams",
+            "Unlimited file uploads",
+            "30 day page history",
+            "Invite up to 100 guests"
+          ]
+        },
+        {
+          "name": "Business Plan",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 14,
+              "price": "18",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Everything in Plus",
+            "SAML SSO",
+            "Private Teamspaces",
+            "Bulk PDF export",
+            "90 day page history",
+            "Invite up to 250 guests"
+          ]
+        },
+        {
+          "name": "Enterprise Plan",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 3,
+              "free_trial": 0,
+              "price": "25",
+              "desc": ""
+            }
+          ],
+          "benefits": [
+            "Everything in Business",
+            "SAML SSO",
+            "Private Teamspaces",
+            "Bulk PDF export",
+            "Unlimited page history",
+            "Custom guest limits",
+            "User provisioning (SCIM)",
+            "Advanced security controls",
+            "Audit log",
+            "Customer success manager"
+          ]
+        }
+      ],
+      "base_money": "10"
+    },
+    {
+      "name": "Duolingo",
+      "icon": "duolingo",
+      "url": "https://www.duolingo.com",
+      "category": "Education",
+      "free_trial": 7,
+      "keyword": "language,english",
+      "plan": [
+        {
+          "name": "Popular Plan",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 14,
+              "price": "12.99",
+              "desc": ""
+            },
+            {
+              "cycle": 4,
+              "free_trial": 14,
+              "price": "83.99",
+              "desc": " ($6.99 USD/month"
+            }
+          ],
+          "benefits": [
+            "No ads",
+            "personalized practice",
+            "unlimited Legendary!"
+          ]
+        },
+        {
+          "name": "Family Plan",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 14,
+              "price": "119.99",
+              "desc": "($9.99 USD/month"
+            }
+          ],
+          "benefits": [
+            "No ads",
+            "personalized practice",
+            "unlimited Legendary!"
+          ]
+        }
+      ],
+      "base_money": "12.99"
+    },
+    {
+      "name": "Gaffgiff",
+      "icon": "https://fastly.jsdelivr.net/gh/lerosua/oneAppConfig@main/SubsTender/vendor/gaff.png",
+      "url": "https://www.giffgaff.com",
+      "category": "Lifestyle",
+      "free_trial": 0,
+      "keyword": "phone,gaff",
+      "base_money": "10"
+    },
+    {
+      "name": "Netflix",
+      "icon": "netflix",
+      "url": "https://www.netflix.com",
+      "category": "Entertainment",
+      "free_trial": 0,
+      "plan": [
+        {
+          "name": "Standard with ads",
+          "level": 1,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "6.99",
+              "desc": "The Standard with ads plan may not be available through all third-party billing partners and packages. Please check with your provider to confirm availability."
+            }
+          ],
+          "benefits": [
+            "Ad-supported, all but a few movies and TV shows available, unlimited mobile games",
+            "Watch on 2 supported devices at a time",
+            "Watch in Full HD"
+          ]
+        },
+        {
+          "name": "Standard",
+          "level": 2,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "15.99",
+              "desc": "extra member slots** can be added for $7.99 each / month"
+            }
+          ],
+          "benefits": [
+            "Unlimited ad-free movies, TV shows, and mobile games",
+            "Watch on 2 supported devices at a time",
+            "Watch in Full HD",
+            "Download on 2 supported devices at a time",
+            "Option to add 1 extra member who doesn't live with you"
+          ]
+        },
+        {
+          "name": "Premium",
+          "level": 3,
+          "suit": [
+            {
+              "cycle": 2,
+              "free_trial": 0,
+              "price": "19.99",
+              "desc": "extra member slots** can be added for $7.99 each / month"
+            }
+          ],
+          "benefits": [
+            "Unlimited ad-free movies, TV shows, and mobile games",
+            "Watch on 4 supported devices at a time",
+            "Watch in Full HD",
+            "Download on 6 supported devices at a time",
+            "Option to add 2 extra member who doesn't live with you",
+            "Netflix spatial audio"
+          ]
+        }
+      ],
+      "base_money": "6.99"
+    }
+  ]
 }

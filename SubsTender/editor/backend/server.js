@@ -57,6 +57,11 @@ app.post('/api/data/:filename', async (req, res) => {
     const { filename } = req.params;
     const { data } = req.body;
     
+    console.log('=== Save Request ===');
+    console.log('Filename:', filename);
+    console.log('Data structure:', data ? Object.keys(data) : 'null');
+    console.log('Data.data is array:', data && data.data && Array.isArray(data.data));
+    
     // 安全检查
     if (!filename.endsWith('.json')) {
       return res.status(400).json({ success: false, error: 'Invalid file type' });
@@ -64,6 +69,7 @@ app.post('/api/data/:filename', async (req, res) => {
     
     // 验证JSON格式
     if (!data || !data.data || !Array.isArray(data.data)) {
+      console.log('Validation failed:', { hasData: !!data, hasDataData: !!(data && data.data), isArray: data && data.data && Array.isArray(data.data) });
       return res.status(400).json({ success: false, error: 'Invalid data format' });
     }
     
@@ -80,8 +86,11 @@ app.post('/api/data/:filename', async (req, res) => {
     // 写入新数据
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
     
+    console.log('File saved successfully:', filePath);
+    
     res.json({ success: true, message: 'File saved successfully' });
   } catch (error) {
+    console.error('Save error:', error);
     res.status(500).json({ success: false, error: error.message });
   }
 });
